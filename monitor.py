@@ -11,6 +11,7 @@ NEVER re-notifies previously reported projects.
 
 import logging
 import asyncio
+import os
 import time
 from datetime import datetime, timezone
 
@@ -20,8 +21,8 @@ from config import (
     PROJECTS_URL, PAGE_LOAD_TIMEOUT, SCROLL_PAUSE_MS, MAX_SCROLL_STEPS,
     KEYWORDS, SCORE_WEIGHTS, SCRAPE_MAX_RETRIES, SCRAPE_RETRY_DELAY_S,
     GOLDEN_MIN_SCORE, GOLDEN_MIN_WIN_PCT, GOLDEN_PROFITABILITY,
-    HIGH_PRIORITY_SCORE, SIMILARITY_THRESHOLD, TELEGRAM_SCRAPER_ENABLED,
-    TELEGRAM_MIN_SCORE, EMAIL_ENABLED, EMAIL_SENDER, EMAIL_PASSWORD, EMAIL_RECEIVER,
+    HIGH_PRIORITY_SCORE, SIMILARITY_THRESHOLD, TELEGRAM_MIN_SCORE,
+    EMAIL_ENABLED, EMAIL_SENDER, EMAIL_PASSWORD, EMAIL_RECEIVER,
 )
 from storage import load_seen_db, save_seen_db, is_seen, mark_seen
 from database import init_db, upsert_project, get_all_projects, get_stats
@@ -482,14 +483,20 @@ def _telegram_title(text: str) -> str:
     return clean[:77].rstrip() + "..."
 
 
+def _telegram_scraper_enabled() -> bool:
+    value = os.environ.get("TELEGRAM_SCRAPER_ENABLED", "")
+    return value.strip().lower() in {"true", "1", "yes"}
+
+
 def scrape_telegram_projects_for_pipeline() -> list[dict]:
     """Run Telegram scraper if enabled and normalize results for this pipeline."""
-    log.info("TELEGRAM_SCRAPER_ENABLED=%s", TELEGRAM_SCRAPER_ENABLED)
-    log.info("TELEGRAM_API_ID exists=%s", bool(__import__("os").environ.get("TELEGRAM_API_ID")))
-    log.info("TELEGRAM_API_HASH exists=%s", bool(__import__("os").environ.get("TELEGRAM_API_HASH")))
-    log.info("TELEGRAM_SESSION_STRING exists=%s", bool(__import__("os").environ.get("TELEGRAM_SESSION_STRING")))
-    log.info("TELEGRAM_TARGET_GROUPS=%s", __import__("os").environ.get("TELEGRAM_TARGET_GROUPS", ""))
-    if not TELEGRAM_SCRAPER_ENABLED:
+    enabled_value = os.environ.get("TELEGRAM_SCRAPER_ENABLED", "")
+    log.info("TELEGRAM_SCRAPER_ENABLED value=%s", enabled_value)
+    log.info("TELEGRAM_API_ID exists=%s", bool(os.environ.get("TELEGRAM_API_ID")))
+    log.info("TELEGRAM_API_HASH exists=%s", bool(os.environ.get("TELEGRAM_API_HASH")))
+    log.info("TELEGRAM_SESSION_STRING exists=%s", bool(os.environ.get("TELEGRAM_SESSION_STRING")))
+    log.info("TELEGRAM_TARGET_GROUPS value=%s", os.environ.get("TELEGRAM_TARGET_GROUPS", ""))
+    if not _telegram_scraper_enabled():
         log.info("Telegram scraper disabled.")
         return []
 

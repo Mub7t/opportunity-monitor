@@ -30,6 +30,13 @@ def _env_float(name: str, default: float) -> float:
         return default
 
 
+def _env_bool(name: str, default: bool = False) -> bool:
+    value = os.environ.get(name)
+    if value in (None, ""):
+        return default
+    return value.strip().lower() in {"true", "1", "yes"}
+
+
 # ─── Paths ────────────────────────────────────────────────────────────────────
 BASE_DIR          = Path(__file__).parent
 SEEN_IDS_FILE     = BASE_DIR / "seen_ids.json"
@@ -44,10 +51,10 @@ EMAIL_PASSWORD  = os.environ.get("EMAIL_PASSWORD", "")
 EMAIL_RECEIVER  = os.environ.get("EMAIL_RECEIVER", "")
 
 # ─── Telegram ─────────────────────────────────────────────────────────────────
-TELEGRAM_ENABLED    = os.environ.get("TELEGRAM_ENABLED", "false").lower() == "true"
+TELEGRAM_ENABLED    = _env_bool("TELEGRAM_ENABLED", False)
 TELEGRAM_BOT_TOKEN  = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID    = os.environ.get("TELEGRAM_CHAT_ID", "")
-TELEGRAM_SCRAPER_ENABLED = os.environ.get("TELEGRAM_SCRAPER_ENABLED", "false").lower() == "true"
+TELEGRAM_SCRAPER_ENABLED = _env_bool("TELEGRAM_SCRAPER_ENABLED", False)
 TELEGRAM_MIN_SCORE       = _env_int("TELEGRAM_MIN_SCORE", 80)
 
 # ─── AI Analysis ──────────────────────────────────────────────────────────────
