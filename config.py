@@ -9,6 +9,27 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
+def _env_int(name: str, default: int) -> int:
+    value = os.environ.get(name)
+    if value in (None, ""):
+        return default
+    try:
+        return int(value)
+    except ValueError:
+        return default
+
+
+def _env_float(name: str, default: float) -> float:
+    value = os.environ.get(name)
+    if value in (None, ""):
+        return default
+    try:
+        return float(value)
+    except ValueError:
+        return default
+
+
 # ─── Paths ────────────────────────────────────────────────────────────────────
 BASE_DIR          = Path(__file__).parent
 SEEN_IDS_FILE     = BASE_DIR / "seen_ids.json"
@@ -35,26 +56,26 @@ ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 AI_MODEL          = os.environ.get("AI_MODEL", "gpt-4o-mini")
 
 # ─── Notification thresholds (NEW: tiered system) ─────────────────────────────
-MIN_NOTIFY_SCORE     = int(os.environ.get("MIN_NOTIFY_SCORE", "60"))    # normal
-HIGH_PRIORITY_SCORE  = int(os.environ.get("HIGH_PRIORITY_SCORE", "75")) # high priority
-GOLDEN_SCORE         = int(os.environ.get("GOLDEN_SCORE", "90"))        # golden opportunity
+MIN_NOTIFY_SCORE     = _env_int("MIN_NOTIFY_SCORE", 60)    # normal
+HIGH_PRIORITY_SCORE  = _env_int("HIGH_PRIORITY_SCORE", 75) # high priority
+GOLDEN_SCORE         = _env_int("GOLDEN_SCORE", 90)        # golden opportunity
 
 # Golden Opportunity: must meet ALL of these thresholds
-GOLDEN_MIN_SCORE         = int(os.environ.get("GOLDEN_MIN_SCORE", "85"))
-GOLDEN_MIN_WIN_PCT       = int(os.environ.get("GOLDEN_MIN_WIN_PCT", "50"))
+GOLDEN_MIN_SCORE         = _env_int("GOLDEN_MIN_SCORE", 85)
+GOLDEN_MIN_WIN_PCT       = _env_int("GOLDEN_MIN_WIN_PCT", 50)
 GOLDEN_PROFITABILITY     = os.environ.get("GOLDEN_PROFITABILITY", "high")  # high|medium
 
 # ─── Scraping ─────────────────────────────────────────────────────────────────
 PROJECTS_URL      = "https://bahr.sa/projects"
 PAGE_LOAD_TIMEOUT = 30_000   # ms
 SCROLL_PAUSE_MS   = 1_500    # ms
-MAX_SCROLL_STEPS  = int(os.environ.get("MAX_SCROLL_STEPS", "8"))
+MAX_SCROLL_STEPS  = _env_int("MAX_SCROLL_STEPS", 8)
 
 # ─── Retry / reliability ──────────────────────────────────────────────────────
-SCRAPE_MAX_RETRIES   = int(os.environ.get("SCRAPE_MAX_RETRIES", "3"))
-SCRAPE_RETRY_DELAY_S = int(os.environ.get("SCRAPE_RETRY_DELAY_S", "15"))
-AI_MAX_RETRIES       = int(os.environ.get("AI_MAX_RETRIES", "2"))
-RATE_LIMIT_DELAY_S   = float(os.environ.get("RATE_LIMIT_DELAY_S", "1.0"))
+SCRAPE_MAX_RETRIES   = _env_int("SCRAPE_MAX_RETRIES", 3)
+SCRAPE_RETRY_DELAY_S = _env_int("SCRAPE_RETRY_DELAY_S", 15)
+AI_MAX_RETRIES       = _env_int("AI_MAX_RETRIES", 2)
+RATE_LIMIT_DELAY_S   = _env_float("RATE_LIMIT_DELAY_S", 1.0)
 
 # ─── Keywords ─────────────────────────────────────────────────────────────────
 KEYWORDS = [
@@ -139,8 +160,8 @@ WIN_PROB_WEIGHTS = {
 # ─── Dashboard ────────────────────────────────────────────────────────────────
 DASHBOARD_ENABLED = os.environ.get("DASHBOARD_ENABLED", "false").lower() == "true"
 DASHBOARD_HOST    = os.environ.get("DASHBOARD_HOST", "0.0.0.0")
-DASHBOARD_PORT    = int(os.environ.get("DASHBOARD_PORT", "5001"))
+DASHBOARD_PORT    = _env_int("DASHBOARD_PORT", 5001)
 
 # ─── Market intelligence ──────────────────────────────────────────────────────
-MARKET_REPORT_DAY = int(os.environ.get("MARKET_REPORT_DAY", "0"))  # 0=Mon, 6=Sun
-SIMILARITY_THRESHOLD = float(os.environ.get("SIMILARITY_THRESHOLD", "0.55"))
+MARKET_REPORT_DAY = _env_int("MARKET_REPORT_DAY", 0)  # 0=Mon, 6=Sun
+SIMILARITY_THRESHOLD = _env_float("SIMILARITY_THRESHOLD", 0.55)
