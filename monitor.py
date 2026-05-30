@@ -592,7 +592,40 @@ def mark_seen_by_source(project: dict, db: dict, notification_sent: bool = False
 
 # ─── Filtering helpers ────────────────────────────────────────────────────────
 
+_JOB_POST_KEYWORDS = [
+    "وظيفة",
+    "وظيفي",
+    "المسمى الوظيفي",
+    "فرصة وظيفية",
+    "توظيف",
+    "موظف",
+    "موظفة",
+    "شاغر",
+    "شاغرة",
+    "راتب",
+    "دوام كامل",
+    "دوام جزئي",
+]
+
+
+def is_job_post(project: dict) -> bool:
+    haystack = (
+        project.get("title", "") + " " +
+        project.get("description", "") + " " +
+        project.get("raw_text", "")
+    ).lower()
+    return any(keyword.lower() in haystack for keyword in _JOB_POST_KEYWORDS)
+
+
 def matches_keywords(project: dict) -> bool:
+    if is_job_post(project):
+        project["score"] = 0
+        log.info(
+            "Excluded job/employment post: [%s] %s",
+            project.get("source", ""),
+            project.get("title", "")[:80],
+        )
+        return False
     if project.get("source") == "telegram" and int(project.get("score") or 0) >= TELEGRAM_MIN_SCORE:
         return True
     haystack = (project.get("title", "") + " " + project.get("raw_text", "")).lower()
