@@ -10,6 +10,7 @@ NEVER re-notifies previously reported projects.
 """
 
 import logging
+import asyncio
 import time
 from datetime import datetime, timezone
 
@@ -19,7 +20,8 @@ from config import (
     PROJECTS_URL, PAGE_LOAD_TIMEOUT, SCROLL_PAUSE_MS, MAX_SCROLL_STEPS,
     KEYWORDS, SCORE_WEIGHTS, SCRAPE_MAX_RETRIES, SCRAPE_RETRY_DELAY_S,
     GOLDEN_MIN_SCORE, GOLDEN_MIN_WIN_PCT, GOLDEN_PROFITABILITY,
-    HIGH_PRIORITY_SCORE, SIMILARITY_THRESHOLD,
+    HIGH_PRIORITY_SCORE, SIMILARITY_THRESHOLD, TELEGRAM_SCRAPER_ENABLED,
+    TELEGRAM_MIN_SCORE,
 )
 from storage import load_seen_db, save_seen_db, is_seen, mark_seen
 from database import init_db, upsert_project, get_all_projects, get_stats
@@ -40,6 +42,7 @@ from notifier_telegram import (
 )
 from notifier_email import send_email
 from mostaql_scraper import scrape_mostaql_projects
+from telegram_scraper import scrape_telegram_opportunities
 
 # ─── Logging ──────────────────────────────────────────────────────────────────
 logging.basicConfig(
@@ -472,12 +475,65 @@ def scrape_mostaql_projects_for_pipeline() -> list[dict]:
     return normalized
 
 
+def _telegram_title(text: str) -> str:
+    clean = " ".join((text or "").split())
+    if len(clean) <= 80:
+        return clean or "Telegram opportunity"
+    return clean[:77].rstrip() + "..."
+
+
+def scrape_telegram_projects_for_pipeline() -> list[dict]:
+    """Run Telegram scraper if enabled and normalize results for this pipeline."""
+    if not TELEGRAM_SCRAPER_ENABLED:
+        log.info("Telegram scraper disabled.")
+        return []
+
+    try:
+        opportunities = asyncio.run(scrape_telegram_opportunities())
+    except Exception as exc:
+        log.warning("Telegram scrape skipped: %s", exc)
+        return []
+
+    normalized = []
+    for item in opportunities:
+        score = int(item.get("opportunity_score") or 0)
+        if score < TELEGRAM_MIN_SCORE:
+            continue
+        group_id = item.get("group_id", "")
+        message_id = item.get("message_id", "")
+        message_link = item.get("message_link", "")
+        message_text = item.get("message_text") or item.get("raw_text", "")
+        pid = f"telegram:{group_id}:{message_id}" if group_id and message_id else f"telegram:{message_link}"
+
+        normalized.append({
+            "source": "telegram",
+            "id": pid,
+            "title": _telegram_title(message_text),
+            "url": message_link,
+            "description": message_text,
+            "category": "telegram",
+            "category_hint": "telegram",
+            "published_at": item.get("message_date", ""),
+            "score": score,
+            "raw_text": item.get("raw_text") or message_text,
+            "group_name": item.get("group_name", ""),
+            "sender_name": item.get("sender_name", ""),
+            "matched_keywords": item.get("matched_keywords", []),
+            "hiring_indicators": item.get("hiring_indicators", []),
+            "score_reason": item.get("score_reason", ""),
+        })
+
+    return normalized
+
+
 def _source_for_entry(entry: dict) -> str:
     source = entry.get("source")
     if source:
         return source
     url = entry.get("url", "")
     pid = entry.get("id", "")
+    if "telegram:" in pid or "t.me/" in url:
+        return "telegram"
     if "mostaql.com" in url or "mostaql.com" in pid:
         return "mostaql"
     return "bahr"
@@ -525,6 +581,8 @@ def mark_seen_by_source(project: dict, db: dict, notification_sent: bool = False
 # ─── Filtering helpers ────────────────────────────────────────────────────────
 
 def matches_keywords(project: dict) -> bool:
+    if project.get("source") == "telegram" and int(project.get("score") or 0) >= TELEGRAM_MIN_SCORE:
+        return True
     haystack = (project.get("title", "") + " " + project.get("raw_text", "")).lower()
     return any(kw.lower() in haystack for kw in KEYWORDS)
 
@@ -594,14 +652,16 @@ def main() -> None:
     log.info("Loaded %d previously seen projects", len(seen_db))
     log.info("Preference engine: %s", get_preference_summary())
 
-    # 2. Scrape both sources
+    # 2. Scrape sources
     bahr_projects = scrape_bahr_projects()
     mostaql_projects = scrape_mostaql_projects_for_pipeline()
-    all_projects = bahr_projects + mostaql_projects
+    telegram_projects = scrape_telegram_projects_for_pipeline()
+    all_projects = bahr_projects + mostaql_projects + telegram_projects
     log.info(
-        "Projects found: Bahr: %d | Mostaql: %d | Total: %d",
+        "Projects found: Bahr: %d | Mostaql: %d | Telegram: %d | Total: %d",
         len(bahr_projects),
         len(mostaql_projects),
+        len(telegram_projects),
         len(all_projects),
     )
     log.info("Scraped %d total projects", len(all_projects))

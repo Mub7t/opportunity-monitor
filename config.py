@@ -47,6 +47,8 @@ EMAIL_RECEIVER  = os.environ.get("EMAIL_RECEIVER", "")
 TELEGRAM_ENABLED    = os.environ.get("TELEGRAM_ENABLED", "false").lower() == "true"
 TELEGRAM_BOT_TOKEN  = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID    = os.environ.get("TELEGRAM_CHAT_ID", "")
+TELEGRAM_SCRAPER_ENABLED = os.environ.get("TELEGRAM_SCRAPER_ENABLED", "false").lower() == "true"
+TELEGRAM_MIN_SCORE       = _env_int("TELEGRAM_MIN_SCORE", 80)
 
 # ─── AI Analysis ──────────────────────────────────────────────────────────────
 AI_ENABLED        = os.environ.get("AI_ENABLED", "false").lower() == "true"
