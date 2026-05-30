@@ -21,7 +21,7 @@ from config import (
     KEYWORDS, SCORE_WEIGHTS, SCRAPE_MAX_RETRIES, SCRAPE_RETRY_DELAY_S,
     GOLDEN_MIN_SCORE, GOLDEN_MIN_WIN_PCT, GOLDEN_PROFITABILITY,
     HIGH_PRIORITY_SCORE, SIMILARITY_THRESHOLD, TELEGRAM_SCRAPER_ENABLED,
-    TELEGRAM_MIN_SCORE,
+    TELEGRAM_MIN_SCORE, EMAIL_ENABLED, EMAIL_SENDER, EMAIL_PASSWORD, EMAIL_RECEIVER,
 )
 from storage import load_seen_db, save_seen_db, is_seen, mark_seen
 from database import init_db, upsert_project, get_all_projects, get_stats
@@ -641,6 +641,7 @@ def is_golden_opportunity(
 # ─── Main pipeline ────────────────────────────────────────────────────────────
 
 def main() -> None:
+    log.info("=== Opportunity Monitor Started ===")
     log.info("═══ Bahr Monitor v3 — run started %s ═══", datetime.now().isoformat())
 
     # 0. Initialize DB
@@ -654,9 +655,13 @@ def main() -> None:
 
     # 2. Scrape sources
     bahr_projects = scrape_bahr_projects()
+    log.info("Bahr projects found: %d", len(bahr_projects))
     mostaql_projects = scrape_mostaql_projects_for_pipeline()
+    log.info("Mostaql projects found: %d", len(mostaql_projects))
     telegram_projects = scrape_telegram_projects_for_pipeline()
+    log.info("Telegram projects found: %d", len(telegram_projects))
     all_projects = bahr_projects + mostaql_projects + telegram_projects
+    log.info("Total opportunities collected: %d", len(all_projects))
     log.info(
         "Projects found: Bahr: %d | Mostaql: %d | Telegram: %d | Total: %d",
         len(bahr_projects),
@@ -668,6 +673,8 @@ def main() -> None:
 
     if not all_projects:
         log.warning("No projects found this run.")
+        log.info("No new opportunities found. Email not sent.")
+        log.info("=== Opportunity Monitor Finished ===")
         return
 
     # 3. De-duplicate
@@ -685,6 +692,9 @@ def main() -> None:
             new_projects.append(p)
 
     log.info("New (unseen) projects: %d", len(new_projects))
+    previously_seen = len(all_projects) - len(new_projects)
+    log.info("New opportunities: %d", len(new_projects))
+    log.info("Previously seen opportunities: %d", previously_seen)
 
     # 4. Keyword filter
     matched = [p for p in new_projects if matches_keywords(p)]
@@ -696,8 +706,10 @@ def main() -> None:
 
     if not matched:
         log.info("No keyword-matched new projects — no notifications sent.")
+        log.info("No new opportunities found. Email not sent.")
         save_seen_db(seen_db)
         log.info("═══ Run complete ═══")
+        log.info("=== Opportunity Monitor Finished ===")
         return
 
     # 6. Load project history for similarity checks
@@ -780,7 +792,14 @@ def main() -> None:
         mark_seen_by_source(ep["project"], seen_db, notification_sent=True)
 
     # 10. Email digest
-    send_email(enriched)
+    log.info("Preparing email report...")
+    try:
+        send_email(enriched)
+        if EMAIL_ENABLED and all([EMAIL_SENDER, EMAIL_PASSWORD, EMAIL_RECEIVER]):
+            log.info("Email sent successfully to: %s", EMAIL_RECEIVER)
+    except Exception as exc:
+        log.exception("Email sending failed: %s", exc)
+        raise
 
     # 11. Persist to SQLite history
     for ep in enriched:
@@ -816,6 +835,7 @@ def main() -> None:
         "═══ Run complete — new=%d, matched=%d, golden=%d | DB total=%d ═══",
         len(new_projects), len(matched), golden_count, stats.get("total_projects", 0)
     )
+    log.info("=== Opportunity Monitor Finished ===")
 
 
 if __name__ == "__main__":
