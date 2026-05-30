@@ -61,4 +61,10 @@ jobs:
           python -m playwright install chromium
 
       - name: Run monitor
+        env:
+          TELEGRAM_SCRAPER_ENABLED: ${{ secrets.TELEGRAM_SCRAPER_ENABLED }}
+          TELEGRAM_API_ID: ${{ secrets.TELEGRAM_API_ID }}
+          TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
+          TELEGRAM_SESSION_STRING: ${{ secrets.TELEGRAM_SESSION_STRING }}
+          TELEGRAM_TARGET_GROUPS: ${{ secrets.TELEGRAM_TARGET_GROUPS }}
         run: python3 monitor.py
