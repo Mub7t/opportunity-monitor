@@ -18,6 +18,7 @@ jobs:
       TELEGRAM_ENABLED: ${{ secrets.TELEGRAM_ENABLED }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      TELEGRAM_SESSION_STRING: ${{ secrets.TELEGRAM_SESSION_STRING }}
       AI_ENABLED: ${{ secrets.AI_ENABLED }}
       AI_PROVIDER: ${{ secrets.AI_PROVIDER }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

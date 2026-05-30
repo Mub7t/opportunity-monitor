@@ -7,7 +7,7 @@ Run:
 Environment:
     TELEGRAM_API_ID       required
     TELEGRAM_API_HASH     required
-    TELEGRAM_PHONE        required on first login
+    TELEGRAM_SESSION_STRING required for non-interactive runs
     TELEGRAM_TARGET_GROUPS optional comma-separated usernames or titles
 """
 
@@ -30,10 +30,12 @@ except ImportError:  # pragma: no cover - optional convenience only
 try:
     from telethon import TelegramClient
     from telethon.errors import FloodWaitError
+    from telethon.sessions import StringSession
     from telethon.tl.types import Channel, Chat, User
 except ImportError as exc:  # pragma: no cover - handled in main
     TelegramClient = None
     FloodWaitError = None
+    StringSession = None
     Channel = Chat = User = None
     TELETHON_IMPORT_ERROR = exc
 else:
@@ -53,6 +55,7 @@ log = logging.getLogger(__name__)
 
 
 SESSION_NAME = os.environ.get("TELEGRAM_SESSION_FILE", "telegram_scraper")
+TELEGRAM_SESSION_STRING = os.environ.get("TELEGRAM_SESSION_STRING", "").strip()
 CONFIG_FILE = Path(os.environ.get("TELEGRAM_SCRAPER_CONFIG", "telegram_scraper_config.json"))
 OPPORTUNITIES_FILE = Path(os.environ.get("TELEGRAM_OPPORTUNITIES_FILE", "telegram_opportunities.json"))
 MAX_JSON_OPPORTUNITIES = 50
@@ -373,12 +376,23 @@ async def scrape_telegram_opportunities(
             "Telethon is not installed. Install it with: pip install telethon"
         ) from TELETHON_IMPORT_ERROR
 
+    if not TELEGRAM_SESSION_STRING:
+        log.warning("TELEGRAM_SESSION_STRING is missing; skipping Telegram scraping.")
+        scrape_telegram_opportunities.groups_scanned = 0
+        scrape_telegram_opportunities.messages_scanned = 0
+        return []
+
     api_id = _env_int("TELEGRAM_API_ID")
     api_hash = _env_str("TELEGRAM_API_HASH")
-    phone = os.environ.get("TELEGRAM_PHONE", "").strip() or None
 
-    client = TelegramClient(SESSION_NAME, api_id, api_hash)
-    await client.start(phone=phone)
+    client = TelegramClient(StringSession(TELEGRAM_SESSION_STRING), api_id, api_hash)
+    await client.connect()
+    if not await client.is_user_authorized():
+        log.warning("TELEGRAM_SESSION_STRING is not authorized; skipping Telegram scraping.")
+        await client.disconnect()
+        scrape_telegram_opportunities.groups_scanned = 0
+        scrape_telegram_opportunities.messages_scanned = 0
+        return []
 
     try:
         targets = await _resolve_targets(client, target_groups or TARGET_GROUPS)
