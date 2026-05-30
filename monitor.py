@@ -484,6 +484,11 @@ def _telegram_title(text: str) -> str:
 
 def scrape_telegram_projects_for_pipeline() -> list[dict]:
     """Run Telegram scraper if enabled and normalize results for this pipeline."""
+    log.info("TELEGRAM_SCRAPER_ENABLED=%s", TELEGRAM_SCRAPER_ENABLED)
+    log.info("TELEGRAM_API_ID exists=%s", bool(__import__("os").environ.get("TELEGRAM_API_ID")))
+    log.info("TELEGRAM_API_HASH exists=%s", bool(__import__("os").environ.get("TELEGRAM_API_HASH")))
+    log.info("TELEGRAM_SESSION_STRING exists=%s", bool(__import__("os").environ.get("TELEGRAM_SESSION_STRING")))
+    log.info("TELEGRAM_TARGET_GROUPS=%s", __import__("os").environ.get("TELEGRAM_TARGET_GROUPS", ""))
     if not TELEGRAM_SCRAPER_ENABLED:
         log.info("Telegram scraper disabled.")
         return []
