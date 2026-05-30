@@ -1,0 +1,62 @@
+name: Bahr Monitor
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  run-monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    env:
+      EMAIL_ENABLED: ${{ secrets.EMAIL_ENABLED }}
+      EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+      EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+      EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
+      TELEGRAM_ENABLED: ${{ secrets.TELEGRAM_ENABLED }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      AI_ENABLED: ${{ secrets.AI_ENABLED }}
+      AI_PROVIDER: ${{ secrets.AI_PROVIDER }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      AI_MODEL: ${{ secrets.AI_MODEL }}
+      MIN_NOTIFY_SCORE: ${{ secrets.MIN_NOTIFY_SCORE }}
+      HIGH_PRIORITY_SCORE: ${{ secrets.HIGH_PRIORITY_SCORE }}
+      GOLDEN_SCORE: ${{ secrets.GOLDEN_SCORE }}
+      GOLDEN_MIN_SCORE: ${{ secrets.GOLDEN_MIN_SCORE }}
+      GOLDEN_MIN_WIN_PCT: ${{ secrets.GOLDEN_MIN_WIN_PCT }}
+      GOLDEN_PROFITABILITY: ${{ secrets.GOLDEN_PROFITABILITY }}
+      MAX_SCROLL_STEPS: ${{ secrets.MAX_SCROLL_STEPS }}
+      SCRAPE_MAX_RETRIES: ${{ secrets.SCRAPE_MAX_RETRIES }}
+      SCRAPE_RETRY_DELAY_S: ${{ secrets.SCRAPE_RETRY_DELAY_S }}
+      AI_MAX_RETRIES: ${{ secrets.AI_MAX_RETRIES }}
+      RATE_LIMIT_DELAY_S: ${{ secrets.RATE_LIMIT_DELAY_S }}
+      PROFILE_NAME: ${{ secrets.PROFILE_NAME }}
+      PROFILE_TITLE: ${{ secrets.PROFILE_TITLE }}
+      PROFILE_SKILLS: ${{ secrets.PROFILE_SKILLS }}
+      PROFILE_EXPERIENCE: ${{ secrets.PROFILE_EXPERIENCE }}
+      PROFILE_PORTFOLIO: ${{ secrets.PROFILE_PORTFOLIO }}
+      PROFILE_CONTACT: ${{ secrets.PROFILE_CONTACT }}
+      MARKET_REPORT_DAY: ${{ secrets.MARKET_REPORT_DAY }}
+      SIMILARITY_THRESHOLD: ${{ secrets.SIMILARITY_THRESHOLD }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Run monitor
+        run: python3 monitor.py
