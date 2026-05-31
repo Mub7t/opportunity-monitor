@@ -617,8 +617,7 @@ _JOB_POST_KEYWORDS = [
 def is_job_post(project: dict) -> bool:
     haystack = (
         project.get("title", "") + " " +
-        project.get("description", "") + " " +
-        project.get("raw_text", "")
+        project.get("description", "")
     ).lower()
     return any(keyword.lower() in haystack for keyword in _JOB_POST_KEYWORDS)
 

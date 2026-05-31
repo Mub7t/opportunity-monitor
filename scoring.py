@@ -92,6 +92,13 @@ def _project_text(project: dict) -> str:
     ])
 
 
+def _title_description_text(project: dict) -> str:
+    return " ".join([
+        str(project.get("title", "")),
+        str(project.get("description", "")),
+    ])
+
+
 def _contains(text: str, keyword: str) -> bool:
     return keyword.lower() in text.lower()
 
@@ -147,8 +154,9 @@ def _budget_score(project: dict) -> tuple[int, float | None, str]:
 def score_project(project: dict, base_score: float) -> dict:
     """Return v1.1 score details without mutating the project."""
     text = _project_text(project)
+    title_description = _title_description_text(project)
     matched_priority = [(kw, pts) for kw, pts in PERSONAL_KEYWORDS if _contains(text, kw)]
-    matched_negative = [(kw, pts) for kw, pts in NEGATIVE_KEYWORDS if _contains(text, kw)]
+    matched_negative = [(kw, pts) for kw, pts in NEGATIVE_KEYWORDS if _contains(title_description, kw)]
     matched_serious = [(kw, pts) for kw, pts in SERIOUS_CLIENT_KEYWORDS if _contains(text, kw)]
 
     personal_score = sum(points for _, points in matched_priority)
