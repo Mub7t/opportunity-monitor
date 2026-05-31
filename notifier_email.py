@@ -18,6 +18,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 from config import EMAIL_ENABLED, EMAIL_SENDER, EMAIL_PASSWORD, EMAIL_RECEIVER, KEYWORDS
+from email_template import build_v11_html_email
 
 log = logging.getLogger(__name__)
 
@@ -277,7 +278,20 @@ def _market_section_html(report: dict | None) -> str:
 
 # ─── Full email builder ───────────────────────────────────────────────────────
 
-def build_html_email(enriched_projects: list[dict], market_report: dict | None = None) -> str:
+def build_html_email(
+    enriched_projects: list[dict],
+    market_report: dict | None = None,
+    run_stats: dict | None = None,
+    weekly_summary: dict | None = None,
+) -> str:
+    if any("personal_scoring" in ep for ep in enriched_projects) or run_stats or weekly_summary:
+        return build_v11_html_email(
+            enriched_projects[:10],
+            market_report=market_report,
+            run_stats=run_stats,
+            weekly_summary=weekly_summary,
+        )
+
     today   = datetime.now().strftime("%Y-%m-%d %H:%M")
     total   = len(enriched_projects)
     golden  = sum(1 for ep in enriched_projects if ep.get("is_golden"))
@@ -389,7 +403,12 @@ def build_html_email(enriched_projects: list[dict], market_report: dict | None =
 
 # ─── Send function ────────────────────────────────────────────────────────────
 
-def send_email(enriched_projects: list[dict], market_report: dict | None = None) -> None:
+def send_email(
+    enriched_projects: list[dict],
+    market_report: dict | None = None,
+    run_stats: dict | None = None,
+    weekly_summary: dict | None = None,
+) -> None:
     """Send the HTML email digest. market_report is optional."""
     if not EMAIL_ENABLED:
         log.info("Email disabled — skipping.")
@@ -398,14 +417,20 @@ def send_email(enriched_projects: list[dict], market_report: dict | None = None)
         log.warning("Email credentials missing — skipping.")
         return
 
+    enriched_projects = enriched_projects[:10]
     count   = len(enriched_projects)
     golden  = sum(1 for ep in enriched_projects if ep.get("is_golden"))
     subject = (
-        f"[بحر] {count} مشروع جديد"
+        f"[Opportunity Monitor v1.1] أفضل {count} فرص"
         + (f" — {golden} ذهبي ⭐" if golden else "")
         + f" — {datetime.now().strftime('%Y-%m-%d')}"
     )
-    html_body = build_html_email(enriched_projects, market_report)
+    html_body = build_html_email(
+        enriched_projects,
+        market_report=market_report,
+        run_stats=run_stats,
+        weekly_summary=weekly_summary,
+    )
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject

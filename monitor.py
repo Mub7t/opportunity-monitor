@@ -44,6 +44,12 @@ from notifier_telegram import (
 from notifier_email import send_email
 from mostaql_scraper import scrape_mostaql_projects
 from telegram_scraper import scrape_telegram_opportunities
+from scoring import (
+    apply_v11_scoring,
+    build_email_stats,
+    build_weekly_summary,
+    smart_dedupe_for_email,
+)
 
 # ─── Logging ──────────────────────────────────────────────────────────────────
 logging.basicConfig(
@@ -795,10 +801,7 @@ def main() -> None:
         # Similarity check against history
         sim_result = find_similar_projects(p, project_history, threshold=SIMILARITY_THRESHOLD)
 
-        # Golden opportunity classification
-        golden = is_golden_opportunity(composite, analysis, win_prob_result)
-
-        enriched.append({
+        ep = {
             "project":          p,
             "analysis":         analysis,
             "proposal":         proposal,
@@ -807,11 +810,32 @@ def main() -> None:
             "profile_match":    prof_match,
             "preference_boost": pref_boost,
             "similarity_result": sim_result,
-            "is_golden":        golden,
-        })
+            "is_golden":        False,
+        }
+
+        # v1.1 personal scoring layer: interest match + budget + seriousness - job signals.
+        apply_v11_scoring(ep)
+        ep["is_golden"] = is_golden_opportunity(ep["composite"], analysis, win_prob_result)
+        enriched.append(ep)
 
     # 8. Sort: golden first, then by composite score
     enriched.sort(key=lambda ep: (not ep["is_golden"], -ep["composite"]))
+    excluded_from_email = [
+        ep for ep in enriched
+        if ep.get("personal_scoring", {}).get("excluded_from_email")
+    ]
+    email_ranked = smart_dedupe_for_email([
+        ep for ep in enriched
+        if not ep.get("personal_scoring", {}).get("excluded_from_email")
+    ])
+    email_top = email_ranked[:10]
+    log.info(
+        "v1.1 scoring complete: analyzed=%d, excluded_job_posts=%d, email_after_smart_dedupe=%d, email_top=%d",
+        len(enriched),
+        len(excluded_from_email),
+        len(email_ranked),
+        len(email_top),
+    )
     log.info(
         "Projects ranked: top=%.1f, golden=%d, high=%d",
         enriched[0]["composite"] if enriched else 0,
@@ -838,13 +862,38 @@ def main() -> None:
 
     # 10. Email digest
     log.info("Preparing email report...")
-    try:
-        send_email(enriched)
-        if EMAIL_ENABLED and all([EMAIL_SENDER, EMAIL_PASSWORD, EMAIL_RECEIVER]):
-            log.info("Email sent successfully to: %s", EMAIL_RECEIVER)
-    except Exception as exc:
-        log.exception("Email sending failed: %s", exc)
-        raise
+    if not email_top:
+        log.info("No sendable opportunities after v1.1 scoring. Email not sent.")
+        log.info("No new opportunities found. Email not sent.")
+    else:
+        market_report_for_email = None
+        weekly_summary = None
+        if is_market_report_day():
+            try:
+                market_report_for_email = build_market_report(project_history)
+                weekly_summary = build_weekly_summary(project_history, email_top)
+            except Exception as exc:
+                log.error("Weekly email summary generation failed: %s", exc)
+
+        run_stats = build_email_stats(
+            total_collected=len(all_projects),
+            new_count=len(new_projects),
+            sent_count=len(email_top),
+            all_projects=all_projects,
+            email_projects=email_top,
+        )
+        try:
+            send_email(
+                email_top,
+                market_report=market_report_for_email,
+                run_stats=run_stats,
+                weekly_summary=weekly_summary,
+            )
+            if EMAIL_ENABLED and all([EMAIL_SENDER, EMAIL_PASSWORD, EMAIL_RECEIVER]):
+                log.info("Email sent successfully to: %s", EMAIL_RECEIVER)
+        except Exception as exc:
+            log.exception("Email sending failed: %s", exc)
+            raise
 
     # 11. Persist to SQLite history
     for ep in enriched:

@@ -246,5 +246,85 @@
     "first_seen": "2026-05-30T11:17:26.447384+00:00",
     "notification_sent": "2026-05-30T11:17:26.450696+00:00",
     "source": "mostaql"
+  },
+  "mostaql:1244906": {
+    "id": "mostaql:1244906",
+    "title": "مطور خبير في React وتقنيات التغليف (مثل Capacitor أو Ionic) لإجراء تعديلات برمجية",
+    "url": "https://mostaql.com/project/1244906-%D9%85%D8%B7%D9%88%D8%B1-%D8%AE%D8%A8%D9%8A%D8%B1-%D9%81%D9%8A-react-%D9%88%D8%AA%D9%82%D9%86%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%BA%D9%84%D9%8A%D9%81-%D9%85%D8%AB%D9%84-capacitor-%D8%A3%D9%88-ionic-%D9%84%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1-%D8%AA%D8%B9%D8%AF%D9%8A%D9%84%D8%A7%D8%AA-%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A9",
+    "first_seen": "2026-05-31T01:21:46.914229+00:00",
+    "notification_sent": "2026-05-31T01:21:46.928359+00:00",
+    "source": "mostaql"
+  },
+  "mostaql:1244905": {
+    "id": "mostaql:1244905",
+    "title": "حملة إعلانية على تيك توك لمتجر إلكتروني",
+    "url": "https://mostaql.com/project/1244905-%D8%AD%D9%85%D9%84%D8%A9-%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D9%8A%D8%A9-%D8%B9%D9%84%D9%89-%D8%AA%D9%8A%D9%83-%D8%AA%D9%88%D9%83-%D9%84%D9%85%D8%AA%D8%AC%D8%B1-%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A",
+    "first_seen": "2026-05-31T01:21:46.914243+00:00",
+    "notification_sent": "2026-05-31T01:21:46.928348+00:00",
+    "source": "mostaql"
+  },
+  "mostaql:1241861": {
+    "id": "mostaql:1241861",
+    "title": "تصميم بوستر افتتاح مع المنيو",
+    "url": "https://mostaql.com/project/1241861-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D8%A8%D9%88%D8%B3%D8%AA%D8%B1-%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D9%85%D8%B9-%D8%A7%D9%84%D9%85%D9%86%D9%8A%D9%88",
+    "first_seen": "2026-05-31T01:21:46.914246+00:00",
+    "notification_sent": "2026-05-31T01:21:46.928356+00:00",
+    "source": "mostaql"
+  },
+  "mostaql:1244898": {
+    "id": "mostaql:1244898",
+    "title": "محترف لإنشاء موقع لشركة شحن مع إدارة الإعلانات الممولة",
+    "url": "https://mostaql.com/project/1244898-%D9%85%D8%AD%D8%AA%D8%B1%D9%81-%D9%84%D8%A5%D9%86%D8%B4%D8%A7%D8%A1-%D9%85%D9%88%D9%82%D8%B9-%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%B4%D8%AD%D9%86-%D9%85%D8%B9-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%85%D9%88%D9%84%D8%A9",
+    "first_seen": "2026-05-31T01:21:46.914248+00:00",
+    "notification_sent": "2026-05-31T01:21:46.928353+00:00",
+    "source": "mostaql"
+  },
+  "mostaql:1244899": {
+    "id": "mostaql:1244899",
+    "title": "إدارة وتشغيل حملات إعلانية لأكاديمية",
+    "url": "https://mostaql.com/project/1244899-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D9%88%D8%AA%D8%B4%D8%BA%D9%8A%D9%84-%D8%AD%D9%85%D9%84%D8%A7%D8%AA-%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D9%8A%D8%A9-%D9%84%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9",
+    "first_seen": "2026-05-31T01:21:46.914250+00:00",
+    "notification_sent": "2026-05-31T01:21:46.928365+00:00",
+    "source": "mostaql"
+  },
+  "mostaql:1244895": {
+    "id": "mostaql:1244895",
+    "title": "مراجعة مشروع SaaS متخصص في إدارة شركات المصاعد",
+    "url": "https://mostaql.com/project/1244895-%D9%85%D8%B1%D8%A7%D8%AC%D8%B9%D8%A9-%D9%85%D8%B4%D8%B1%D9%88%D8%B9-saas-%D9%85%D8%AA%D8%AE%D8%B5%D8%B5-%D9%81%D9%8A-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%B4%D8%B1%D9%83%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B5%D8%A7%D8%B9%D8%AF",
+    "first_seen": "2026-05-31T01:21:46.914252+00:00",
+    "notification_sent": null,
+    "source": "mostaql"
+  },
+  "mostaql:1244893": {
+    "id": "mostaql:1244893",
+    "title": "تطوير 5 نماذج ذكاء اصطناعي (Computer Vision / YOLO) لكشف المخاطر وتحليل الفيديو + التوثيق",
+    "url": "https://mostaql.com/project/1244893-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-5-%D9%86%D9%85%D8%A7%D8%B0%D8%AC-%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-computer-vision-yolo-%D9%84%D9%83%D8%B4%D9%81-%D8%A7%D9%84%D9%85%D8%AE%D8%A7%D8%B7%D8%B1-%D9%88%D8%AA%D8%AD%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D8%A7%D9%84%D8%AA%D9%88%D8%AB%D9%8A%D9%82",
+    "first_seen": "2026-05-31T01:21:46.914254+00:00",
+    "notification_sent": "2026-05-31T01:21:46.928317+00:00",
+    "source": "mostaql"
+  },
+  "mostaql:1244889": {
+    "id": "mostaql:1244889",
+    "title": "مشروع أتمتة نظام فرز وتغليف متكامل باستخدام (Factory I/O - PLC Ladder - HMI)",
+    "url": "https://mostaql.com/project/1244889-%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D8%A3%D8%AA%D9%85%D8%AA%D8%A9-%D9%86%D8%B8%D8%A7%D9%85-%D9%81%D8%B1%D8%B2-%D9%88%D8%AA%D8%BA%D9%84%D9%8A%D9%81-%D9%85%D8%AA%D9%83%D8%A7%D9%85%D9%84-%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-factory-io-plc-ladder-hmi",
+    "first_seen": "2026-05-31T01:21:46.914260+00:00",
+    "notification_sent": "2026-05-31T01:21:46.928328+00:00",
+    "source": "mostaql"
+  },
+  "mostaql:1244730": {
+    "id": "mostaql:1244730",
+    "title": "مطلوب مهندس أنظمة مدمجة (Embedded Systems / IoT Engineer) لتطوير جهاز مراقبة خلايا النحل الذكي",
+    "url": "https://mostaql.com/project/1244730-%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%85%D9%87%D9%86%D8%AF%D8%B3-%D8%A3%D9%86%D8%B8%D9%85%D8%A9-%D9%85%D8%AF%D9%85%D8%AC%D8%A9-embedded-systems-iot-engineer-%D9%84%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D8%AC%D9%87%D8%A7%D8%B2-%D9%85%D8%B1%D8%A7%D9%82%D8%A8%D8%A9-%D8%AE%D9%84%D8%A7%D9%8A%D8%A7-%D8%A7%D9%84%D9%86%D8%AD%D9%84-%D8%A7%D9%84%D8%B0%D9%83%D9%8A",
+    "first_seen": "2026-05-31T01:21:46.914263+00:00",
+    "notification_sent": "2026-05-31T01:21:46.928373+00:00",
+    "source": "mostaql"
+  },
+  "mostaql:1244886": {
+    "id": "mostaql:1244886",
+    "title": "إدارة المتجر الإلكتروني",
+    "url": "https://mostaql.com/project/1244886-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%AA%D8%AC%D8%B1-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A",
+    "first_seen": "2026-05-31T01:21:46.914265+00:00",
+    "notification_sent": null,
+    "source": "mostaql"
   }
 }
