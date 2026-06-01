@@ -232,6 +232,17 @@ def remember_project(project: dict, db: dict) -> None:
     db[record["fingerprint"]] = record
 
 
+def remember_projects(projects: list[dict], db: dict) -> int:
+    """Remember projects and return count of brand-new fingerprints created."""
+    created = 0
+    for project in projects:
+        fp = project_fingerprint(project)
+        if fp not in db:
+            created += 1
+        remember_project(project, db)
+    return created
+
+
 def filter_email_duplicates(enriched_projects: list[dict], db: dict) -> tuple[list[dict], dict]:
     kept = []
     stats = {"fingerprint": 0, "similarity": 0}

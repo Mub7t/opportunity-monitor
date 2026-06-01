@@ -54,7 +54,7 @@ from fingerprint_dedupe import (
     filter_project_duplicates,
     filter_email_duplicates,
     load_seen_fingerprints,
-    remember_project,
+    remember_projects,
     save_seen_fingerprints,
 )
 
@@ -622,6 +622,19 @@ def log_duplicate_statistics(
     log.info("===========================")
 
 
+def log_fingerprint_statistics(
+    *,
+    loaded: int,
+    created: int,
+    fingerprint_matches: int,
+    similarity_matches: int,
+) -> None:
+    log.info("Loaded fingerprints: %d", loaded)
+    log.info("New fingerprints created: %d", created)
+    log.info("Fingerprint matches: %d", fingerprint_matches)
+    log.info("Similarity matches: %d", similarity_matches)
+
+
 # ─── Filtering helpers ────────────────────────────────────────────────────────
 
 _JOB_POST_KEYWORDS = [
@@ -758,11 +771,20 @@ def main() -> None:
             final_after_dedup=0,
             email_count=0,
         )
+        log_fingerprint_statistics(
+            loaded=0,
+            created=0,
+            fingerprint_matches=0,
+            similarity_matches=0,
+        )
         log.info("=== Opportunity Monitor Finished ===")
         return
 
     # 3. De-duplicate
     fingerprint_db = load_seen_fingerprints()
+    loaded_fingerprints_count = len(fingerprint_db)
+    new_fingerprints_created = 0
+    log.info("Loaded fingerprints: %d", loaded_fingerprints_count)
     new_projects = []
     duplicates_skipped_by_id = 0
     for p in all_projects:
@@ -803,6 +825,8 @@ def main() -> None:
         log.info("No keyword-matched new projects — no notifications sent.")
         log.info("No new opportunities found. Email not sent.")
         log.info("Final email opportunities count: 0")
+        new_fingerprints_created = remember_projects(all_projects, fingerprint_db)
+        save_seen_fingerprints(fingerprint_db)
         log_duplicate_statistics(
             collected=len(all_projects),
             skipped_by_id=duplicates_skipped_by_id,
@@ -810,6 +834,12 @@ def main() -> None:
             skipped_by_similarity=similarity_skipped_total,
             final_after_dedup=len(deduped_projects),
             email_count=0,
+        )
+        log_fingerprint_statistics(
+            loaded=loaded_fingerprints_count,
+            created=new_fingerprints_created,
+            fingerprint_matches=fingerprint_skipped_total,
+            similarity_matches=similarity_skipped_total,
         )
         save_seen_db(seen_db)
         log.info("═══ Run complete ═══")
@@ -949,13 +979,13 @@ def main() -> None:
                 weekly_summary=weekly_summary,
             )
             if EMAIL_ENABLED and all([EMAIL_SENDER, EMAIL_PASSWORD, EMAIL_RECEIVER]):
-                for ep in email_top:
-                    remember_project(ep["project"], fingerprint_db)
-                save_seen_fingerprints(fingerprint_db)
                 log.info("Email sent successfully to: %s", EMAIL_RECEIVER)
         except Exception as exc:
             log.exception("Email sending failed: %s", exc)
             raise
+
+    new_fingerprints_created = remember_projects(all_projects, fingerprint_db)
+    save_seen_fingerprints(fingerprint_db)
 
     # 11. Persist to SQLite history
     for ep in enriched:
@@ -994,6 +1024,12 @@ def main() -> None:
         skipped_by_similarity=similarity_skipped_total,
         final_after_dedup=len(deduped_projects),
         email_count=len(email_top),
+    )
+    log_fingerprint_statistics(
+        loaded=loaded_fingerprints_count,
+        created=new_fingerprints_created,
+        fingerprint_matches=fingerprint_skipped_total,
+        similarity_matches=similarity_skipped_total,
     )
     log.info(
         "═══ Run complete — new=%d, matched=%d, golden=%d | DB total=%d ═══",
