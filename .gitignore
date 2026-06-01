@@ -9,7 +9,6 @@ __pycache__/
 *.session-journal
 *.db
 seen_ids.json
-seen_fingerprints.json
 telegram_opportunities.json
 market_report.json
 email_preview.html
