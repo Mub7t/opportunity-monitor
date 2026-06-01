@@ -9,6 +9,8 @@ jobs:
   run-monitor:
     runs-on: ubuntu-22.04
     timeout-minutes: 30
+    permissions:
+      contents: write
 
     env:
       EMAIL_ENABLED: ${{ secrets.EMAIL_ENABLED }}
@@ -73,3 +75,16 @@ jobs:
           TELEGRAM_SESSION_STRING: ${{ secrets.TELEGRAM_SESSION_STRING }}
           TELEGRAM_TARGET_GROUPS: ${{ secrets.TELEGRAM_TARGET_GROUPS }}
         run: python3 monitor.py
+
+      - name: Persist fingerprint history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seen_fingerprints.json
+          if git diff --cached --quiet; then
+            echo "No fingerprint changes to commit."
+          else
+            git commit -m "Update opportunity fingerprint history"
+            git pull --rebase --autostash
+            git push
+          fi

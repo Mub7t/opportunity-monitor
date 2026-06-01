@@ -138,6 +138,7 @@ def save_seen_fingerprints(db: dict) -> None:
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(pruned, f, ensure_ascii=False, indent=2)
     tmp.replace(SEEN_FINGERPRINTS_FILE)
+    log.info("Saved fingerprints: %d", len(pruned))
     log.info("Saved %d entries to %s", len(pruned), SEEN_FINGERPRINTS_FILE)
 
 
