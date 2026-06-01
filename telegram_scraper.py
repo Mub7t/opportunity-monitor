@@ -15,6 +15,7 @@ import asyncio
 import logging
 import os
 from datetime import timezone
+from pathlib import Path
 
 try:
     from dotenv import load_dotenv
@@ -24,10 +25,12 @@ except ImportError:  # pragma: no cover - optional convenience only
 try:
     from telethon import TelegramClient
     from telethon.errors import FloodWaitError
+    from telethon.sessions import StringSession
     from telethon.tl.types import Channel, Chat, User
 except ImportError as exc:  # pragma: no cover - handled in main
     TelegramClient = None
     FloodWaitError = None
+    StringSession = None
     Channel = Chat = User = None
     TELETHON_IMPORT_ERROR = exc
 else:
@@ -130,6 +133,54 @@ def _matched_keywords(text: str) -> list[str]:
     return [kw for kw in OPPORTUNITY_KEYWORDS if kw.lower() in lowered]
 
 
+def _session_file_exists() -> bool:
+    session_path = Path(SESSION_NAME)
+    if session_path.exists():
+        return True
+    if session_path.suffix != ".session":
+        return session_path.with_suffix(".session").exists()
+    return False
+
+
+async def _create_authorized_client(api_id: int, api_hash: str):
+    session_string = os.environ.get("TELEGRAM_SESSION_STRING", "").strip()
+    session_string_exists = bool(session_string)
+    session_file_exists = _session_file_exists()
+
+    if session_string_exists:
+        auth_method = "string_session"
+        client = TelegramClient(StringSession(session_string), api_id, api_hash)
+        log.info("session_string_exists=%s", True)
+        log.info("session_file_exists=%s", session_file_exists)
+        log.info("using_auth_method=%s", auth_method)
+        await client.connect()
+        if not await client.is_user_authorized():
+            await client.disconnect()
+            raise RuntimeError("TELEGRAM_SESSION_STRING is not authorized")
+        return client
+
+    if session_file_exists:
+        auth_method = "session_file"
+        client = TelegramClient(SESSION_NAME, api_id, api_hash)
+        log.info("session_string_exists=%s", False)
+        log.info("session_file_exists=%s", True)
+        log.info("using_auth_method=%s", auth_method)
+        await client.connect()
+        if not await client.is_user_authorized():
+            await client.disconnect()
+            raise RuntimeError("Local Telegram session file exists but is not authorized")
+        return client
+
+    auth_method = "phone"
+    phone = _env_str("TELEGRAM_PHONE")
+    client = TelegramClient(SESSION_NAME, api_id, api_hash)
+    log.info("session_string_exists=%s", False)
+    log.info("session_file_exists=%s", False)
+    log.info("using_auth_method=%s", auth_method)
+    await client.start(phone=phone)
+    return client
+
+
 async def _list_candidate_dialogs(client) -> list:
     dialogs = []
     async for dialog in client.iter_dialogs(limit=200):
@@ -202,10 +253,8 @@ async def scrape_telegram_opportunities(
 
     api_id = _env_int("TELEGRAM_API_ID")
     api_hash = _env_str("TELEGRAM_API_HASH")
-    phone = os.environ.get("TELEGRAM_PHONE", "").strip() or None
 
-    client = TelegramClient(SESSION_NAME, api_id, api_hash)
-    await client.start(phone=phone)
+    client = await _create_authorized_client(api_id, api_hash)
 
     try:
         targets = await _resolve_targets(client, target_groups or TARGET_GROUPS)
