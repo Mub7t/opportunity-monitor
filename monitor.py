@@ -51,6 +51,7 @@ from scoring import (
     smart_dedupe_for_email,
 )
 from fingerprint_dedupe import (
+    filter_project_duplicates,
     filter_email_duplicates,
     load_seen_fingerprints,
     remember_project,
@@ -602,6 +603,25 @@ def mark_seen_by_source(project: dict, db: dict, notification_sent: bool = False
     db.setdefault(pid, {})["source"] = project.get("source", "bahr")
 
 
+def log_duplicate_statistics(
+    *,
+    collected: int,
+    skipped_by_id: int,
+    skipped_by_fingerprint: int,
+    skipped_by_similarity: int,
+    final_after_dedup: int,
+    email_count: int,
+) -> None:
+    log.info("=== Duplicate Statistics ===")
+    log.info("Collected opportunities: %d", collected)
+    log.info("Skipped by ID: %d", skipped_by_id)
+    log.info("Skipped by fingerprint: %d", skipped_by_fingerprint)
+    log.info("Skipped by similarity: %d", skipped_by_similarity)
+    log.info("Final opportunities after deduplication: %d", final_after_dedup)
+    log.info("Email opportunities: %d", email_count)
+    log.info("===========================")
+
+
 # ─── Filtering helpers ────────────────────────────────────────────────────────
 
 _JOB_POST_KEYWORDS = [
@@ -730,10 +750,19 @@ def main() -> None:
     if not all_projects:
         log.warning("No projects found this run.")
         log.info("No new opportunities found. Email not sent.")
+        log_duplicate_statistics(
+            collected=0,
+            skipped_by_id=0,
+            skipped_by_fingerprint=0,
+            skipped_by_similarity=0,
+            final_after_dedup=0,
+            email_count=0,
+        )
         log.info("=== Opportunity Monitor Finished ===")
         return
 
     # 3. De-duplicate
+    fingerprint_db = load_seen_fingerprints()
     new_projects = []
     duplicates_skipped_by_id = 0
     for p in all_projects:
@@ -755,8 +784,15 @@ def main() -> None:
     log.info("New opportunities: %d", len(new_projects))
     log.info("Previously seen opportunities: %d", previously_seen)
 
+    deduped_projects, pre_ai_duplicate_stats = filter_project_duplicates(new_projects, fingerprint_db)
+    fingerprint_skipped_total = pre_ai_duplicate_stats.get("fingerprint", 0)
+    similarity_skipped_total = pre_ai_duplicate_stats.get("similarity", 0)
+    log.info("Duplicates skipped by fingerprint: %d", fingerprint_skipped_total)
+    log.info("Duplicates skipped by similarity: %d", similarity_skipped_total)
+    log.info("Final opportunities after deduplication: %d", len(deduped_projects))
+
     # 4. Keyword filter
-    matched = [p for p in new_projects if matches_keywords(p)]
+    matched = [p for p in deduped_projects if matches_keywords(p)]
     log.info("Keyword-matched new projects: %d", len(matched))
 
     # 5. Mark ALL new projects seen NOW (prevents re-checking regardless of match)
@@ -766,9 +802,15 @@ def main() -> None:
     if not matched:
         log.info("No keyword-matched new projects — no notifications sent.")
         log.info("No new opportunities found. Email not sent.")
-        log.info("Duplicates skipped by fingerprint: 0")
-        log.info("Duplicates skipped by fuzzy similarity: 0")
         log.info("Final email opportunities count: 0")
+        log_duplicate_statistics(
+            collected=len(all_projects),
+            skipped_by_id=duplicates_skipped_by_id,
+            skipped_by_fingerprint=fingerprint_skipped_total,
+            skipped_by_similarity=similarity_skipped_total,
+            final_after_dedup=len(deduped_projects),
+            email_count=0,
+        )
         save_seen_db(seen_db)
         log.info("═══ Run complete ═══")
         log.info("=== Opportunity Monitor Finished ===")
@@ -839,8 +881,9 @@ def main() -> None:
         ep for ep in enriched
         if not ep.get("personal_scoring", {}).get("excluded_from_email")
     ])
-    fingerprint_db = load_seen_fingerprints()
     email_candidates, fingerprint_stats = filter_email_duplicates(email_ranked, fingerprint_db)
+    fingerprint_skipped_total += fingerprint_stats.get("fingerprint", 0)
+    similarity_skipped_total += fingerprint_stats.get("similarity", 0)
     email_top = email_candidates[:10]
     log.info(
         "v1.1 scoring complete: analyzed=%d, excluded_job_posts=%d, email_after_smart_dedupe=%d, email_top=%d",
@@ -849,8 +892,8 @@ def main() -> None:
         len(email_ranked),
         len(email_top),
     )
-    log.info("Duplicates skipped by fingerprint: %d", fingerprint_stats.get("fingerprint", 0))
-    log.info("Duplicates skipped by fuzzy similarity: %d", fingerprint_stats.get("similar", 0))
+    log.info("Duplicates skipped by fingerprint: %d", fingerprint_skipped_total)
+    log.info("Duplicates skipped by similarity: %d", similarity_skipped_total)
     log.info("Final email opportunities count: %d", len(email_top))
     log.info(
         "Projects ranked: top=%.1f, golden=%d, high=%d",
@@ -944,6 +987,14 @@ def main() -> None:
 
     # 14. Summary
     stats = get_stats()
+    log_duplicate_statistics(
+        collected=len(all_projects),
+        skipped_by_id=duplicates_skipped_by_id,
+        skipped_by_fingerprint=fingerprint_skipped_total,
+        skipped_by_similarity=similarity_skipped_total,
+        final_after_dedup=len(deduped_projects),
+        email_count=len(email_top),
+    )
     log.info(
         "═══ Run complete — new=%d, matched=%d, golden=%d | DB total=%d ═══",
         len(new_projects), len(matched), golden_count, stats.get("total_projects", 0)
