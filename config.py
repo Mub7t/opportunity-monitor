@@ -40,6 +40,7 @@ def _env_bool(name: str, default: bool = False) -> bool:
 # ─── Paths ────────────────────────────────────────────────────────────────────
 BASE_DIR          = Path(__file__).parent
 SEEN_IDS_FILE     = BASE_DIR / "seen_ids.json"
+SEEN_FINGERPRINTS_FILE = BASE_DIR / "seen_fingerprints.json"
 DB_FILE           = BASE_DIR / "projects.db"          # NEW: SQLite project history
 PREFERENCES_FILE  = BASE_DIR / "preferences.json"     # NEW: personal learning data
 MARKET_REPORT_FILE = BASE_DIR / "market_report.json"  # NEW: weekly market data

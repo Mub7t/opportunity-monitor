@@ -50,6 +50,12 @@ from scoring import (
     build_weekly_summary,
     smart_dedupe_for_email,
 )
+from fingerprint_dedupe import (
+    filter_email_duplicates,
+    load_seen_fingerprints,
+    remember_project,
+    save_seen_fingerprints,
+)
 
 # ─── Logging ──────────────────────────────────────────────────────────────────
 logging.basicConfig(
@@ -729,9 +735,11 @@ def main() -> None:
 
     # 3. De-duplicate
     new_projects = []
+    duplicates_skipped_by_id = 0
     for p in all_projects:
         seen, reason = is_seen_by_source(p, seen_db)
         if seen:
+            duplicates_skipped_by_id += 1
             log.debug(
                 "SKIP (already seen): [%s] %s — %s",
                 p.get("source", "bahr"),
@@ -743,6 +751,7 @@ def main() -> None:
 
     log.info("New (unseen) projects: %d", len(new_projects))
     previously_seen = len(all_projects) - len(new_projects)
+    log.info("Duplicates skipped by ID: %d", duplicates_skipped_by_id)
     log.info("New opportunities: %d", len(new_projects))
     log.info("Previously seen opportunities: %d", previously_seen)
 
@@ -757,6 +766,9 @@ def main() -> None:
     if not matched:
         log.info("No keyword-matched new projects — no notifications sent.")
         log.info("No new opportunities found. Email not sent.")
+        log.info("Duplicates skipped by fingerprint: 0")
+        log.info("Duplicates skipped by fuzzy similarity: 0")
+        log.info("Final email opportunities count: 0")
         save_seen_db(seen_db)
         log.info("═══ Run complete ═══")
         log.info("=== Opportunity Monitor Finished ===")
@@ -827,7 +839,9 @@ def main() -> None:
         ep for ep in enriched
         if not ep.get("personal_scoring", {}).get("excluded_from_email")
     ])
-    email_top = email_ranked[:10]
+    fingerprint_db = load_seen_fingerprints()
+    email_candidates, fingerprint_stats = filter_email_duplicates(email_ranked, fingerprint_db)
+    email_top = email_candidates[:10]
     log.info(
         "v1.1 scoring complete: analyzed=%d, excluded_job_posts=%d, email_after_smart_dedupe=%d, email_top=%d",
         len(enriched),
@@ -835,6 +849,9 @@ def main() -> None:
         len(email_ranked),
         len(email_top),
     )
+    log.info("Duplicates skipped by fingerprint: %d", fingerprint_stats.get("fingerprint", 0))
+    log.info("Duplicates skipped by fuzzy similarity: %d", fingerprint_stats.get("similar", 0))
+    log.info("Final email opportunities count: %d", len(email_top))
     log.info(
         "Projects ranked: top=%.1f, golden=%d, high=%d",
         enriched[0]["composite"] if enriched else 0,
@@ -889,6 +906,9 @@ def main() -> None:
                 weekly_summary=weekly_summary,
             )
             if EMAIL_ENABLED and all([EMAIL_SENDER, EMAIL_PASSWORD, EMAIL_RECEIVER]):
+                for ep in email_top:
+                    remember_project(ep["project"], fingerprint_db)
+                save_seen_fingerprints(fingerprint_db)
                 log.info("Email sent successfully to: %s", EMAIL_RECEIVER)
         except Exception as exc:
             log.exception("Email sending failed: %s", exc)
