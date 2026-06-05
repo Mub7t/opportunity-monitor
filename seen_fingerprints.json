@@ -3672,7 +3672,7 @@
       "السبح"
     ],
     "first_seen": "2026-06-04T04:46:38.453149+00:00",
-    "last_seen": "2026-06-04T23:15:18.628745+00:00"
+    "last_seen": "2026-06-05T04:22:36.595468+00:00"
   },
   "ec3bf36298e6c26daab9cbfbc243e185515e79a028e4067d6f1a8a009a5261ac": {
     "fingerprint": "ec3bf36298e6c26daab9cbfbc243e185515e79a028e4067d6f1a8a009a5261ac",
@@ -3687,7 +3687,7 @@
       "مايكرووبليدينج"
     ],
     "first_seen": "2026-06-04T04:46:38.453247+00:00",
-    "last_seen": "2026-06-04T23:15:18.628836+00:00"
+    "last_seen": "2026-06-05T04:22:36.595539+00:00"
   },
   "eab47bd0cef12fc7e3dc534b4b8a238e703bed0e0256de7d59f6ba05f60ec9da": {
     "fingerprint": "eab47bd0cef12fc7e3dc534b4b8a238e703bed0e0256de7d59f6ba05f60ec9da",
@@ -3706,7 +3706,7 @@
       "فله"
     ],
     "first_seen": "2026-06-04T04:46:38.453352+00:00",
-    "last_seen": "2026-06-04T23:15:18.628936+00:00"
+    "last_seen": "2026-06-05T04:22:36.595617+00:00"
   },
   "407f1b00f7e2b397c2233df6b630a45a1e6bb3b239661dab01102f617f77737b": {
     "fingerprint": "407f1b00f7e2b397c2233df6b630a45a1e6bb3b239661dab01102f617f77737b",
@@ -4563,5 +4563,158 @@
     ],
     "first_seen": "2026-06-04T23:15:18.629451+00:00",
     "last_seen": "2026-06-04T23:15:18.629453+00:00"
+  },
+  "5a6ec37fa93a287ec70023072f73dea008854f0ff7f52ffbeb80d8aeda63b519": {
+    "fingerprint": "5a6ec37fa93a287ec70023072f73dea008854f0ff7f52ffbeb80d8aeda63b519",
+    "title_fingerprint": "4f08c535e9012f5d79a682e126a89e86046a7b9c4f0d179dd88ae1992cd5bb3c",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/019e91fb-6196-71e9-8c37-7e2ff5f6c082",
+    "title": "تصميم كتيب رقمي تفاعلي على منصة Canva او أحد تطبيقات أدوبي",
+    "normalized_title": "تصميم كتيب رقمي تفاعلي علي منصه canva او احد تطبيقات ادوبي",
+    "normalized_description": "بالمشروع منشور في 04 06 2026 تصميم جرافيك",
+    "normalized_text": "تصميم كتيب رقمي تفاعلي علي منصه canva او احد تطبيقات ادوبي بالمشروع منشور في 04 06 2026 تصميم جرافيك",
+    "title_tokens": [
+      "تصميم",
+      "كتيب",
+      "رقمي",
+      "تفاعلي",
+      "علي",
+      "منصه",
+      "canva",
+      "او",
+      "احد",
+      "تطبيقات",
+      "ادوبي"
+    ],
+    "first_seen": "2026-06-05T04:22:36.594840+00:00",
+    "last_seen": "2026-06-05T04:22:36.594843+00:00"
+  },
+  "d54534008923bc809f783fd83841aaf9be293510797bdd9c92d3ea5299b1a10a": {
+    "fingerprint": "d54534008923bc809f783fd83841aaf9be293510797bdd9c92d3ea5299b1a10a",
+    "title_fingerprint": "f154b1760324806ab415590e1bc0d5860f063a4a70646f51d90ff7808d27dbd7",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/019e8fb8-29b3-7475-92b3-385687366cc9",
+    "title": "تصميم ملف تسويقي",
+    "normalized_title": "تصميم ملف تسويقي",
+    "normalized_description": "بالمشروع منشور في 04 06 2026 تصميم جرافيك",
+    "normalized_text": "تصميم ملف تسويقي بالمشروع منشور في 04 06 2026 تصميم جرافيك",
+    "title_tokens": [
+      "تصميم",
+      "ملف",
+      "تسويقي"
+    ],
+    "first_seen": "2026-06-05T04:22:36.594912+00:00",
+    "last_seen": "2026-06-05T04:22:36.594914+00:00"
+  },
+  "16c3396c4b07e7c553a4e1f4a784d5021bf2ad3b35c15c2220cfdf2d1b675a18": {
+    "fingerprint": "16c3396c4b07e7c553a4e1f4a784d5021bf2ad3b35c15c2220cfdf2d1b675a18",
+    "title_fingerprint": "a063454a62d0202fe160d336b6e807d0b3646a87ef93c04bf9a823ba9eadce38",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/019e8fa1-d3a2-7898-9cac-11729ad5056c",
+    "title": "مطلوب خبير تقني ومونتير لإعداد ستريم كامل وربط حسابات (جدة)",
+    "normalized_title": "مطلوب خبير تقني ومونتير لاعداد ستريم كامل وربط حسابات جده",
+    "normalized_description": "شهري منشور في 04 06 2026 الفيديو و التصوير اخري",
+    "normalized_text": "مطلوب خبير تقني ومونتير لاعداد ستريم كامل وربط حسابات جده شهري منشور في 04 06 2026 الفيديو و التصوير اخري",
+    "title_tokens": [
+      "مطلوب",
+      "خبير",
+      "تقني",
+      "ومونتير",
+      "لاعداد",
+      "ستريم",
+      "كامل",
+      "وربط",
+      "حسابات",
+      "جده"
+    ],
+    "first_seen": "2026-06-05T04:22:36.595026+00:00",
+    "last_seen": "2026-06-05T04:22:36.595028+00:00"
+  },
+  "8c69cc3fd7cc27c8c6eb19cc7433a7e9dd697e4683ea6f259c36f77ff19837bb": {
+    "fingerprint": "8c69cc3fd7cc27c8c6eb19cc7433a7e9dd697e4683ea6f259c36f77ff19837bb",
+    "title_fingerprint": "7eb1a78b5bac2697910743ce21e1a77c3b0d7f22b98d1ebea9f3e49c20a4bce6",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/019e8e88-541d-778b-830d-8d7a152b6f03",
+    "title": "اريد رفع قضية مالية على شخص عبر ناجز",
+    "normalized_title": "اريد رفع قضيه ماليه علي شخص عبر ناجز",
+    "normalized_description": "بالمشروع منشور في 04 06 2026 القانون",
+    "normalized_text": "اريد رفع قضيه ماليه علي شخص عبر ناجز بالمشروع منشور في 04 06 2026 القانون",
+    "title_tokens": [
+      "اريد",
+      "رفع",
+      "قضيه",
+      "ماليه",
+      "علي",
+      "شخص",
+      "عبر",
+      "ناجز"
+    ],
+    "first_seen": "2026-06-05T04:22:36.595109+00:00",
+    "last_seen": "2026-06-05T04:22:36.595111+00:00"
+  },
+  "9601853449bc5a3893b7b84336013c65b0f3ae4845359a154d37f17f77f3eda3": {
+    "fingerprint": "9601853449bc5a3893b7b84336013c65b0f3ae4845359a154d37f17f77f3eda3",
+    "title_fingerprint": "e0cef19d4062ab428e219505ef9e3e1ffc4172b4836f2ae46bf13f471d014893",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/019e8df3-0f1e-741e-99e6-c70a3e67476b",
+    "title": "مطلوب محاسب بالعمل عن بعد",
+    "normalized_title": "مطلوب محاسب بالعمل عن بعد",
+    "normalized_description": "شهري منشور في 04 06 2026 المحاسبه و الاستشارات",
+    "normalized_text": "مطلوب محاسب بالعمل عن بعد شهري منشور في 04 06 2026 المحاسبه و الاستشارات",
+    "title_tokens": [
+      "مطلوب",
+      "محاسب",
+      "بالعمل",
+      "عن",
+      "بعد"
+    ],
+    "first_seen": "2026-06-05T04:22:36.595190+00:00",
+    "last_seen": "2026-06-05T04:22:36.595192+00:00"
+  },
+  "f63a27b912ea97d66e608c4d51cbd37c7d3cbff581156b85ce349f728a109d5e": {
+    "fingerprint": "f63a27b912ea97d66e608c4d51cbd37c7d3cbff581156b85ce349f728a109d5e",
+    "title_fingerprint": "fd91dbe0ef05b53898ef5bfa38ed8eb75b97fa845fbf66b7f276e2f08c7ec567",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/019e8dc1-5d78-7aff-9a52-dd5d558d26ce",
+    "title": "مطلوب متخصص لإدخال منتجات وكتابة وصف بيعي لمتجر مشدات (منصة سلة)",
+    "normalized_title": "مطلوب متخصص لادخال منتجات وكتابه وصف بيعي لمتجر مشدات منصه سله",
+    "normalized_description": "بالمشروع منشور في 04 06 2026 ادخال البيانات",
+    "normalized_text": "مطلوب متخصص لادخال منتجات وكتابه وصف بيعي لمتجر مشدات منصه سله بالمشروع منشور في 04 06 2026 ادخال البيانات",
+    "title_tokens": [
+      "مطلوب",
+      "متخصص",
+      "لادخال",
+      "منتجات",
+      "وكتابه",
+      "وصف",
+      "بيعي",
+      "لمتجر",
+      "مشدات",
+      "منصه",
+      "سله"
+    ],
+    "first_seen": "2026-06-05T04:22:36.595298+00:00",
+    "last_seen": "2026-06-05T04:22:36.595300+00:00"
+  },
+  "404a7d97d00f5a10d8db1c69305c426f3d2cf993d9fbf49e3f5e0d591b0f18c2": {
+    "fingerprint": "404a7d97d00f5a10d8db1c69305c426f3d2cf993d9fbf49e3f5e0d591b0f18c2",
+    "title_fingerprint": "4b61185e46cf4530ac7b0c17d746fcbe81d25014a77acad19d0157970e5fae10",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/019e9180-f7a7-77ed-a97b-fccf0bfcddf1",
+    "title": "مطلوب صانع محتوى تيك توك (تصوير + نشر)",
+    "normalized_title": "مطلوب صانع محتوي تيك توك تصوير نشر",
+    "normalized_description": "شهري مجدول منشور في 04 06 2026",
+    "normalized_text": "مطلوب صانع محتوي تيك توك تصوير نشر شهري مجدول منشور في 04 06 2026",
+    "title_tokens": [
+      "مطلوب",
+      "صانع",
+      "محتوي",
+      "تيك",
+      "توك",
+      "تصوير",
+      "نشر"
+    ],
+    "first_seen": "2026-06-05T04:22:36.595392+00:00",
+    "last_seen": "2026-06-05T04:22:36.595393+00:00"
   }
 }
