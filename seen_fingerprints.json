@@ -18,7 +18,7 @@
       "النقاش"
     ],
     "first_seen": "2026-06-01T21:00:08.566309+00:00",
-    "last_seen": "2026-06-10T22:10:49.726503+00:00"
+    "last_seen": "2026-06-11T00:22:49.946001+00:00"
   },
   "b968c45dc2ec315324c2dbec253a1d129c3dd9e9e86aa25f00bb8f6dd75cd465": {
     "fingerprint": "b968c45dc2ec315324c2dbec253a1d129c3dd9e9e86aa25f00bb8f6dd75cd465",
@@ -86,129 +86,6 @@
     ],
     "first_seen": "2026-06-03T04:52:34.891647+00:00",
     "last_seen": "2026-06-04T04:46:38.454184+00:00"
-  },
-  "6b721985533d9a8343bd8a909255d6e8684f60dab55ab65d5bcfc9aa5a8dcdc9": {
-    "fingerprint": "6b721985533d9a8343bd8a909255d6e8684f60dab55ab65d5bcfc9aa5a8dcdc9",
-    "title_fingerprint": "9b39011856e93de4861b1c688c83956ed585ded212b2ed11080958f030ab7a8a",
-    "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019e8923-967d-73a1-ba6e-359113639880",
-    "title": "تسويق وبيع السبح",
-    "normalized_title": "تسويق وبيع السبح",
-    "normalized_description": "بالمشروع منشور في اليوم التسويق و المبيعات",
-    "normalized_text": "تسويق وبيع السبح بالمشروع منشور في اليوم التسويق و المبيعات",
-    "title_tokens": [
-      "تسويق",
-      "وبيع",
-      "السبح"
-    ],
-    "first_seen": "2026-06-03T09:59:49.496891+00:00",
-    "last_seen": "2026-06-03T23:50:57.273363+00:00"
-  },
-  "d06e4573ee4da3c661d897313792dbd630f6a3ef2c4d8d9c8d256b41f9cb2f56": {
-    "fingerprint": "d06e4573ee4da3c661d897313792dbd630f6a3ef2c4d8d9c8d256b41f9cb2f56",
-    "title_fingerprint": "43f7eb3b3ee4401474a40a9cb374bcf1eebd700d1779a0ddfb447f5d0cc8c8cd",
-    "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019e8988-ecbb-7169-bb8f-f38810551842",
-    "title": "مايكرووبليدينج",
-    "normalized_title": "مايكرووبليدينج",
-    "normalized_description": "بالمشروع منشور في اليوم التواصل الاجتماعي",
-    "normalized_text": "مايكرووبليدينج بالمشروع منشور في اليوم التواصل الاجتماعي",
-    "title_tokens": [
-      "مايكرووبليدينج"
-    ],
-    "first_seen": "2026-06-03T09:59:49.496958+00:00",
-    "last_seen": "2026-06-03T23:50:57.273457+00:00"
-  },
-  "0aff2321f276f6542f3abbf2ca0389f9f0be2bfb33771604cf0336c299619be0": {
-    "fingerprint": "0aff2321f276f6542f3abbf2ca0389f9f0be2bfb33771604cf0336c299619be0",
-    "title_fingerprint": "1ade072cdd59e4d7aa8e9bfde971cc87acf18812694ad18da2244eb926630067",
-    "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019e8a08-042a-7059-8387-6198325fa0a9",
-    "title": "تعديل علي كروكي وتصميم فلة",
-    "normalized_title": "تعديل علي كروكي وتصميم فله",
-    "normalized_description": "بالمشروع منشور في اليوم الهندسه والبناء",
-    "normalized_text": "تعديل علي كروكي وتصميم فله بالمشروع منشور في اليوم الهندسه والبناء",
-    "title_tokens": [
-      "تعديل",
-      "علي",
-      "كروكي",
-      "وتصميم",
-      "فله"
-    ],
-    "first_seen": "2026-06-03T09:59:49.497035+00:00",
-    "last_seen": "2026-06-03T23:50:57.273586+00:00"
-  },
-  "3bdfca855479d358ecf70bb8d041a1cacafd82c8f8749fe38e975623b819244e": {
-    "fingerprint": "3bdfca855479d358ecf70bb8d041a1cacafd82c8f8749fe38e975623b819244e",
-    "title_fingerprint": "a77aab7f47efe5cd620cf244c3b52b6f339be6cce7c6f53574a728583f34ec5f",
-    "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019e8949-8cd6-7c4e-8f68-00dec1db079e",
-    "title": "براند عطور",
-    "normalized_title": "براند عطور",
-    "normalized_description": "بالمشروع منشور في اليوم تصميم جرافيك",
-    "normalized_text": "براند عطور بالمشروع منشور في اليوم تصميم جرافيك",
-    "title_tokens": [
-      "براند",
-      "عطور"
-    ],
-    "first_seen": "2026-06-03T09:59:49.497095+00:00",
-    "last_seen": "2026-06-03T23:50:57.273667+00:00"
-  },
-  "f779058b0b6a787443c670994e0661c72a6853686cbb48f19649d64e4ae7337c": {
-    "fingerprint": "f779058b0b6a787443c670994e0661c72a6853686cbb48f19649d64e4ae7337c",
-    "title_fingerprint": "f9524d0232c64c4a1f2adbc939d7e9eedd94629d8906805952b381bcf7b78a82",
-    "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019e8920-55fa-7661-b459-f647db74011a",
-    "title": "مصمم فيديوهات",
-    "normalized_title": "مصمم فيديوهات",
-    "normalized_description": "شهري مجدول منشور في اليوم",
-    "normalized_text": "مصمم فيديوهات شهري مجدول منشور في اليوم",
-    "title_tokens": [
-      "مصمم",
-      "فيديوهات"
-    ],
-    "first_seen": "2026-06-03T09:59:49.497149+00:00",
-    "last_seen": "2026-06-03T23:50:57.273740+00:00"
-  },
-  "8c43c48750f1b5180e2c1d249fa786f0785b23419080a2dd2941c534ed968647": {
-    "fingerprint": "8c43c48750f1b5180e2c1d249fa786f0785b23419080a2dd2941c534ed968647",
-    "title_fingerprint": "fd430c511d3052160dbccd291619238c80a8c5360f5afcdc4f7a61903e780989",
-    "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019e8902-9b07-74ca-a2e8-b6ace7e65e9d",
-    "title": "مصمم بوستات وكراتين مهم الخبرة العالية",
-    "normalized_title": "مصمم بوستات وكراتين مهم الخبره العاليه",
-    "normalized_description": "شهري منشور في اليوم التصميم و الابتكار",
-    "normalized_text": "مصمم بوستات وكراتين مهم الخبره العاليه شهري منشور في اليوم التصميم و الابتكار",
-    "title_tokens": [
-      "مصمم",
-      "بوستات",
-      "وكراتين",
-      "مهم",
-      "الخبره",
-      "العاليه"
-    ],
-    "first_seen": "2026-06-03T09:59:49.497234+00:00",
-    "last_seen": "2026-06-03T23:50:57.273850+00:00"
-  },
-  "8890c7bcb13d7e89ca08d2e568633852d830e2ce3d0d5dda6269d1b9c7e1fa57": {
-    "fingerprint": "8890c7bcb13d7e89ca08d2e568633852d830e2ce3d0d5dda6269d1b9c7e1fa57",
-    "title_fingerprint": "533a91a169bbdbb40aa40ccfe7c83d8b3fdcbe19fa0746a894079ca5b9d16cae",
-    "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019e883b-a4fc-7a4c-b4fb-e0d9d8d5477b",
-    "title": "مطلوب مسؤول حملات إعلانية (واتساب + تيليقرام)",
-    "normalized_title": "مطلوب مسؤول حملات اعلانيه واتساب تيليقرام",
-    "normalized_description": "بالمشروع منشور في اليوم التسويق الرقمي اخري",
-    "normalized_text": "مطلوب مسؤول حملات اعلانيه واتساب تيليقرام بالمشروع منشور في اليوم التسويق الرقمي اخري",
-    "title_tokens": [
-      "مطلوب",
-      "مسؤول",
-      "حملات",
-      "اعلانيه",
-      "واتساب",
-      "تيليقرام"
-    ],
-    "first_seen": "2026-06-03T09:59:49.497366+00:00",
-    "last_seen": "2026-06-03T23:50:57.273979+00:00"
   },
   "c3221116df12bf276e907f145c42c7a8b6cd63d88d3f330af47a2cd7dd69aadc": {
     "fingerprint": "c3221116df12bf276e907f145c42c7a8b6cd63d88d3f330af47a2cd7dd69aadc",
@@ -8561,7 +8438,7 @@
       "السريع"
     ],
     "first_seen": "2026-06-10T04:19:00.348741+00:00",
-    "last_seen": "2026-06-10T22:10:49.724294+00:00"
+    "last_seen": "2026-06-11T00:22:49.943041+00:00"
   },
   "efaf72d040993e7ffdf9069271ff8cbda026830e57f88abbbba71c65125c6148": {
     "fingerprint": "efaf72d040993e7ffdf9069271ff8cbda026830e57f88abbbba71c65125c6148",
@@ -8579,7 +8456,7 @@
       "عملاء"
     ],
     "first_seen": "2026-06-10T04:19:00.348897+00:00",
-    "last_seen": "2026-06-10T22:10:49.724365+00:00"
+    "last_seen": "2026-06-11T00:22:49.943137+00:00"
   },
   "42aa265b39d7dc1f83ca6e4ae6179bc991f14956db9ae1be5e78020c01121e0f": {
     "fingerprint": "42aa265b39d7dc1f83ca6e4ae6179bc991f14956db9ae1be5e78020c01121e0f",
@@ -8599,7 +8476,7 @@
       "كوم"
     ],
     "first_seen": "2026-06-10T04:19:00.349046+00:00",
-    "last_seen": "2026-06-10T22:10:49.724445+00:00"
+    "last_seen": "2026-06-11T00:22:49.943248+00:00"
   },
   "733e1d5ffa85e3eadc45f4325a89c78afc74cee3926ef344205d6f8b451b35e0": {
     "fingerprint": "733e1d5ffa85e3eadc45f4325a89c78afc74cee3926ef344205d6f8b451b35e0",
@@ -8672,7 +8549,7 @@
       "معروفه"
     ],
     "first_seen": "2026-06-10T04:19:00.349621+00:00",
-    "last_seen": "2026-06-10T22:10:49.724534+00:00"
+    "last_seen": "2026-06-11T00:22:49.943367+00:00"
   },
   "cbe18e1d436d652058ec7d8568733a252e318ade4de5dce1a40d8fdb09f7da0a": {
     "fingerprint": "cbe18e1d436d652058ec7d8568733a252e318ade4de5dce1a40d8fdb09f7da0a",
@@ -9708,7 +9585,7 @@
       "js"
     ],
     "first_seen": "2026-06-10T22:10:49.724962+00:00",
-    "last_seen": "2026-06-10T22:10:49.724964+00:00"
+    "last_seen": "2026-06-11T00:22:49.943962+00:00"
   },
   "af4815168e89d02c5cef3f337ee0d8c34772ecb88407b48cb2fd8c390abee3e1": {
     "fingerprint": "af4815168e89d02c5cef3f337ee0d8c34772ecb88407b48cb2fd8c390abee3e1",
@@ -9730,7 +9607,7 @@
       "بريس"
     ],
     "first_seen": "2026-06-10T22:10:49.725362+00:00",
-    "last_seen": "2026-06-10T22:10:49.725364+00:00"
+    "last_seen": "2026-06-11T00:22:49.944501+00:00"
   },
   "89ab7a01cb08bd5995caced24c34c0e3148584107224a75f9f59574bc3afe84e": {
     "fingerprint": "89ab7a01cb08bd5995caced24c34c0e3148584107224a75f9f59574bc3afe84e",
@@ -9751,7 +9628,7 @@
       "deployment"
     ],
     "first_seen": "2026-06-10T22:10:49.725548+00:00",
-    "last_seen": "2026-06-10T22:10:49.725549+00:00"
+    "last_seen": "2026-06-11T00:22:49.944728+00:00"
   },
   "929493921a1131c8616022e8d073321f8fa0f93c4c11846efd06045948411445": {
     "fingerprint": "929493921a1131c8616022e8d073321f8fa0f93c4c11846efd06045948411445",
@@ -9769,7 +9646,7 @@
       "سيرفس"
     ],
     "first_seen": "2026-06-10T22:10:49.725708+00:00",
-    "last_seen": "2026-06-10T22:10:49.725709+00:00"
+    "last_seen": "2026-06-11T00:22:49.944940+00:00"
   },
   "3ed3341f31c2ed5e287574974dc2445e8aa99012437a15e8ac02208a158cb1be": {
     "fingerprint": "3ed3341f31c2ed5e287574974dc2445e8aa99012437a15e8ac02208a158cb1be",
@@ -9787,7 +9664,7 @@
       "الموظفين"
     ],
     "first_seen": "2026-06-10T22:10:49.726095+00:00",
-    "last_seen": "2026-06-10T22:10:49.726097+00:00"
+    "last_seen": "2026-06-11T00:22:49.945468+00:00"
   },
   "f54babb7e5ce8407ed6ba670637fd4c0efcb2bc9cb01260be0df1b5423c3c305": {
     "fingerprint": "f54babb7e5ce8407ed6ba670637fd4c0efcb2bc9cb01260be0df1b5423c3c305",
@@ -9805,7 +9682,7 @@
       "erpnext"
     ],
     "first_seen": "2026-06-10T22:10:49.726715+00:00",
-    "last_seen": "2026-06-10T22:10:49.726717+00:00"
+    "last_seen": "2026-06-11T00:22:49.946282+00:00"
   },
   "03a66bfd85b80a4ffa4ab70e24809d321335e976277e77041b87fe41dcaa9d2e": {
     "fingerprint": "03a66bfd85b80a4ffa4ab70e24809d321335e976277e77041b87fe41dcaa9d2e",
@@ -9824,7 +9701,7 @@
       "لغه"
     ],
     "first_seen": "2026-06-10T22:10:49.726842+00:00",
-    "last_seen": "2026-06-10T22:10:49.726844+00:00"
+    "last_seen": "2026-06-11T00:22:49.946465+00:00"
   },
   "47da4df044f0c613e4f141d01ef98f68ed0c28ca04a99f941fec2b65c2649218": {
     "fingerprint": "47da4df044f0c613e4f141d01ef98f68ed0c28ca04a99f941fec2b65c2649218",
@@ -9840,7 +9717,7 @@
       "الانجليزيه"
     ],
     "first_seen": "2026-06-10T22:10:49.726906+00:00",
-    "last_seen": "2026-06-10T22:10:49.726908+00:00"
+    "last_seen": "2026-06-11T00:22:49.946549+00:00"
   },
   "91c1320b5dd4fef0ed0266d5791be1255594acf63e20c9d610f4f68e60069665": {
     "fingerprint": "91c1320b5dd4fef0ed0266d5791be1255594acf63e20c9d610f4f68e60069665",
@@ -9864,6 +9741,132 @@
       "boldjourney"
     ],
     "first_seen": "2026-06-10T22:10:49.727338+00:00",
-    "last_seen": "2026-06-10T22:10:49.727340+00:00"
+    "last_seen": "2026-06-11T00:22:49.947121+00:00"
+  },
+  "6d004cbf4558cafdfa273e8c5643cabf0842a1aee0488c398bcc1ba5f9fc9625": {
+    "fingerprint": "6d004cbf4558cafdfa273e8c5643cabf0842a1aee0488c398bcc1ba5f9fc9625",
+    "title_fingerprint": "f0249e7fe04ab09f286fdd7eed1d90c4b47beef53861efb3acde968bfca95dcb",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/019eb266-b077-7f13-b300-2bf4da04b256",
+    "title": "تصميم داخلي ولاندسكيب",
+    "normalized_title": "تصميم داخلي ولاندسكيب",
+    "normalized_description": "بالمشروع منشور في 10 06 2026 التصميم الداخلي",
+    "normalized_text": "تصميم داخلي ولاندسكيب بالمشروع منشور في 10 06 2026 التصميم الداخلي",
+    "title_tokens": [
+      "تصميم",
+      "داخلي",
+      "ولاندسكيب"
+    ],
+    "first_seen": "2026-06-11T00:22:49.942123+00:00",
+    "last_seen": "2026-06-11T00:22:49.942129+00:00"
+  },
+  "ae3181bd0330553b266b46fb18e34735fee8fa624c50d203df7f1608c83846a9": {
+    "fingerprint": "ae3181bd0330553b266b46fb18e34735fee8fa624c50d203df7f1608c83846a9",
+    "title_fingerprint": "0d7356b4a7046e977b4c209617bbf6fd0b3f9b8ba971a38aa68b410eedd2124d",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/019eb1ce-4d5e-75c4-bd3a-47ede53f69c8",
+    "title": "حل جذري ونهائي لمشكلة اختفاء وتعارض ملف ads.txt لمدونة ووردبريس على استضافة Hostinger",
+    "normalized_title": "حل جذري ونهائي لمشكله اختفاء وتعارض ملف ads txt لمدونه ووردبريس علي استضافه hostinger",
+    "normalized_description": "بالمشروع منشور في 10 06 2026 برمجه الويب",
+    "normalized_text": "حل جذري ونهائي لمشكله اختفاء وتعارض ملف ads txt لمدونه ووردبريس علي استضافه hostinger بالمشروع منشور في 10 06 2026 برمجه الويب",
+    "title_tokens": [
+      "حل",
+      "جذري",
+      "ونهائي",
+      "لمشكله",
+      "اختفاء",
+      "وتعارض",
+      "ملف",
+      "ads",
+      "txt",
+      "لمدونه",
+      "ووردبريس",
+      "علي",
+      "استضافه",
+      "hostinger"
+    ],
+    "first_seen": "2026-06-11T00:22:49.942300+00:00",
+    "last_seen": "2026-06-11T00:22:49.942303+00:00"
+  },
+  "1ab04467084aac9676da3ae586003839fc426a57f5c2584c02a7b1e94c8e51fb": {
+    "fingerprint": "1ab04467084aac9676da3ae586003839fc426a57f5c2584c02a7b1e94c8e51fb",
+    "title_fingerprint": "b5ade5b1b6b6feafc7cff78d322bb7b25cf1fb0bf88274992911872d266c49c6",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/019eb17c-2fa3-7ac3-bbd5-4e82f657b7c5",
+    "title": "تصميم خرائط معمارية الى صور احترافية",
+    "normalized_title": "تصميم خرائط معماريه الي صور احترافيه",
+    "normalized_description": "بالمشروع منشور في 10 06 2026 التصميم الداخلي",
+    "normalized_text": "تصميم خرائط معماريه الي صور احترافيه بالمشروع منشور في 10 06 2026 التصميم الداخلي",
+    "title_tokens": [
+      "تصميم",
+      "خرائط",
+      "معماريه",
+      "الي",
+      "صور",
+      "احترافيه"
+    ],
+    "first_seen": "2026-06-11T00:22:49.942464+00:00",
+    "last_seen": "2026-06-11T00:22:49.942470+00:00"
+  },
+  "9a9bfaabdde1525c83bdd325e2a51f75f522af5c52deabb34218e71e6e11dc4a": {
+    "fingerprint": "9a9bfaabdde1525c83bdd325e2a51f75f522af5c52deabb34218e71e6e11dc4a",
+    "title_fingerprint": "52a939010da0d5d2ad89d477f083c909405818eeb4209c5e0a45c0b0bab63a38",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/019eb138-316f-7374-b63a-b4f33498c88a",
+    "title": "محتاجين موظف Junior في انشاء المحتوى والسوشيل ميديا 📱",
+    "normalized_title": "محتاجين موظف junior في انشاء المحتوي والسوشيل ميديا",
+    "normalized_description": "شهري منشور في 10 06 2026 التسويق الرقمي اخري",
+    "normalized_text": "محتاجين موظف junior في انشاء المحتوي والسوشيل ميديا شهري منشور في 10 06 2026 التسويق الرقمي اخري",
+    "title_tokens": [
+      "محتاجين",
+      "موظف",
+      "junior",
+      "في",
+      "انشاء",
+      "المحتوي",
+      "والسوشيل",
+      "ميديا"
+    ],
+    "first_seen": "2026-06-11T00:22:49.942626+00:00",
+    "last_seen": "2026-06-11T00:22:49.942630+00:00"
+  },
+  "fd5cdd0014d7ab5dc30f04664b08fb58e063717923d1687ec4ca0d44c939e068": {
+    "fingerprint": "fd5cdd0014d7ab5dc30f04664b08fb58e063717923d1687ec4ca0d44c939e068",
+    "title_fingerprint": "911ad546520641d22b60d960b3a5dd01419f54c5c03ca82fedaa822f4208f604",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/019eb122-a6f9-7a0c-8786-6c85e0336356",
+    "title": "تطوير واجهة مستخدم بإستخدام الخوارزميات والذكاء الاصطناعي (2)",
+    "normalized_title": "تطوير واجهه مستخدم باستخدام الخوارزميات والذكاء الاصطناعي 2",
+    "normalized_description": "بالمشروع منشور في 10 06 2026 تطوير البرامج",
+    "normalized_text": "تطوير واجهه مستخدم باستخدام الخوارزميات والذكاء الاصطناعي 2 بالمشروع منشور في 10 06 2026 تطوير البرامج",
+    "title_tokens": [
+      "تطوير",
+      "واجهه",
+      "مستخدم",
+      "باستخدام",
+      "الخوارزميات",
+      "والذكاء",
+      "الاصطناعي"
+    ],
+    "first_seen": "2026-06-11T00:22:49.942777+00:00",
+    "last_seen": "2026-06-11T00:22:49.942779+00:00"
+  },
+  "053dbf84ca136e6165b0de7de4655fcc95e8e0bd9851fe10c275ff6fe7e00691": {
+    "fingerprint": "053dbf84ca136e6165b0de7de4655fcc95e8e0bd9851fe10c275ff6fe7e00691",
+    "title_fingerprint": "0ad50177c32f54687e76f06c1844031311301366cd63fe2549740f41e9503b26",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/019eb0f7-57fd-7133-9041-64e2ce91872b",
+    "title": "تسويق لمؤسسة مقاولات عامة",
+    "normalized_title": "تسويق لمؤسسه مقاولات عامه",
+    "normalized_description": "بالمشروع منشور في 10 06 2026 التسويق و المبيعات",
+    "normalized_text": "تسويق لمؤسسه مقاولات عامه بالمشروع منشور في 10 06 2026 التسويق و المبيعات",
+    "title_tokens": [
+      "تسويق",
+      "لمؤسسه",
+      "مقاولات",
+      "عامه"
+    ],
+    "first_seen": "2026-06-11T00:22:49.942885+00:00",
+    "last_seen": "2026-06-11T00:22:49.942887+00:00"
   }
 }
