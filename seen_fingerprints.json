@@ -29,7 +29,7 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-06-20T22:16:01.033242+00:00"
+    "last_seen": "2026-06-21T00:15:33.000558+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
@@ -45,7 +45,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-06-20T22:16:01.033090+00:00"
+    "last_seen": "2026-06-21T00:15:33.000429+00:00"
   },
   "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781": {
     "fingerprint": "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781",
@@ -60,7 +60,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-06-11T10:54:50.332677+00:00",
-    "last_seen": "2026-06-20T22:16:01.033335+00:00"
+    "last_seen": "2026-06-21T00:15:33.000613+00:00"
   },
   "25b7c6616adfaac9e88773b593eeaba1f0bd20080fabf6211fa3a5d928af0e0f": {
     "fingerprint": "25b7c6616adfaac9e88773b593eeaba1f0bd20080fabf6211fa3a5d928af0e0f",
@@ -161,27 +161,6 @@
     ],
     "first_seen": "2026-06-13T20:22:02.304462+00:00",
     "last_seen": "2026-06-14T05:56:56.731146+00:00"
-  },
-  "2b9b27abea7155a78623c756725dddba48504205d4f7481e15effe4629b67441": {
-    "fingerprint": "2b9b27abea7155a78623c756725dddba48504205d4f7481e15effe4629b67441",
-    "title_fingerprint": "e5b5e6126b96b8f3e36113e1ca1850bdb2ff26b09b6fbbba757e1dfb0429d059",
-    "source": "mostaql",
-    "url": "https://mostaql.com/project/1249581-%D9%85%D8%B7%D9%84%D9%88%D8%A8-media-buyer-%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%B5%D9%8A%D8%A7%D9%86%D8%A9-%D9%85%D9%86%D8%B2%D9%84%D9%8A%D8%A9-%D9%88%D9%85%D9%82%D8%A7%D9%88%D9%84%D8%A7%D8%AA",
-    "title": "مطلوب Media Buyer لشركة صيانة منزلية ومقاولات",
-    "normalized_title": "مطلوب media buyer لشركه صيانه منزليه ومقاولات",
-    "normalized_description": "مطلوب media buyer متخصص في facebook instagram ads لشركه خدمات وصيانه منزليه هدفنا الرئيسي هو الحصول علي qualified leads باقل تكلفه ممكنه وربط العملاء بمنظومه whatsapp وcrm للمتابعه والتحويل لاحقا نبحث عن شخص لديه خبره عمليه في facebook ads instagram ads whatsapp lead generation lead qualification home services او المجالات الخدميه المشابهه المهام المطلوبه اعداد وتشغيل الحملات الاعلانيه اقتراح زوايا اعلانيه creative angles مناس",
-    "normalized_text": "مطلوب media buyer لشركه صيانه منزليه ومقاولات مطلوب media buyer متخصص في facebook instagram ads لشركه خدمات وصيانه منزليه هدفنا الرئيسي هو الحصول علي qualified leads باقل تكلفه ممكنه وربط العملاء بمنظومه whatsapp وcrm للمتابعه والتحويل لاحقا نبحث عن شخص لديه خبره عمليه في facebook ads instagram ads whatsapp lead generation lead qualification home services او المجالات الخدميه المشابهه المهام المطلوبه اعداد وتشغيل الحملات الاعلانيه اقتراح زوايا اعلانيه creative angles مناس",
-    "title_tokens": [
-      "مطلوب",
-      "media",
-      "buyer",
-      "لشركه",
-      "صيانه",
-      "منزليه",
-      "ومقاولات"
-    ],
-    "first_seen": "2026-06-13T20:22:02.304967+00:00",
-    "last_seen": "2026-06-14T00:15:20.215875+00:00"
   },
   "6ffdcc9dd7216b4a5d4b875bf215400232fb7a20a728a4f51d054b74f9706c1f": {
     "fingerprint": "6ffdcc9dd7216b4a5d4b875bf215400232fb7a20a728a4f51d054b74f9706c1f",
@@ -2424,7 +2403,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-06-16T11:24:48.579596+00:00",
-    "last_seen": "2026-06-20T22:16:01.032851+00:00"
+    "last_seen": "2026-06-21T00:15:33.000213+00:00"
   },
   "039b1ecf6de63ea5ec1970b0f522e9c2be42b06bb0a8190d4ce58d66bf7e3dd3": {
     "fingerprint": "039b1ecf6de63ea5ec1970b0f522e9c2be42b06bb0a8190d4ce58d66bf7e3dd3",
@@ -7569,7 +7548,7 @@
       "saas"
     ],
     "first_seen": "2026-06-20T22:16:01.033923+00:00",
-    "last_seen": "2026-06-20T22:16:01.033926+00:00"
+    "last_seen": "2026-06-21T00:15:33.001265+00:00"
   },
   "3cca8a61db6558c5e25131cca75d6313bcac62fde0c95199e903cb086222a3c8": {
     "fingerprint": "3cca8a61db6558c5e25131cca75d6313bcac62fde0c95199e903cb086222a3c8",
@@ -7604,7 +7583,7 @@
       "صوتيه"
     ],
     "first_seen": "2026-06-20T22:16:01.034269+00:00",
-    "last_seen": "2026-06-20T22:16:01.034272+00:00"
+    "last_seen": "2026-06-21T00:15:33.001438+00:00"
   },
   "877af223e9354ce79b020b716a932994304c1dc0baa75b930278b821caf90711": {
     "fingerprint": "877af223e9354ce79b020b716a932994304c1dc0baa75b930278b821caf90711",
@@ -7624,7 +7603,7 @@
       "المحل"
     ],
     "first_seen": "2026-06-20T22:16:01.034626+00:00",
-    "last_seen": "2026-06-20T22:16:01.034633+00:00"
+    "last_seen": "2026-06-21T00:15:33.001807+00:00"
   },
   "00bf31d687f32c545a1cd4cf0ced0c34094b3aad9805cb69199062bb9b99c73c": {
     "fingerprint": "00bf31d687f32c545a1cd4cf0ced0c34094b3aad9805cb69199062bb9b99c73c",
@@ -7642,7 +7621,7 @@
       "الكتروني"
     ],
     "first_seen": "2026-06-20T22:16:01.035145+00:00",
-    "last_seen": "2026-06-20T22:16:01.035147+00:00"
+    "last_seen": "2026-06-21T00:15:33.002416+00:00"
   },
   "e764165279e9211913456ae42cd0ebffbf9f37c5cc410a867fd2dc37c62709e7": {
     "fingerprint": "e764165279e9211913456ae42cd0ebffbf9f37c5cc410a867fd2dc37c62709e7",
@@ -7660,7 +7639,7 @@
       "اعلانيه"
     ],
     "first_seen": "2026-06-20T22:16:01.035320+00:00",
-    "last_seen": "2026-06-20T22:16:01.035323+00:00"
+    "last_seen": "2026-06-21T00:15:33.002584+00:00"
   },
   "594fc2ebb27457844a43af3d69cc9f9d45f306da1c94097ddb12c9da1ec4455d": {
     "fingerprint": "594fc2ebb27457844a43af3d69cc9f9d45f306da1c94097ddb12c9da1ec4455d",
@@ -7678,7 +7657,7 @@
       "سكنيه"
     ],
     "first_seen": "2026-06-20T22:16:01.035765+00:00",
-    "last_seen": "2026-06-20T22:16:01.035767+00:00"
+    "last_seen": "2026-06-21T00:15:33.003056+00:00"
   },
   "2f51f12a385bb416acc0c75607d782ae8c59f83b169361d67b2caa1634650303": {
     "fingerprint": "2f51f12a385bb416acc0c75607d782ae8c59f83b169361d67b2caa1634650303",
@@ -7697,7 +7676,7 @@
       "متكامله"
     ],
     "first_seen": "2026-06-20T22:16:01.036321+00:00",
-    "last_seen": "2026-06-20T22:16:01.036326+00:00"
+    "last_seen": "2026-06-21T00:15:33.003625+00:00"
   },
   "81bef901975dfefd4d81272194a1cf0499f2c907ce4b23b61bb7948fe4e27afe": {
     "fingerprint": "81bef901975dfefd4d81272194a1cf0499f2c907ce4b23b61bb7948fe4e27afe",
@@ -7713,7 +7692,7 @@
       "اضاءه"
     ],
     "first_seen": "2026-06-20T22:16:01.036406+00:00",
-    "last_seen": "2026-06-20T22:16:01.036408+00:00"
+    "last_seen": "2026-06-21T00:15:33.003711+00:00"
   },
   "d3c953876ea77a23db689dfcf8ef231932f5496efb1954b560f4816d9bedf191": {
     "fingerprint": "d3c953876ea77a23db689dfcf8ef231932f5496efb1954b560f4816d9bedf191",
@@ -7731,6 +7710,25 @@
       "شركه"
     ],
     "first_seen": "2026-06-20T22:16:01.036574+00:00",
-    "last_seen": "2026-06-20T22:16:01.036577+00:00"
+    "last_seen": "2026-06-21T00:15:33.003889+00:00"
+  },
+  "6ffaeb1c484221d7542a2d8b14c556eee9832e4d5a23ee06db7f062809428a89": {
+    "fingerprint": "6ffaeb1c484221d7542a2d8b14c556eee9832e4d5a23ee06db7f062809428a89",
+    "title_fingerprint": "58db2812ff2ec94d92a36c96da1ab77f75b2d03bfe45fe5d3f3db5edefb279ed",
+    "source": "mostaql",
+    "url": "https://mostaql.com/project/1251941-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D9%85%D9%88%D9%82%D8%B9-%D9%88%D9%88%D8%B1%D8%AF%D8%A8%D8%B1%D9%8A%D8%B3-%D8%B9%D9%82%D8%A7%D8%B1%D9%8A-3-%D8%B5%D9%81%D8%AD%D8%A7%D8%AA",
+    "title": "برمجة موقع ووردبريس عقاري | 3 صفحات",
+    "normalized_title": "برمجه موقع ووردبريس عقاري 3 صفحات",
+    "normalized_description": "برمجه موقع ووردبريس عقاري 3 صفحات ميزاته صفحه رئيسيه مشاريع فورم تواصل",
+    "normalized_text": "برمجه موقع ووردبريس عقاري 3 صفحات برمجه موقع ووردبريس عقاري 3 صفحات ميزاته صفحه رئيسيه مشاريع فورم تواصل",
+    "title_tokens": [
+      "برمجه",
+      "موقع",
+      "ووردبريس",
+      "عقاري",
+      "صفحات"
+    ],
+    "first_seen": "2026-06-21T00:15:33.004036+00:00",
+    "last_seen": "2026-06-21T00:15:33.004039+00:00"
   }
 }
