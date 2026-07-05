@@ -3,7 +3,7 @@
     "fingerprint": "5dcfa1343aaaaeb4d486eaa4d08935b6154abc3ccb3cc3f2f3442e2066111b97",
     "title_fingerprint": "bddb5c40d46221d3f4292f63ce1784a81a8724acf7de200b1eeed8591f7f3be0",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019f1c67-c11c-7410-9736-091e64866f8f",
+    "url": "https://bahr.sa/projects/recruitments/019f286d-c3df-7c43-a401-b8c427bbed17",
     "title": "(بدون عنوان)",
     "normalized_title": "بدون عنوان",
     "normalized_description": "مبلغ شهري شهر",
@@ -13,13 +13,13 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-07-05T00:06:50.702259+00:00"
+    "last_seen": "2026-07-05T05:01:54.511548+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
     "title_fingerprint": "5a0374f3ff5a274db44e0e4bde0a861837b65db5e3630d97a96ec7b12cbfd513",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019f1d35-abcc-76ff-a1c8-df3717996c44",
+    "url": "https://bahr.sa/projects/recruitments/019f2dba-97e7-7735-9d9c-20917f00a915",
     "title": "غير محدد",
     "normalized_title": "غير محدد",
     "normalized_description": "الميزانيه",
@@ -29,7 +29,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-07-05T00:06:50.702190+00:00"
+    "last_seen": "2026-07-05T05:01:54.511821+00:00"
   },
   "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781": {
     "fingerprint": "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781",
@@ -5363,7 +5363,7 @@
     "fingerprint": "488f5804eeab199874aa23aaef8433d4e0457b9adc3d6e7f1028fd1665968e2d",
     "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019f2288-fbd1-7faf-8ee4-79e3963d5d8a",
+    "url": "https://bahr.sa/projects/recruitments/019f26e8-223e-7596-bda8-b1a71772bf36",
     "title": "الميزانية",
     "normalized_title": "الميزانيه",
     "normalized_description": "الميزانيه 500",
@@ -5372,7 +5372,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-07-02T11:39:44.025272+00:00",
-    "last_seen": "2026-07-03T22:10:06.479234+00:00"
+    "last_seen": "2026-07-05T05:01:54.511389+00:00"
   },
   "05bf5d211dad157096cdd52db4e6a5e6f32e7386db032a56a7f811dfce9b37bd": {
     "fingerprint": "05bf5d211dad157096cdd52db4e6a5e6f32e7386db032a56a7f811dfce9b37bd",
@@ -9362,7 +9362,7 @@
       "المنصه"
     ],
     "first_seen": "2026-07-04T22:04:07.530653+00:00",
-    "last_seen": "2026-07-05T00:06:50.703363+00:00"
+    "last_seen": "2026-07-05T05:01:54.513407+00:00"
   },
   "74cd13d41f0e89d94053e368015c39aad82fbfeeb78793d2779b34ae63db453f": {
     "fingerprint": "74cd13d41f0e89d94053e368015c39aad82fbfeeb78793d2779b34ae63db453f",
@@ -9382,7 +9382,7 @@
       "بمتجري"
     ],
     "first_seen": "2026-07-04T22:04:07.531051+00:00",
-    "last_seen": "2026-07-05T00:06:50.703790+00:00"
+    "last_seen": "2026-07-05T05:01:54.513798+00:00"
   },
   "f6119f766f1f4e8a3a73e8956784edad96ee6563d6b945129c37d31482680d50": {
     "fingerprint": "f6119f766f1f4e8a3a73e8956784edad96ee6563d6b945129c37d31482680d50",
@@ -9409,7 +9409,7 @@
       "الاصطناعي"
     ],
     "first_seen": "2026-07-04T22:04:07.531615+00:00",
-    "last_seen": "2026-07-05T00:06:50.704372+00:00"
+    "last_seen": "2026-07-05T05:01:54.514363+00:00"
   },
   "ecfeeec73da4816cf6b2f5b6580ada00f75e0f2f0281743f6ae653b4523c290f": {
     "fingerprint": "ecfeeec73da4816cf6b2f5b6580ada00f75e0f2f0281743f6ae653b4523c290f",
@@ -9426,7 +9426,7 @@
       "عمانيه"
     ],
     "first_seen": "2026-07-04T22:04:07.532042+00:00",
-    "last_seen": "2026-07-05T00:06:50.704733+00:00"
+    "last_seen": "2026-07-05T05:01:54.514720+00:00"
   },
   "671176bd99b3b0fba6709c41f6a09982b66a9c534fdbc6b1160750520f9a5154": {
     "fingerprint": "671176bd99b3b0fba6709c41f6a09982b66a9c534fdbc6b1160750520f9a5154",
@@ -9444,7 +9444,7 @@
       "رقمي"
     ],
     "first_seen": "2026-07-04T22:04:07.532322+00:00",
-    "last_seen": "2026-07-05T00:06:50.705013+00:00"
+    "last_seen": "2026-07-05T05:01:54.514993+00:00"
   },
   "01bd3fc57fc33fe9c267a3eb817ce734201c906d972514cdc6dd18ae777dd837": {
     "fingerprint": "01bd3fc57fc33fe9c267a3eb817ce734201c906d972514cdc6dd18ae777dd837",
@@ -9463,7 +9463,7 @@
       "اليكترونيه"
     ],
     "first_seen": "2026-07-04T22:04:07.532779+00:00",
-    "last_seen": "2026-07-05T00:06:50.705483+00:00"
+    "last_seen": "2026-07-05T05:01:54.515431+00:00"
   },
   "8efe9bea1657ab28e10d8ac6deb518a902b9cd6ce85e3db6660f3883ca592d52": {
     "fingerprint": "8efe9bea1657ab28e10d8ac6deb518a902b9cd6ce85e3db6660f3883ca592d52",
@@ -9481,7 +9481,7 @@
       "للصيدليات"
     ],
     "first_seen": "2026-07-04T22:04:07.533057+00:00",
-    "last_seen": "2026-07-05T00:06:50.705766+00:00"
+    "last_seen": "2026-07-05T05:01:54.515723+00:00"
   },
   "eb3b7708e6fe48462318efc5bb7a9e4d800e755e4faecd605d26ee972ea03c60": {
     "fingerprint": "eb3b7708e6fe48462318efc5bb7a9e4d800e755e4faecd605d26ee972ea03c60",
@@ -9509,7 +9509,7 @@
       "دقائق"
     ],
     "first_seen": "2026-07-04T22:04:07.533634+00:00",
-    "last_seen": "2026-07-05T00:06:50.706345+00:00"
+    "last_seen": "2026-07-05T05:01:54.516289+00:00"
   },
   "31e63cbd713c7650d1e866bac5d72cd02b09319475359ab13cae01a62e766e83": {
     "fingerprint": "31e63cbd713c7650d1e866bac5d72cd02b09319475359ab13cae01a62e766e83",
@@ -9568,6 +9568,55 @@
       "احترافي"
     ],
     "first_seen": "2026-07-05T00:06:50.702754+00:00",
-    "last_seen": "2026-07-05T00:06:50.702759+00:00"
+    "last_seen": "2026-07-05T05:01:54.512854+00:00"
+  },
+  "85dc1f17a3b950e7d5b8841301e1635f2b15d0f49688e7c5ba1650bca04cc79e": {
+    "fingerprint": "85dc1f17a3b950e7d5b8841301e1635f2b15d0f49688e7c5ba1650bca04cc79e",
+    "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/019f2cdd-960a-7ad7-a52e-af7a8e22befb",
+    "title": "الميزانية",
+    "normalized_title": "الميزانيه",
+    "normalized_description": "الميزانيه 350",
+    "normalized_text": "الميزانيه الميزانيه 350",
+    "title_tokens": [
+      "الميزانيه"
+    ],
+    "first_seen": "2026-07-05T05:01:54.511712+00:00",
+    "last_seen": "2026-07-05T05:01:54.511715+00:00"
+  },
+  "008d703071bdaa7ebdb743a752e24e0b570708c6f796854256a7b57eaa7e4f63": {
+    "fingerprint": "008d703071bdaa7ebdb743a752e24e0b570708c6f796854256a7b57eaa7e4f63",
+    "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/019f2db3-c507-7641-8f75-949ca9d20d4a",
+    "title": "الميزانية",
+    "normalized_title": "الميزانيه",
+    "normalized_description": "الميزانيه 1000",
+    "normalized_text": "الميزانيه الميزانيه 1000",
+    "title_tokens": [
+      "الميزانيه"
+    ],
+    "first_seen": "2026-07-05T05:01:54.511770+00:00",
+    "last_seen": "2026-07-05T05:01:54.511772+00:00"
+  },
+  "3dbf9ee4c3ce8fa278cc93229c264380deadb079f2a219897b2390b39dd40446": {
+    "fingerprint": "3dbf9ee4c3ce8fa278cc93229c264380deadb079f2a219897b2390b39dd40446",
+    "title_fingerprint": "b5ad4c1f47a23967b5933715163d6c61ed2e611ec451e5b4673c1d9bfe04775b",
+    "source": "mostaql",
+    "url": "https://mostaql.com/project/1182993-%D8%A8%D9%86%D8%A7%D8%A1-%D9%85%D8%AA%D8%AC%D8%B1-%D9%83%D8%A7%D9%85%D9%84-%D8%B9%D9%84%D9%89-shopify",
+    "title": "بناء متجر كامل على Shopify",
+    "normalized_title": "بناء متجر كامل علي shopify",
+    "normalized_description": "عندي ملف figma جاهز وارغب في تنفيذه بالكامل علي shopify بشكل مطابق للتصميم من حيث الالوان، الخطوط، التفاصيل، والمسافات احتاج مستقل محترف لديه خبره قويه سابقه في تحويل تصميمات figma الي shopify، ويكون عنده اعمال سابقه واضحه في نفس المجال مهم بالنسبه لي ان التنفيذ يكون دقيق وسلس، والكود نظيف، ومتوافق مع جميع الاجهزه، ويتم بناء الصفحات والسكاشن بشكل قابل للتحكم من لوحه التحكم بدون الحاجه لتعديل الكود المطلوب هو تحويل التصميم لنسخه shopify جاهزه ت",
+    "normalized_text": "بناء متجر كامل علي shopify عندي ملف figma جاهز وارغب في تنفيذه بالكامل علي shopify بشكل مطابق للتصميم من حيث الالوان، الخطوط، التفاصيل، والمسافات احتاج مستقل محترف لديه خبره قويه سابقه في تحويل تصميمات figma الي shopify، ويكون عنده اعمال سابقه واضحه في نفس المجال مهم بالنسبه لي ان التنفيذ يكون دقيق وسلس، والكود نظيف، ومتوافق مع جميع الاجهزه، ويتم بناء الصفحات والسكاشن بشكل قابل للتحكم من لوحه التحكم بدون الحاجه لتعديل الكود المطلوب هو تحويل التصميم لنسخه shopify جاهزه ت",
+    "title_tokens": [
+      "بناء",
+      "متجر",
+      "كامل",
+      "علي",
+      "shopify"
+    ],
+    "first_seen": "2026-07-05T05:01:54.512447+00:00",
+    "last_seen": "2026-07-05T05:01:54.512450+00:00"
   }
 }
