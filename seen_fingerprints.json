@@ -3,7 +3,7 @@
     "fingerprint": "5dcfa1343aaaaeb4d486eaa4d08935b6154abc3ccb3cc3f2f3442e2066111b97",
     "title_fingerprint": "bddb5c40d46221d3f4292f63ce1784a81a8724acf7de200b1eeed8591f7f3be0",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019f61f7-64a2-79bf-8788-ff1bdad8e412",
+    "url": "https://bahr.sa/projects/recruitments/019f6811-c799-7742-a505-b18e8d28ceb6",
     "title": "(بدون عنوان)",
     "normalized_title": "بدون عنوان",
     "normalized_description": "مبلغ شهري شهر",
@@ -13,13 +13,13 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-07-15T23:03:18.868001+00:00"
+    "last_seen": "2026-07-16T03:16:23.831630+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
     "title_fingerprint": "5a0374f3ff5a274db44e0e4bde0a861837b65db5e3630d97a96ec7b12cbfd513",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019f6515-ff60-7296-953c-10166312c450",
+    "url": "https://bahr.sa/projects/recruitments/019f651c-75a4-7942-b112-072ac80756bb",
     "title": "غير محدد",
     "normalized_title": "غير محدد",
     "normalized_description": "الميزانيه",
@@ -29,7 +29,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-07-15T23:03:18.867650+00:00"
+    "last_seen": "2026-07-16T03:16:23.831761+00:00"
   },
   "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781": {
     "fingerprint": "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781",
@@ -80,7 +80,7 @@
     "fingerprint": "318940a561f56c3d940354447ac863e7e4f60c4e796d30535edb884b61094a7a",
     "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019f6477-ad5f-7f43-bfec-a4a6f03312da",
+    "url": "https://bahr.sa/projects/recruitments/019f6812-1ffb-76cc-834c-8d476d9e44b9",
     "title": "الميزانية",
     "normalized_title": "الميزانيه",
     "normalized_description": "الميزانيه 1",
@@ -89,7 +89,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-06-30T09:53:14.416303+00:00",
-    "last_seen": "2026-07-15T23:03:18.867704+00:00"
+    "last_seen": "2026-07-16T03:16:23.831678+00:00"
   },
   "488f5804eeab199874aa23aaef8433d4e0457b9adc3d6e7f1028fd1665968e2d": {
     "fingerprint": "488f5804eeab199874aa23aaef8433d4e0457b9adc3d6e7f1028fd1665968e2d",
@@ -174,21 +174,6 @@
     ],
     "first_seen": "2026-07-07T08:33:43.606416+00:00",
     "last_seen": "2026-07-10T14:48:59.891582+00:00"
-  },
-  "213311fd0959534dd2d2cfd5ffb10a872c9d455cd5e3d62e4cc9c40bff528ee4": {
-    "fingerprint": "213311fd0959534dd2d2cfd5ffb10a872c9d455cd5e3d62e4cc9c40bff528ee4",
-    "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
-    "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019f3caf-9222-7a07-b445-d1fe85fb47c4",
-    "title": "الميزانية",
-    "normalized_title": "الميزانيه",
-    "normalized_description": "الميزانيه 6000",
-    "normalized_text": "الميزانيه الميزانيه 6000",
-    "title_tokens": [
-      "الميزانيه"
-    ],
-    "first_seen": "2026-07-07T22:16:40.196745+00:00",
-    "last_seen": "2026-07-08T23:15:20.517652+00:00"
   },
   "fb386c05e73655fdca7e560a042bc9657ef051ea3fa61490efaa633970f27686": {
     "fingerprint": "fb386c05e73655fdca7e560a042bc9657ef051ea3fa61490efaa633970f27686",
@@ -316,46 +301,6 @@
     ],
     "first_seen": "2026-07-08T21:16:00.686071+00:00",
     "last_seen": "2026-07-09T03:53:25.382134+00:00"
-  },
-  "fe2f34a5ccfcb794d0a9f722ab9d295c9860b657c396232b572466cc840ca67b": {
-    "fingerprint": "fe2f34a5ccfcb794d0a9f722ab9d295c9860b657c396232b572466cc840ca67b",
-    "title_fingerprint": "e79c3d4e58bf8a42c70e4a131a65862460b0a234953d81c515c1a165f88db0a8",
-    "source": "mostaql",
-    "url": "https://mostaql.com/project/1257583-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%81%D9%8A%D8%AF%D9%8A%D9%88%D9%87%D8%A7%D8%AA-%D8%A5%D8%B9%D9%84%D8%A7%D9%86%D9%8A%D8%A9-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9",
-    "title": "تصميم فيديوهات إعلانية احترافية",
-    "normalized_title": "تصميم فيديوهات اعلانيه احترافيه",
-    "normalized_description": "ابحث عن مصمم متخصص في انتاج فيديوهات اعلانيه احترافيه product marketing videos saas promo videos لمنصه ، لا ابحث عن فيديو موشن جرافيك تقليدي يعتمد علي ايقونات ورسومات بسيطه، وانما عن فيديوهات بنفس مستوي الاعلانات التي تقدمها شركات saas العالميه مثل asana وnotion وmonday com وlinear وغيرها، والتي تعتمد علي تحريك واجهات المنصه ui animation دمج لقطات واقعيه او شخصيات ورسوم توضيحيه احترافيه عند الحاجه انتقالات سينمائيه سلسه اخراج حديث mo",
-    "normalized_text": "تصميم فيديوهات اعلانيه احترافيه ابحث عن مصمم متخصص في انتاج فيديوهات اعلانيه احترافيه product marketing videos saas promo videos لمنصه ، لا ابحث عن فيديو موشن جرافيك تقليدي يعتمد علي ايقونات ورسومات بسيطه، وانما عن فيديوهات بنفس مستوي الاعلانات التي تقدمها شركات saas العالميه مثل asana وnotion وmonday com وlinear وغيرها، والتي تعتمد علي تحريك واجهات المنصه ui animation دمج لقطات واقعيه او شخصيات ورسوم توضيحيه احترافيه عند الحاجه انتقالات سينمائيه سلسه اخراج حديث mo",
-    "title_tokens": [
-      "تصميم",
-      "فيديوهات",
-      "اعلانيه",
-      "احترافيه"
-    ],
-    "first_seen": "2026-07-08T21:16:00.686624+00:00",
-    "last_seen": "2026-07-08T23:15:20.520361+00:00"
-  },
-  "2115ab34cf19f026d4d364b00d27e8d428fa0f42c9d60522af21d128011b9fa7": {
-    "fingerprint": "2115ab34cf19f026d4d364b00d27e8d428fa0f42c9d60522af21d128011b9fa7",
-    "title_fingerprint": "cf8b24014d1c037cfd256ab239aa703313610bdb000e8ff18386f538b7d19b01",
-    "source": "mostaql",
-    "url": "https://mostaql.com/project/1257580-%D8%AE%D8%A8%D9%8A%D8%B1-%D8%AA%D8%B3%D9%88%D9%8A%D9%82-%D8%B1%D9%82%D9%85%D9%8A-%D9%88%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9-nfts-%D9%84%D9%84%D9%81%D9%86-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A",
-    "title": "خبير تسويق رقمي وإدارة مشاريع NFTs للفن الرقمي",
-    "normalized_title": "خبير تسويق رقمي واداره مشاريع nfts للفن الرقمي",
-    "normalized_description": "انا فنان رقمي digital artist اعمل علي مشروع فني خاص يدمج بين التصميم الميكانيكي والطبيعه، وابحث عن متخصص تسويق خبير في مجال ال nfts يتولي الجانب التقني و التسويقي للمشروع للعمل معي كمدير اعمال للمشروع",
-    "normalized_text": "خبير تسويق رقمي واداره مشاريع nfts للفن الرقمي انا فنان رقمي digital artist اعمل علي مشروع فني خاص يدمج بين التصميم الميكانيكي والطبيعه، وابحث عن متخصص تسويق خبير في مجال ال nfts يتولي الجانب التقني و التسويقي للمشروع للعمل معي كمدير اعمال للمشروع",
-    "title_tokens": [
-      "خبير",
-      "تسويق",
-      "رقمي",
-      "واداره",
-      "مشاريع",
-      "nfts",
-      "للفن",
-      "الرقمي"
-    ],
-    "first_seen": "2026-07-08T21:16:00.686912+00:00",
-    "last_seen": "2026-07-08T23:15:20.520571+00:00"
   },
   "c67565b800d695777366ab7f5e0edff0138dc339bd7a552dba20562be04fae28": {
     "fingerprint": "c67565b800d695777366ab7f5e0edff0138dc339bd7a552dba20562be04fae28",
@@ -10585,7 +10530,7 @@
       "content"
     ],
     "first_seen": "2026-07-15T21:07:31.881139+00:00",
-    "last_seen": "2026-07-15T23:03:18.870073+00:00"
+    "last_seen": "2026-07-16T03:16:23.834023+00:00"
   },
   "bd6244a33d7da7e722de6ff01dd74b388527823d8173479ce034cd71e856516a": {
     "fingerprint": "bd6244a33d7da7e722de6ff01dd74b388527823d8173479ce034cd71e856516a",
@@ -10602,7 +10547,7 @@
       "صيانه"
     ],
     "first_seen": "2026-07-15T21:07:31.881504+00:00",
-    "last_seen": "2026-07-15T23:03:18.870556+00:00"
+    "last_seen": "2026-07-16T03:16:23.834495+00:00"
   },
   "37304fc243b5c0ab1bed5eb5405158952a7101a4d862f31607ea711433515866": {
     "fingerprint": "37304fc243b5c0ab1bed5eb5405158952a7101a4d862f31607ea711433515866",
@@ -10621,7 +10566,7 @@
       "مقاولات"
     ],
     "first_seen": "2026-07-15T21:07:31.881639+00:00",
-    "last_seen": "2026-07-15T23:03:18.870726+00:00"
+    "last_seen": "2026-07-16T03:16:23.834665+00:00"
   },
   "4ea5f88cca9463fc6f0717bb8194e8bbfa149072216db35c68eb603350ca2d3b": {
     "fingerprint": "4ea5f88cca9463fc6f0717bb8194e8bbfa149072216db35c68eb603350ca2d3b",
@@ -10644,7 +10589,7 @@
       "airbnb"
     ],
     "first_seen": "2026-07-15T21:07:31.882043+00:00",
-    "last_seen": "2026-07-15T23:03:18.871250+00:00"
+    "last_seen": "2026-07-16T03:16:23.835187+00:00"
   },
   "3fd719912ed4511e27fb78a73807eff4ae252b75964b18f83bd6c6ad2887ce74": {
     "fingerprint": "3fd719912ed4511e27fb78a73807eff4ae252b75964b18f83bd6c6ad2887ce74",
@@ -10665,7 +10610,7 @@
       "manager"
     ],
     "first_seen": "2026-07-15T21:07:31.882435+00:00",
-    "last_seen": "2026-07-15T23:03:18.871771+00:00"
+    "last_seen": "2026-07-16T03:16:23.835734+00:00"
   },
   "a6de39682ee16254d3011d242f22aa97e048e4556824167094a46556bd05a3b6": {
     "fingerprint": "a6de39682ee16254d3011d242f22aa97e048e4556824167094a46556bd05a3b6",
@@ -10793,7 +10738,7 @@
       "للمقاهي"
     ],
     "first_seen": "2026-07-15T23:03:18.868586+00:00",
-    "last_seen": "2026-07-15T23:03:18.868588+00:00"
+    "last_seen": "2026-07-16T03:16:23.832495+00:00"
   },
   "1310506bfd3ef5a7e9a469bbef952c6ca49886867625086958f91fd96b6632cf": {
     "fingerprint": "1310506bfd3ef5a7e9a469bbef952c6ca49886867625086958f91fd96b6632cf",
@@ -10816,7 +10761,7 @@
       "élomera"
     ],
     "first_seen": "2026-07-15T23:03:18.869105+00:00",
-    "last_seen": "2026-07-15T23:03:18.869107+00:00"
+    "last_seen": "2026-07-16T03:16:23.833055+00:00"
   },
   "be60d5bdd4a02b90d59b764f387a818c6ab4c87a30af6134a06cf6ec41c85b17": {
     "fingerprint": "be60d5bdd4a02b90d59b764f387a818c6ab4c87a30af6134a06cf6ec41c85b17",
@@ -10836,7 +10781,7 @@
       "متر"
     ],
     "first_seen": "2026-07-15T23:03:18.869329+00:00",
-    "last_seen": "2026-07-15T23:03:18.869331+00:00"
+    "last_seen": "2026-07-16T03:16:23.833264+00:00"
   },
   "47c86998fba088f78b87da6441ca2fabf9ac6ced216b194d62971f1bb97fd362": {
     "fingerprint": "47c86998fba088f78b87da6441ca2fabf9ac6ced216b194d62971f1bb97fd362",
@@ -10852,6 +10797,25 @@
       "صالون"
     ],
     "first_seen": "2026-07-15T23:03:18.869546+00:00",
-    "last_seen": "2026-07-15T23:03:18.869548+00:00"
+    "last_seen": "2026-07-16T03:16:23.833478+00:00"
+  },
+  "2794a4eb656675a15e4d6a1906000749c515714e53bb936918dc0b85903e4165": {
+    "fingerprint": "2794a4eb656675a15e4d6a1906000749c515714e53bb936918dc0b85903e4165",
+    "title_fingerprint": "887de6981ed54438f5b57c28e6f972fd7f09a94a2eee42cff534005acca9970f",
+    "source": "mostaql",
+    "url": "https://mostaql.com/project/1183698-%D9%85%D8%AA%D8%AE%D8%B5%D8%B5-%D8%B3%D9%8A%D9%88-%D9%84%D8%AD%D9%84-%D9%85%D8%B4%D8%A7%D9%83%D9%84-%D8%A8%D8%A7%D9%84%D8%A3%D8%B1%D8%B4%D9%81%D8%A9",
+    "title": "متخصص سيو لحل مشاكل بالأرشفة",
+    "normalized_title": "متخصص سيو لحل مشاكل بالارشفه",
+    "normalized_description": "لدي موقع ووردبريس وبه مشاكل في الارشفه حيث ان جوجل لا يقوم بارشفه المنشورات احتاج متخصص سيو يقوم بعمل اللازم من فحص واصلاح شامل للسيو الداخلي للموقع",
+    "normalized_text": "متخصص سيو لحل مشاكل بالارشفه لدي موقع ووردبريس وبه مشاكل في الارشفه حيث ان جوجل لا يقوم بارشفه المنشورات احتاج متخصص سيو يقوم بعمل اللازم من فحص واصلاح شامل للسيو الداخلي للموقع",
+    "title_tokens": [
+      "متخصص",
+      "سيو",
+      "لحل",
+      "مشاكل",
+      "بالارشفه"
+    ],
+    "first_seen": "2026-07-16T03:16:23.831975+00:00",
+    "last_seen": "2026-07-16T03:16:23.831978+00:00"
   }
 }
