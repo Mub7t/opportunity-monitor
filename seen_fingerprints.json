@@ -13,13 +13,13 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-07-18T23:00:55.055101+00:00"
+    "last_seen": "2026-07-19T00:04:10.858020+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
     "title_fingerprint": "5a0374f3ff5a274db44e0e4bde0a861837b65db5e3630d97a96ec7b12cbfd513",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019f6c90-1e19-7448-98b1-2e862cb8ccb1",
+    "url": "https://bahr.sa/projects/recruitments/019f75d6-6cd9-74c5-bf02-36b116ddceb0",
     "title": "غير محدد",
     "normalized_title": "غير محدد",
     "normalized_description": "الميزانيه",
@@ -29,7 +29,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-07-18T23:00:55.055419+00:00"
+    "last_seen": "2026-07-19T00:04:10.858321+00:00"
   },
   "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781": {
     "fingerprint": "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781",
@@ -304,25 +304,6 @@
     ],
     "first_seen": "2026-07-11T21:59:41.063726+00:00",
     "last_seen": "2026-07-12T03:32:26.546833+00:00"
-  },
-  "4379b343f3e9cf0b0904b826febf96290e53256f28063ff2420989b053e6d4ca": {
-    "fingerprint": "4379b343f3e9cf0b0904b826febf96290e53256f28063ff2420989b053e6d4ca",
-    "title_fingerprint": "ad7928ed8c7fea253e75e97636ad7ee10c754a3a3d1178fddee69d6c8483dfd2",
-    "source": "mostaql",
-    "url": "https://mostaql.com/project/1258500-%D8%A7%D8%B9%D8%AF%D8%A7%D8%AF-%D8%AD%D9%85%D9%84%D8%A7%D8%AA-%D8%A7%D8%B9%D9%84%D8%A7%D9%86%D9%8A%D8%A9-%D9%84%D8%B4%D8%B1%D9%83%D8%A9-%D8%B3%D9%8A%D8%A7%D8%AD%D8%A9",
-    "title": "اعداد حملات اعلانية لشركة سياحة",
-    "normalized_title": "اعداد حملات اعلانيه لشركه سياحه",
-    "normalized_description": "اعداد حملات اعلانيه لشركه سياحه",
-    "normalized_text": "اعداد حملات اعلانيه لشركه سياحه اعداد حملات اعلانيه لشركه سياحه",
-    "title_tokens": [
-      "اعداد",
-      "حملات",
-      "اعلانيه",
-      "لشركه",
-      "سياحه"
-    ],
-    "first_seen": "2026-07-11T21:59:41.063805+00:00",
-    "last_seen": "2026-07-11T23:02:12.284425+00:00"
   },
   "0ed701a0c2a32ded06564dba8ebb6f21459d28d9ad15c64bf4457bc754ab850d": {
     "fingerprint": "0ed701a0c2a32ded06564dba8ebb6f21459d28d9ad15c64bf4457bc754ab850d",
@@ -8661,7 +8642,7 @@
       "bookingsaas"
     ],
     "first_seen": "2026-07-17T14:48:26.772009+00:00",
-    "last_seen": "2026-07-18T23:00:55.058590+00:00"
+    "last_seen": "2026-07-19T00:04:10.862379+00:00"
   },
   "78eebcaca5668831bff8a315289d6985f724bd804357f109eb030bcc1161813c": {
     "fingerprint": "78eebcaca5668831bff8a315289d6985f724bd804357f109eb030bcc1161813c",
@@ -10835,7 +10816,7 @@
       "لينكدان"
     ],
     "first_seen": "2026-07-18T18:00:57.104395+00:00",
-    "last_seen": "2026-07-18T23:00:55.056643+00:00"
+    "last_seen": "2026-07-19T00:04:10.859892+00:00"
   },
   "dc06a6666f0bc8db3a678dc47a8748c99759b3569026ad68e59142adb9871d1d": {
     "fingerprint": "dc06a6666f0bc8db3a678dc47a8748c99759b3569026ad68e59142adb9871d1d",
@@ -11236,7 +11217,7 @@
       "الاثر"
     ],
     "first_seen": "2026-07-18T20:58:03.941432+00:00",
-    "last_seen": "2026-07-18T23:00:55.058204+00:00"
+    "last_seen": "2026-07-19T00:04:10.861876+00:00"
   },
   "23d9867fda22449adc1972d4928711e4ae28ff307bcd696985c2d52717af718a": {
     "fingerprint": "23d9867fda22449adc1972d4928711e4ae28ff307bcd696985c2d52717af718a",
@@ -11433,7 +11414,7 @@
       "autocad"
     ],
     "first_seen": "2026-07-18T21:58:52.144647+00:00",
-    "last_seen": "2026-07-18T23:00:55.055668+00:00"
+    "last_seen": "2026-07-19T00:04:10.858642+00:00"
   },
   "c838ed2072d0b5253a217113f74c84c77a38d92b9704716bf9e66d27222a9803": {
     "fingerprint": "c838ed2072d0b5253a217113f74c84c77a38d92b9704716bf9e66d27222a9803",
@@ -11456,7 +11437,7 @@
       "اخري"
     ],
     "first_seen": "2026-07-18T21:58:52.144907+00:00",
-    "last_seen": "2026-07-18T23:00:55.055861+00:00"
+    "last_seen": "2026-07-19T00:04:10.858888+00:00"
   },
   "770c80bf3ef9c721d737564ce3941af909dec31345dc9eb47600a96f8caab9cf": {
     "fingerprint": "770c80bf3ef9c721d737564ce3941af909dec31345dc9eb47600a96f8caab9cf",
@@ -11482,7 +11463,7 @@
       "ai"
     ],
     "first_seen": "2026-07-18T21:58:52.145424+00:00",
-    "last_seen": "2026-07-18T23:00:55.056248+00:00"
+    "last_seen": "2026-07-19T00:04:10.859385+00:00"
   },
   "4e9dfc5057486a2ee7e5b0f398f218b1eca898611fb67027afd97a20367e3491": {
     "fingerprint": "4e9dfc5057486a2ee7e5b0f398f218b1eca898611fb67027afd97a20367e3491",
@@ -11502,7 +11483,7 @@
       "ملابس"
     ],
     "first_seen": "2026-07-18T21:58:52.146467+00:00",
-    "last_seen": "2026-07-18T23:00:55.057035+00:00"
+    "last_seen": "2026-07-19T00:04:10.860402+00:00"
   },
   "3cd94d0669d3c8c9fed49206e4469ede747ef8eaad42aeced31cf35293d2ede4": {
     "fingerprint": "3cd94d0669d3c8c9fed49206e4469ede747ef8eaad42aeced31cf35293d2ede4",
@@ -11530,7 +11511,7 @@
       "الجزائر"
     ],
     "first_seen": "2026-07-18T21:58:52.147040+00:00",
-    "last_seen": "2026-07-18T23:00:55.057475+00:00"
+    "last_seen": "2026-07-19T00:04:10.860945+00:00"
   },
   "3e80a8809893d38ee93363f98147bbf9a008809ab12fff0e9f3a7c9c01a6ca51": {
     "fingerprint": "3e80a8809893d38ee93363f98147bbf9a008809ab12fff0e9f3a7c9c01a6ca51",
@@ -11547,7 +11528,7 @@
       "لمشروع"
     ],
     "first_seen": "2026-07-18T21:58:52.147269+00:00",
-    "last_seen": "2026-07-18T23:00:55.057641+00:00"
+    "last_seen": "2026-07-19T00:04:10.861170+00:00"
   },
   "03162dcb28e6978f8edea44b1e1af9abe188a380eb9e5a20a84774d83c5622f3": {
     "fingerprint": "03162dcb28e6978f8edea44b1e1af9abe188a380eb9e5a20a84774d83c5622f3",
@@ -11564,6 +11545,21 @@
       "تسويقي"
     ],
     "first_seen": "2026-07-18T21:58:52.147453+00:00",
-    "last_seen": "2026-07-18T23:00:55.057781+00:00"
+    "last_seen": "2026-07-19T00:04:10.861348+00:00"
+  },
+  "008d703071bdaa7ebdb743a752e24e0b570708c6f796854256a7b57eaa7e4f63": {
+    "fingerprint": "008d703071bdaa7ebdb743a752e24e0b570708c6f796854256a7b57eaa7e4f63",
+    "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/019f7725-7685-70a5-96c0-7f58aefd2ca4",
+    "title": "الميزانية",
+    "normalized_title": "الميزانيه",
+    "normalized_description": "الميزانيه 1000",
+    "normalized_text": "الميزانيه الميزانيه 1000",
+    "title_tokens": [
+      "الميزانيه"
+    ],
+    "first_seen": "2026-07-19T00:04:10.857687+00:00",
+    "last_seen": "2026-07-19T00:04:10.857691+00:00"
   }
 }
