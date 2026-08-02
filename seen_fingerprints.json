@@ -3,7 +3,7 @@
     "fingerprint": "5dcfa1343aaaaeb4d486eaa4d08935b6154abc3ccb3cc3f2f3442e2066111b97",
     "title_fingerprint": "bddb5c40d46221d3f4292f63ce1784a81a8724acf7de200b1eeed8591f7f3be0",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019fc13f-d3bf-746b-8f2c-b8599ffe727e",
+    "url": "https://bahr.sa/projects/recruitments/019fc22c-c80d-713a-b8a4-3621bb273970",
     "title": "(بدون عنوان)",
     "normalized_title": "بدون عنوان",
     "normalized_description": "مبلغ شهري شهر",
@@ -13,13 +13,13 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-08-02T22:00:50.698132+00:00"
+    "last_seen": "2026-08-02T23:05:47.945198+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
     "title_fingerprint": "5a0374f3ff5a274db44e0e4bde0a861837b65db5e3630d97a96ec7b12cbfd513",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019fb314-20f8-7ba7-89a5-a844488eb02d",
+    "url": "https://bahr.sa/projects/recruitments/019fc199-d15c-7784-b826-4118c99a70d1",
     "title": "غير محدد",
     "normalized_title": "غير محدد",
     "normalized_description": "الميزانيه",
@@ -29,7 +29,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-08-02T22:00:50.698191+00:00"
+    "last_seen": "2026-08-02T23:05:47.945298+00:00"
   },
   "318940a561f56c3d940354447ac863e7e4f60c4e796d30535edb884b61094a7a": {
     "fingerprint": "318940a561f56c3d940354447ac863e7e4f60c4e796d30535edb884b61094a7a",
@@ -8692,7 +8692,7 @@
     "fingerprint": "488f5804eeab199874aa23aaef8433d4e0457b9adc3d6e7f1028fd1665968e2d",
     "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/019fbece-a1e2-7eaa-9815-1a8fe953bdb3",
+    "url": "https://bahr.sa/projects/recruitments/019fc484-8d91-761c-bb18-ab22a2d2bd86",
     "title": "الميزانية",
     "normalized_title": "الميزانيه",
     "normalized_description": "الميزانيه 500",
@@ -8701,7 +8701,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-08-01T22:59:53.395899+00:00",
-    "last_seen": "2026-08-02T07:35:25.542630+00:00"
+    "last_seen": "2026-08-02T23:05:47.945000+00:00"
   },
   "99f4a1514bf97c808de481f01b8e56e49e1608e8a87dd2c6e13e91e064ea73f5": {
     "fingerprint": "99f4a1514bf97c808de481f01b8e56e49e1608e8a87dd2c6e13e91e064ea73f5",
@@ -10052,7 +10052,7 @@
       "بصريه"
     ],
     "first_seen": "2026-08-02T20:13:59.778766+00:00",
-    "last_seen": "2026-08-02T22:00:50.699514+00:00"
+    "last_seen": "2026-08-02T23:05:47.946861+00:00"
   },
   "a908818a2d69dfa9f18ad8812deeb52c73e262d30ba0587c24b456b1250f7c8f": {
     "fingerprint": "a908818a2d69dfa9f18ad8812deeb52c73e262d30ba0587c24b456b1250f7c8f",
@@ -10075,7 +10075,7 @@
       "القاهره"
     ],
     "first_seen": "2026-08-02T20:13:59.778995+00:00",
-    "last_seen": "2026-08-02T22:00:50.699694+00:00"
+    "last_seen": "2026-08-02T23:05:47.947131+00:00"
   },
   "de145a4c898d6860be76f1cedfc06100fbb9a9e35bcb12b36697ebe1bfdc5b2b": {
     "fingerprint": "de145a4c898d6860be76f1cedfc06100fbb9a9e35bcb12b36697ebe1bfdc5b2b",
@@ -10096,7 +10096,7 @@
       "دراسيه"
     ],
     "first_seen": "2026-08-02T20:13:59.779409+00:00",
-    "last_seen": "2026-08-02T22:00:50.700019+00:00"
+    "last_seen": "2026-08-02T23:05:47.947669+00:00"
   },
   "90c74c47ef4b588355f05a007d74589b32b85cde7569b5aa61a15f7ff51aadcb": {
     "fingerprint": "90c74c47ef4b588355f05a007d74589b32b85cde7569b5aa61a15f7ff51aadcb",
@@ -10117,7 +10117,7 @@
       "هكتار"
     ],
     "first_seen": "2026-08-02T20:13:59.779541+00:00",
-    "last_seen": "2026-08-02T22:00:50.700128+00:00"
+    "last_seen": "2026-08-02T23:05:47.947840+00:00"
   },
   "adca658ac9057ad841ef6c32724520ed8b0caf7f9405d8e19dc64555a0d573a5": {
     "fingerprint": "adca658ac9057ad841ef6c32724520ed8b0caf7f9405d8e19dc64555a0d573a5",
@@ -10135,7 +10135,7 @@
       "اليوم"
     ],
     "first_seen": "2026-08-02T20:13:59.779644+00:00",
-    "last_seen": "2026-08-02T22:00:50.700212+00:00"
+    "last_seen": "2026-08-02T23:05:47.947980+00:00"
   },
   "706ddf96dd5977361e7ce61fbd986eba7f944a53570058368320508e7c64aa32": {
     "fingerprint": "706ddf96dd5977361e7ce61fbd986eba7f944a53570058368320508e7c64aa32",
@@ -10160,7 +10160,7 @@
       "يوتيوب"
     ],
     "first_seen": "2026-08-02T20:13:59.780061+00:00",
-    "last_seen": "2026-08-02T20:13:59.780062+00:00"
+    "last_seen": "2026-08-02T23:05:47.948555+00:00"
   },
   "01287989bae7d4a46cded54dece402a5fe3adbe1ff627b2b148e0457fd3c1fb1": {
     "fingerprint": "01287989bae7d4a46cded54dece402a5fe3adbe1ff627b2b148e0457fd3c1fb1",
@@ -10263,7 +10263,7 @@
       "bags"
     ],
     "first_seen": "2026-08-02T22:00:50.698346+00:00",
-    "last_seen": "2026-08-02T22:00:50.698348+00:00"
+    "last_seen": "2026-08-02T23:05:47.945565+00:00"
   },
   "7c7d6e814f7d5e463b67e47a61cecb955d8299fa7e57fe5b118fc961376d8da0": {
     "fingerprint": "7c7d6e814f7d5e463b67e47a61cecb955d8299fa7e57fe5b118fc961376d8da0",
@@ -10282,7 +10282,7 @@
       "عقاريه"
     ],
     "first_seen": "2026-08-02T22:00:50.698424+00:00",
-    "last_seen": "2026-08-02T22:00:50.698425+00:00"
+    "last_seen": "2026-08-02T23:05:47.945683+00:00"
   },
   "82b3bdbceedc7d2714432b3d5d2c95aab71ba93386b5bd4c2bff7670d25f82d5": {
     "fingerprint": "82b3bdbceedc7d2714432b3d5d2c95aab71ba93386b5bd4c2bff7670d25f82d5",
@@ -10327,7 +10327,7 @@
       "محتوي"
     ],
     "first_seen": "2026-08-02T22:00:50.699096+00:00",
-    "last_seen": "2026-08-02T22:00:50.699097+00:00"
+    "last_seen": "2026-08-02T23:05:47.946167+00:00"
   },
   "357217cd22b5fbdaa298bd5de449b1c2825801ede24a435151fb17c1148b7307": {
     "fingerprint": "357217cd22b5fbdaa298bd5de449b1c2825801ede24a435151fb17c1148b7307",
@@ -10355,6 +10355,6 @@
       "الخريطه"
     ],
     "first_seen": "2026-08-02T22:00:50.699437+00:00",
-    "last_seen": "2026-08-02T22:00:50.699439+00:00"
+    "last_seen": "2026-08-02T23:05:47.946740+00:00"
   }
 }
