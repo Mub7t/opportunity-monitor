@@ -13,7 +13,7 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-08-11T21:55:52.800463+00:00"
+    "last_seen": "2026-08-11T22:51:47.743708+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
@@ -29,7 +29,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-08-11T21:55:52.800282+00:00"
+    "last_seen": "2026-08-11T22:51:47.743402+00:00"
   },
   "318940a561f56c3d940354447ac863e7e4f60c4e796d30535edb884b61094a7a": {
     "fingerprint": "318940a561f56c3d940354447ac863e7e4f60c4e796d30535edb884b61094a7a",
@@ -11323,7 +11323,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-08-11T13:19:03.721486+00:00",
-    "last_seen": "2026-08-11T21:55:52.799859+00:00"
+    "last_seen": "2026-08-11T22:51:47.742922+00:00"
   },
   "916299d97fc8d7aa3dab452ff56fc25e9176ee49060f4642a9a7587e1d0914c5": {
     "fingerprint": "916299d97fc8d7aa3dab452ff56fc25e9176ee49060f4642a9a7587e1d0914c5",
@@ -12101,7 +12101,7 @@
       "اعلانيه"
     ],
     "first_seen": "2026-08-11T20:54:14.929659+00:00",
-    "last_seen": "2026-08-11T21:55:52.802596+00:00"
+    "last_seen": "2026-08-11T22:51:47.747010+00:00"
   },
   "87828351e4e2689e5865a2f356e6649b702cca22934bee9c70376447d7ac6abe": {
     "fingerprint": "87828351e4e2689e5865a2f356e6649b702cca22934bee9c70376447d7ac6abe",
@@ -12119,7 +12119,7 @@
       "word"
     ],
     "first_seen": "2026-08-11T20:54:14.930049+00:00",
-    "last_seen": "2026-08-11T21:55:52.802958+00:00"
+    "last_seen": "2026-08-11T22:51:47.747354+00:00"
   },
   "93d8ca46ef763d1f6a3daeb87e88d796702434668d91a4db60e3702fed469478": {
     "fingerprint": "93d8ca46ef763d1f6a3daeb87e88d796702434668d91a4db60e3702fed469478",
@@ -12213,7 +12213,7 @@
       "جاهزه"
     ],
     "first_seen": "2026-08-11T21:55:52.800976+00:00",
-    "last_seen": "2026-08-11T21:55:52.800978+00:00"
+    "last_seen": "2026-08-11T22:51:47.745437+00:00"
   },
   "de445fa378d4b15115176b8776a463ae83b38d2fb4ce56e065dec92afc285632": {
     "fingerprint": "de445fa378d4b15115176b8776a463ae83b38d2fb4ce56e065dec92afc285632",
@@ -12231,7 +12231,7 @@
       "لمتجر"
     ],
     "first_seen": "2026-08-11T21:55:52.801339+00:00",
-    "last_seen": "2026-08-11T21:55:52.801342+00:00"
+    "last_seen": "2026-08-11T22:51:47.745791+00:00"
   },
   "8e4c62a03498878705970234e6a0dfba7b74ece85bbdc11bea0fb93f1ff92fc2": {
     "fingerprint": "8e4c62a03498878705970234e6a0dfba7b74ece85bbdc11bea0fb93f1ff92fc2",
@@ -12251,7 +12251,7 @@
       "عقارات"
     ],
     "first_seen": "2026-08-11T21:55:52.801478+00:00",
-    "last_seen": "2026-08-11T21:55:52.801480+00:00"
+    "last_seen": "2026-08-11T22:51:47.745932+00:00"
   },
   "f77d1108334c02ece009fc413116d3131b6982aafdf608d79ab2376d831bef5e": {
     "fingerprint": "f77d1108334c02ece009fc413116d3131b6982aafdf608d79ab2376d831bef5e",
@@ -12268,7 +12268,7 @@
       "سينما"
     ],
     "first_seen": "2026-08-11T21:55:52.801586+00:00",
-    "last_seen": "2026-08-11T21:55:52.801588+00:00"
+    "last_seen": "2026-08-11T22:51:47.746043+00:00"
   },
   "72f09c6a6c4d81b07fb76405b1f23d8ae74cc072dedb60f9793b947457efc758": {
     "fingerprint": "72f09c6a6c4d81b07fb76405b1f23d8ae74cc072dedb60f9793b947457efc758",
@@ -12284,7 +12284,7 @@
       "شعار"
     ],
     "first_seen": "2026-08-11T21:55:52.801791+00:00",
-    "last_seen": "2026-08-11T21:55:52.801792+00:00"
+    "last_seen": "2026-08-11T22:51:47.746252+00:00"
   },
   "87e4b8c402991cfde07b58e3970aa5512057b8d55b514a6b24f9adf24fcd8e19": {
     "fingerprint": "87e4b8c402991cfde07b58e3970aa5512057b8d55b514a6b24f9adf24fcd8e19",
@@ -12302,6 +12302,53 @@
       "الموردين"
     ],
     "first_seen": "2026-08-11T21:55:52.801983+00:00",
-    "last_seen": "2026-08-11T21:55:52.801985+00:00"
+    "last_seen": "2026-08-11T22:51:47.746465+00:00"
+  },
+  "7ea932c6d3e036d855eaf64d3dc78464e3995c6e9ec418db6a09d17371ac4367": {
+    "fingerprint": "7ea932c6d3e036d855eaf64d3dc78464e3995c6e9ec418db6a09d17371ac4367",
+    "title_fingerprint": "b6a494ec621fd88f0fb1923c23f8c011a07b40c40902acb0259178fd83c74b08",
+    "source": "mostaql",
+    "url": "https://mostaql.com/project/1267759-%D8%AA%D8%AE%D8%B5%D9%8A%D8%B5-%D8%A3%D9%88-%D8%AA%D8%B9%D8%AF%D9%8A%D9%84-%D8%B9%D9%84%D9%89-source-code-%D8%AC%D8%A7%D9%87%D8%B2-%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-ride-hailing-%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-flutter",
+    "title": "تخصيص أو تعديل على Source Code جاهز لتطبيق Ride-Hailing باستخدام Flutter",
+    "normalized_title": "تخصيص او تعديل علي source code جاهز لتطبيق ride hailing باستخدام flutter",
+    "normalized_description": "ابحث عن مطور flutter لديه source code جاهز لتطبيق taxi ride hailing ويرغب في تخصيصه وتعديله لا ابحث عن تطوير تطبيق كامل من الصفر احتاج الي source code جاهز وقريب من تطبيقات ride hailing مثل didi indrive، ثم اجراء التعديلات الاساسيه التاليه 1 rider app 2 driver app 3 admin panel 4 google maps وgps 5 تحديد pickup وdestination 6 ظهور سعر افتراضي للرحله 7 يستطيع الراكب تعديل السعر بعد ظهور السعر الافتراضي 8 ارسال العرض للسائقين القريب",
+    "normalized_text": "تخصيص او تعديل علي source code جاهز لتطبيق ride hailing باستخدام flutter ابحث عن مطور flutter لديه source code جاهز لتطبيق taxi ride hailing ويرغب في تخصيصه وتعديله لا ابحث عن تطوير تطبيق كامل من الصفر احتاج الي source code جاهز وقريب من تطبيقات ride hailing مثل didi indrive، ثم اجراء التعديلات الاساسيه التاليه 1 rider app 2 driver app 3 admin panel 4 google maps وgps 5 تحديد pickup وdestination 6 ظهور سعر افتراضي للرحله 7 يستطيع الراكب تعديل السعر بعد ظهور السعر الافتراضي 8 ارسال العرض للسائقين القريب",
+    "title_tokens": [
+      "تخصيص",
+      "او",
+      "تعديل",
+      "علي",
+      "source",
+      "code",
+      "جاهز",
+      "لتطبيق",
+      "ride",
+      "hailing",
+      "باستخدام",
+      "flutter"
+    ],
+    "first_seen": "2026-08-11T22:51:47.744370+00:00",
+    "last_seen": "2026-08-11T22:51:47.744372+00:00"
+  },
+  "9f33422fbef44625d76a7d3fcb9c7fcfecde875be597faa9db40f3b1fae82c76": {
+    "fingerprint": "9f33422fbef44625d76a7d3fcb9c7fcfecde875be597faa9db40f3b1fae82c76",
+    "title_fingerprint": "0142e4d36fd84ace4ed88b990bbc627fc2cbe0583ef814210db3be301d561876",
+    "source": "mostaql",
+    "url": "https://mostaql.com/project/1267763-%D8%A5%D9%86%D8%B4%D8%A7%D8%A1-%D9%86%D8%B8%D8%A7%D9%85-whatsapp-%D9%88-ai-%D9%84%D8%AE%D8%AF%D9%85%D8%A9-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA",
+    "title": "إنشاء نظام WhatsApp و AI لخدمة العملاء والمبيعات",
+    "normalized_title": "انشاء نظام whatsapp و ai لخدمه العملاء والمبيعات",
+    "normalized_description": "مطلوب مطور make com لانشاء نظام whatsapp ai لخدمه العملاء والمبيعات ابحث عن مطور محترف ومتخصص في make com automation لديه خبره قويه في ربط whatsapp business api cloud api make com salla api wordpress woocommerce openai او اي نموذج ذكاء اصطناعي مناسب webhooks وapi integrations لدي متجر علي salla وموقع اخر علي wordpress woocommerce، واريد انشاء نظام اتمته متكامل يجعل whatsapp يعمل كانه موظف خدمه عملاء ومبيعات بالذكاء الاصطناعي اولا الرد التل",
+    "normalized_text": "انشاء نظام whatsapp و ai لخدمه العملاء والمبيعات مطلوب مطور make com لانشاء نظام whatsapp ai لخدمه العملاء والمبيعات ابحث عن مطور محترف ومتخصص في make com automation لديه خبره قويه في ربط whatsapp business api cloud api make com salla api wordpress woocommerce openai او اي نموذج ذكاء اصطناعي مناسب webhooks وapi integrations لدي متجر علي salla وموقع اخر علي wordpress woocommerce، واريد انشاء نظام اتمته متكامل يجعل whatsapp يعمل كانه موظف خدمه عملاء ومبيعات بالذكاء الاصطناعي اولا الرد التل",
+    "title_tokens": [
+      "انشاء",
+      "نظام",
+      "whatsapp",
+      "ai",
+      "لخدمه",
+      "العملاء",
+      "والمبيعات"
+    ],
+    "first_seen": "2026-08-11T22:51:47.744904+00:00",
+    "last_seen": "2026-08-11T22:51:47.744907+00:00"
   }
 }
