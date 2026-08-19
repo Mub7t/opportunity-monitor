@@ -13,7 +13,7 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-08-19T10:34:54.804816+00:00"
+    "last_seen": "2026-08-19T11:30:58.059432+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
@@ -29,7 +29,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-08-19T10:34:54.804495+00:00"
+    "last_seen": "2026-08-19T11:30:58.059074+00:00"
   },
   "fbc3a82fb67bcc9415caca4ceee2095ebf357a8374748f4233762a6e11880f4b": {
     "fingerprint": "fbc3a82fb67bcc9415caca4ceee2095ebf357a8374748f4233762a6e11880f4b",
@@ -84,7 +84,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-08-10T10:23:11.884418+00:00",
-    "last_seen": "2026-08-19T10:34:54.804882+00:00"
+    "last_seen": "2026-08-19T11:30:58.059496+00:00"
   },
   "488f5804eeab199874aa23aaef8433d4e0457b9adc3d6e7f1028fd1665968e2d": {
     "fingerprint": "488f5804eeab199874aa23aaef8433d4e0457b9adc3d6e7f1028fd1665968e2d",
@@ -14160,7 +14160,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-08-19T09:40:03.653115+00:00",
-    "last_seen": "2026-08-19T10:34:54.804050+00:00"
+    "last_seen": "2026-08-19T11:30:58.058697+00:00"
   },
   "fb2151c521aa8c2552f6d3fd7c5549409791f9abb0dfd7a32a9151f36a7e1c01": {
     "fingerprint": "fb2151c521aa8c2552f6d3fd7c5549409791f9abb0dfd7a32a9151f36a7e1c01",
@@ -14199,7 +14199,7 @@
       "الموبايل"
     ],
     "first_seen": "2026-08-19T09:40:03.654467+00:00",
-    "last_seen": "2026-08-19T10:34:54.806813+00:00"
+    "last_seen": "2026-08-19T11:30:58.062855+00:00"
   },
   "7393b3798515504f919c7023b39798acda1e61457f682e010c5401ab72fe0a4d": {
     "fingerprint": "7393b3798515504f919c7023b39798acda1e61457f682e010c5401ab72fe0a4d",
@@ -14348,7 +14348,7 @@
       "معماري"
     ],
     "first_seen": "2026-08-19T10:34:54.805002+00:00",
-    "last_seen": "2026-08-19T10:34:54.805031+00:00"
+    "last_seen": "2026-08-19T11:30:58.061482+00:00"
   },
   "685adf0f3860a7292afc334d0a809191b03aef8ae62e02239a2656b0b7ea4af5": {
     "fingerprint": "685adf0f3860a7292afc334d0a809191b03aef8ae62e02239a2656b0b7ea4af5",
@@ -14369,7 +14369,7 @@
       "ميرشنت"
     ],
     "first_seen": "2026-08-19T10:34:54.805214+00:00",
-    "last_seen": "2026-08-19T10:34:54.805217+00:00"
+    "last_seen": "2026-08-19T11:30:58.061639+00:00"
   },
   "64b3b8e364493232e9c0790f4cbe008d589fdb345cb54bdc4af4be86ee70adcb": {
     "fingerprint": "64b3b8e364493232e9c0790f4cbe008d589fdb345cb54bdc4af4be86ee70adcb",
@@ -14389,7 +14389,7 @@
       "شهري"
     ],
     "first_seen": "2026-08-19T10:34:54.805784+00:00",
-    "last_seen": "2026-08-19T10:34:54.805787+00:00"
+    "last_seen": "2026-08-19T11:30:58.062165+00:00"
   },
   "2127e21312e34c29816dc61147b007d4f9e4d696c90cfc6ad81dceb6a8676699": {
     "fingerprint": "2127e21312e34c29816dc61147b007d4f9e4d696c90cfc6ad81dceb6a8676699",
@@ -14407,6 +14407,103 @@
       "للطلاب"
     ],
     "first_seen": "2026-08-19T10:34:54.805981+00:00",
-    "last_seen": "2026-08-19T10:34:54.805984+00:00"
+    "last_seen": "2026-08-19T11:30:58.062351+00:00"
+  },
+  "45ee6ff69464b3693ca8a69a23039012151c3ef115a473c5e52b85a952fca6b3": {
+    "fingerprint": "45ee6ff69464b3693ca8a69a23039012151c3ef115a473c5e52b85a952fca6b3",
+    "title_fingerprint": "024365b0d156d8715835ee5f9fe63b8d9d4eda8b69a93f43376fb70ff9520b49",
+    "source": "mostaql",
+    "url": "https://mostaql.com/project/1269907-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-booklet-%D8%A7%D8%AD%D8%AA%D8%B1%D8%A7%D9%81%D9%8A",
+    "title": "تصميم Booklet احترافي",
+    "normalized_title": "تصميم booklet احترافي",
+    "normalized_description": "سلام عليكم نحتاج مصمم جرافيك محترف لتصميم وترتيب booklet احترافي لا يتجاوز ١٢ صفحه مع الاغلفه لمقترح تجاري مقدم الي جهه رسميه تجاريه المطلوب تحويل محتوي مكتوب ومعلومات تجاريه جاهزه الي عرض بصري انيق واحترافي يوضح فكره المقترح، اليه التعاون، ومنافع كل طرف بطريقه واضحه ومقنعه المطلوب تصميم booklet احترافي ومناسب للطباعه والعرض الرقمي ترتيب المحتوي وتوزيعه بصريا بطريقه سهله القراءه تصميم صفحات infographics diagrams عند الحاجه استخدام typogra",
+    "normalized_text": "تصميم booklet احترافي سلام عليكم نحتاج مصمم جرافيك محترف لتصميم وترتيب booklet احترافي لا يتجاوز ١٢ صفحه مع الاغلفه لمقترح تجاري مقدم الي جهه رسميه تجاريه المطلوب تحويل محتوي مكتوب ومعلومات تجاريه جاهزه الي عرض بصري انيق واحترافي يوضح فكره المقترح، اليه التعاون، ومنافع كل طرف بطريقه واضحه ومقنعه المطلوب تصميم booklet احترافي ومناسب للطباعه والعرض الرقمي ترتيب المحتوي وتوزيعه بصريا بطريقه سهله القراءه تصميم صفحات infographics diagrams عند الحاجه استخدام typogra",
+    "title_tokens": [
+      "تصميم",
+      "booklet",
+      "احترافي"
+    ],
+    "first_seen": "2026-08-19T11:30:58.060204+00:00",
+    "last_seen": "2026-08-19T11:30:58.060209+00:00"
+  },
+  "0d392854057c1287c502c8cc69e23d75a24bf399285e3a79faac5ad1712cec65": {
+    "fingerprint": "0d392854057c1287c502c8cc69e23d75a24bf399285e3a79faac5ad1712cec65",
+    "title_fingerprint": "d86d9734ea6b8ca7db6265b48cae1a1b3b0ca6af1e2c46eaf0dd711b040ab7ef",
+    "source": "mostaql",
+    "url": "https://mostaql.com/project/1269898-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-%D9%87%D9%88%D9%8A%D8%A9",
+    "title": "تصميم هوية",
+    "normalized_title": "تصميم هويه",
+    "normalized_description": "احتاج شعار وبراند قايد لاين",
+    "normalized_text": "تصميم هويه احتاج شعار وبراند قايد لاين",
+    "title_tokens": [
+      "تصميم",
+      "هويه"
+    ],
+    "first_seen": "2026-08-19T11:30:58.060292+00:00",
+    "last_seen": "2026-08-19T11:30:58.060295+00:00"
+  },
+  "6c7f5052cbcfb381c23f4758d933ce5c1bbd1d1491e693bcad860a09b17f704f": {
+    "fingerprint": "6c7f5052cbcfb381c23f4758d933ce5c1bbd1d1491e693bcad860a09b17f704f",
+    "title_fingerprint": "df45b1d433c123049ebe85bed4abe6be5176b0aabb22693c3d99e4752880ce99",
+    "source": "mostaql",
+    "url": "https://mostaql.com/project/1269844-%D8%B5%D8%A7%D9%86%D8%B9-%D9%85%D8%AD%D8%AA%D9%88%D9%89-%D9%8A%D9%88%D9%85%D9%8A-%D8%B9%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D8%B1%D9%8A-%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A-%D8%A7%D9%84%D9%85%D9%85%D8%AA%D8%A7%D8%B2-%D9%88%D8%A8%D8%A7%D8%AD%D8%AB-%D9%81%D9%8A-%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%83%D8%B1%D8%A9-%D8%A7%D9%84%D9%82%D8%AF%D9%85",
+    "title": "صانع محتوى يومي عن الدوري الإنجليزي الممتاز وباحث في أخبار كرة القدم",
+    "normalized_title": "صانع محتوي يومي عن الدوري الانجليزي الممتاز وباحث في اخبار كره القدم",
+    "normalized_description": "about the role we are looking for a reliable and football obsessed premier league content creator football news researcher to join us on a one month trial with the possibility of a long term position the main responsibility is to monitor the premier league every day identify interesting and trending stories and turn them into engaging social media content this is ideal for someone who already follows premier league football closely and und",
+    "normalized_text": "صانع محتوي يومي عن الدوري الانجليزي الممتاز وباحث في اخبار كره القدم about the role we are looking for a reliable and football obsessed premier league content creator football news researcher to join us on a one month trial with the possibility of a long term position the main responsibility is to monitor the premier league every day identify interesting and trending stories and turn them into engaging social media content this is ideal for someone who already follows premier league football closely and und",
+    "title_tokens": [
+      "صانع",
+      "محتوي",
+      "يومي",
+      "عن",
+      "الدوري",
+      "الانجليزي",
+      "الممتاز",
+      "وباحث",
+      "في",
+      "اخبار",
+      "كره",
+      "القدم"
+    ],
+    "first_seen": "2026-08-19T11:30:58.060893+00:00",
+    "last_seen": "2026-08-19T11:30:58.060897+00:00"
+  },
+  "efc7fa60f6c8a8f9993cc77c71d993ecd652af61b5be5ec45ff46e7a115fcaf6": {
+    "fingerprint": "efc7fa60f6c8a8f9993cc77c71d993ecd652af61b5be5ec45ff46e7a115fcaf6",
+    "title_fingerprint": "c8cda7478a9f7bca44379f714df0395633287c11b64406be8957d367352e167f",
+    "source": "mostaql",
+    "url": "https://mostaql.com/project/1269896-%D8%A7%D9%86%D8%B4%D8%A7%D8%A1-%D8%B5%D9%81%D8%AD%D8%A9-%D9%88%D9%8A%D8%A8-%D8%AE%D8%A7%D8%B5%D8%A9-%D9%85%D8%AA%D9%88%D8%A7%D9%81%D9%82%D8%A9-%D9%85%D8%B9-%D8%A7%D9%84%D9%87%D8%A7%D8%AA%D9%81",
+    "title": "انشاء صفحة ويب خاصة متوافقة مع الهاتف",
+    "normalized_title": "انشاء صفحه ويب خاصه متوافقه مع الهاتف",
+    "normalized_description": "اريد شخص يبني لي صفحه عن طريق موقع bolt new بحيث اضيف صور لاعبيني وتفاصيلهم الطول الوزن والحضور والغياب الي اخره مع امكانيه ارسال بطاقه لاعب و كذلك حفظ التحضير وارساله شهريا للاداره بشكل مرتب",
+    "normalized_text": "انشاء صفحه ويب خاصه متوافقه مع الهاتف اريد شخص يبني لي صفحه عن طريق موقع bolt new بحيث اضيف صور لاعبيني وتفاصيلهم الطول الوزن والحضور والغياب الي اخره مع امكانيه ارسال بطاقه لاعب و كذلك حفظ التحضير وارساله شهريا للاداره بشكل مرتب",
+    "title_tokens": [
+      "انشاء",
+      "صفحه",
+      "ويب",
+      "خاصه",
+      "متوافقه",
+      "مع",
+      "الهاتف"
+    ],
+    "first_seen": "2026-08-19T11:30:58.061159+00:00",
+    "last_seen": "2026-08-19T11:30:58.061162+00:00"
+  },
+  "4b8c07f28d0daaca509c4ff4bfafed5eb15b8eda7120caa5746f349bd0f2d571": {
+    "fingerprint": "4b8c07f28d0daaca509c4ff4bfafed5eb15b8eda7120caa5746f349bd0f2d571",
+    "title_fingerprint": "01e45778126d787b5ac92e375b234693c2bc4994ea1f8c8906da2cac18a821d4",
+    "source": "mostaql",
+    "url": "https://mostaql.com/project/1269892-%D9%85%D9%88%D8%B3%D9%8A%D9%82%D9%89-%D8%A8%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+    "title": "موسيقى بالذكاء الاصطناعي",
+    "normalized_title": "موسيقي بالذكاء الاصطناعي",
+    "normalized_description": "عملت فيلم بالذكاء الاصطناعي طوله ساعه ونصف واحتاج لتوليد موسيقي له مخصص حسب اجزاء الفيلم واحواله ،اي يحب ان تكون الموسيقي ذات لون ونمط واحد مع اختلافها حسب المطلوب",
+    "normalized_text": "موسيقي بالذكاء الاصطناعي عملت فيلم بالذكاء الاصطناعي طوله ساعه ونصف واحتاج لتوليد موسيقي له مخصص حسب اجزاء الفيلم واحواله ،اي يحب ان تكون الموسيقي ذات لون ونمط واحد مع اختلافها حسب المطلوب",
+    "title_tokens": [
+      "موسيقي",
+      "بالذكاء",
+      "الاصطناعي"
+    ],
+    "first_seen": "2026-08-19T11:30:58.061372+00:00",
+    "last_seen": "2026-08-19T11:30:58.061374+00:00"
   }
 }
