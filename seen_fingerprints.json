@@ -13,7 +13,7 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-08-20T13:00:17.494213+00:00"
+    "last_seen": "2026-08-20T13:55:58.933857+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
@@ -29,7 +29,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-08-20T13:00:17.494151+00:00"
+    "last_seen": "2026-08-20T13:55:58.933795+00:00"
   },
   "6d7c0bfe713740d2ef1149f9acc95d4ea11bf27f8819c19aaa542e0e6e3b98b1": {
     "fingerprint": "6d7c0bfe713740d2ef1149f9acc95d4ea11bf27f8819c19aaa542e0e6e3b98b1",
@@ -161,207 +161,6 @@
     ],
     "first_seen": "2026-08-13T11:53:39.437380+00:00",
     "last_seen": "2026-08-20T05:36:52.996806+00:00"
-  },
-  "e7e75dfd08ff0719903d8d02060149756a44b081362251730df4b7f396d04d69": {
-    "fingerprint": "e7e75dfd08ff0719903d8d02060149756a44b081362251730df4b7f396d04d69",
-    "title_fingerprint": "1604af26c80b0e9e59f6be7af2b980b9c94defa5f54d7998d4bbaa82540f0bd0",
-    "source": "mostaql",
-    "url": "https://mostaql.com/project/1268188-%D9%85%D8%AF%D9%82%D9%82-%D9%84%D8%BA%D8%A9-%D8%A5%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9-%D9%84%D9%83%D8%AA%D8%A7%D8%A8%D9%8A%D9%86",
-    "title": "مدقق لغة إنجليزية لكتابين",
-    "normalized_title": "مدقق لغه انجليزيه لكتابين",
-    "normalized_description": "مدقق انجليزي لكتابين عدد 50 الف كلمه",
-    "normalized_text": "مدقق لغه انجليزيه لكتابين مدقق انجليزي لكتابين عدد 50 الف كلمه",
-    "title_tokens": [
-      "مدقق",
-      "لغه",
-      "انجليزيه",
-      "لكتابين"
-    ],
-    "first_seen": "2026-08-13T13:25:35.254451+00:00",
-    "last_seen": "2026-08-13T13:25:35.254453+00:00"
-  },
-  "4a5ddb13733b2a4357f4ac998f421883226c912eeaa8626db079c7f976990550": {
-    "fingerprint": "4a5ddb13733b2a4357f4ac998f421883226c912eeaa8626db079c7f976990550",
-    "title_fingerprint": "21c70886d61c7306dc38db8254192827096126a88f70bd77e2a95804c71ca512",
-    "source": "mostaql",
-    "url": "https://mostaql.com/project/1268185-%D8%AA%D8%B9%D9%84%D9%8A%D9%82-%D8%B5%D9%88%D8%AA%D9%8A-%D9%84%D8%B5%D9%88%D8%AA-%D9%81%D8%AA%D8%A7%D8%A9-%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9",
-    "title": "تعليق صوتي لصوت فتاة سعودية",
-    "normalized_title": "تعليق صوتي لصوت فتاه سعوديه",
-    "normalized_description": "لدينا عده مقاطع لمنتج عنايه للسيدات ونريد ان نضيف عليه تعليق صوتي لصوت فتاه سعوديه الافضليه لمن ترسل تجارب سابقه لها عدد المقاطع 3 مقاطع فقط واقل من ثلاثين ثانيه السعر 25 دولار",
-    "normalized_text": "تعليق صوتي لصوت فتاه سعوديه لدينا عده مقاطع لمنتج عنايه للسيدات ونريد ان نضيف عليه تعليق صوتي لصوت فتاه سعوديه الافضليه لمن ترسل تجارب سابقه لها عدد المقاطع 3 مقاطع فقط واقل من ثلاثين ثانيه السعر 25 دولار",
-    "title_tokens": [
-      "تعليق",
-      "صوتي",
-      "لصوت",
-      "فتاه",
-      "سعوديه"
-    ],
-    "first_seen": "2026-08-13T13:25:35.254767+00:00",
-    "last_seen": "2026-08-13T13:25:35.254770+00:00"
-  },
-  "e98189e39a300930683c501902c2fb3907c9f48ea063f004dbf0ec2effbfa1ee": {
-    "fingerprint": "e98189e39a300930683c501902c2fb3907c9f48ea063f004dbf0ec2effbfa1ee",
-    "title_fingerprint": "de9c822509eeb18fc25267e134d81034b6dc0031bd190234e8c31c22579d33c3",
-    "source": "mostaql",
-    "url": "https://mostaql.com/project/1268184-%D8%AA%D8%B7%D9%88%D9%8A%D8%B1-%D9%85%D9%86%D8%B5%D8%A9-ai-%D9%84%D8%A5%D9%86%D8%B4%D8%A7%D8%A1-%D9%81%D9%8A%D8%AF%D9%8A%D9%88%D9%87%D8%A7%D8%AA-ugc-%D9%84%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA",
-    "title": "تطوير منصة AI لإنشاء فيديوهات UGC للمنتجات",
-    "normalized_title": "تطوير منصه ai لانشاء فيديوهات ugc للمنتجات",
-    "normalized_description": "1 فكره المشروع ارغب في تطوير منصه ويب تعتمد علي الذكاء الاصطناعي لانشاء فيديوهات اعلانيه باسلوب ugc influencer للمنتجات الهدف هو ان يقوم المستخدم برفع صوره المنتج وادخال بعض المعلومات عنه، ثم تقوم المنصه تلقائيا بانشاء فيديو واقعي مناسب ل tiktok وinstagram reels 2 طريقه الاستخدام يجب ان تكون العمليه بسيطه 1 انشاء حساب او تسجيل الدخول 2 رفع صوره المنتج 3 ادخال اسم المنتج ووصف مختصر ومميزاته 4 اختيار اللغه واللهجه 5 اختيار شخصيه ug",
-    "normalized_text": "تطوير منصه ai لانشاء فيديوهات ugc للمنتجات 1 فكره المشروع ارغب في تطوير منصه ويب تعتمد علي الذكاء الاصطناعي لانشاء فيديوهات اعلانيه باسلوب ugc influencer للمنتجات الهدف هو ان يقوم المستخدم برفع صوره المنتج وادخال بعض المعلومات عنه، ثم تقوم المنصه تلقائيا بانشاء فيديو واقعي مناسب ل tiktok وinstagram reels 2 طريقه الاستخدام يجب ان تكون العمليه بسيطه 1 انشاء حساب او تسجيل الدخول 2 رفع صوره المنتج 3 ادخال اسم المنتج ووصف مختصر ومميزاته 4 اختيار اللغه واللهجه 5 اختيار شخصيه ug",
-    "title_tokens": [
-      "تطوير",
-      "منصه",
-      "ai",
-      "لانشاء",
-      "فيديوهات",
-      "ugc",
-      "للمنتجات"
-    ],
-    "first_seen": "2026-08-13T13:25:35.255396+00:00",
-    "last_seen": "2026-08-13T13:25:35.255400+00:00"
-  },
-  "4eb6fbb675a19d671bf0fba2e9e8bb4492e1bf4546d9f046fd997896c19a32eb": {
-    "fingerprint": "4eb6fbb675a19d671bf0fba2e9e8bb4492e1bf4546d9f046fd997896c19a32eb",
-    "title_fingerprint": "a381af5ea00a7f6cc74dd470047e498c7675569929401d428117cdfd1c225a5b",
-    "source": "mostaql",
-    "url": "https://mostaql.com/project/1268183-%D8%AA%D9%81%D8%B1%D9%8A%D8%BA-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D9%86-%D9%85%D8%AC%D9%84%D8%A9-%D8%B7%D8%A8%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%B5%D9%88%D8%B1",
-    "title": "تفريغ مقالات من مجلة طبية بالصور",
-    "normalized_title": "تفريغ مقالات من مجله طبيه بالصور",
-    "normalized_description": "تفريغ مقالات من مجله طبيه عدد 48 مجله بالصور كل مقال صفحتين",
-    "normalized_text": "تفريغ مقالات من مجله طبيه بالصور تفريغ مقالات من مجله طبيه عدد 48 مجله بالصور كل مقال صفحتين",
-    "title_tokens": [
-      "تفريغ",
-      "مقالات",
-      "من",
-      "مجله",
-      "طبيه",
-      "بالصور"
-    ],
-    "first_seen": "2026-08-13T13:25:35.255524+00:00",
-    "last_seen": "2026-08-13T13:25:35.255526+00:00"
-  },
-  "755e6de1297a99ae58b35c1e3f9ddcdc460af0ca2cd0456bbe225e04a7cc29ba": {
-    "fingerprint": "755e6de1297a99ae58b35c1e3f9ddcdc460af0ca2cd0456bbe225e04a7cc29ba",
-    "title_fingerprint": "bf7053ef1254e1804ebbd825aefd2868c4f21a7271b20cefa395530ff8988fc4",
-    "source": "mostaql",
-    "url": "https://mostaql.com/project/1268182-%D8%AA%D8%B5%D9%85%D9%8A%D9%85-3d-%D9%84%D9%85%D8%B8%D9%84%D8%A9-%D9%85%D8%AA%D8%AD%D8%B1%D9%83%D8%A9",
-    "title": "تصميم 3D لمظلة متحركة",
-    "normalized_title": "تصميم 3d لمظله متحركه",
-    "normalized_description": "عندي مشروع و يحتاج الي تصميم 3d المطلوب اضافه المظله المتحركه علي الموقع المطلوب مرفق لكم صوره المكان قبل بالاضافه الي الرسم الهندسي المتفق عليه",
-    "normalized_text": "تصميم 3d لمظله متحركه عندي مشروع و يحتاج الي تصميم 3d المطلوب اضافه المظله المتحركه علي الموقع المطلوب مرفق لكم صوره المكان قبل بالاضافه الي الرسم الهندسي المتفق عليه",
-    "title_tokens": [
-      "تصميم",
-      "3d",
-      "لمظله",
-      "متحركه"
-    ],
-    "first_seen": "2026-08-13T13:25:35.255722+00:00",
-    "last_seen": "2026-08-13T13:25:35.255725+00:00"
-  },
-  "82b75e15aac66bafb5a4b10e95909b6fcb7e4cf187e189fd425e283c9a36a9e6": {
-    "fingerprint": "82b75e15aac66bafb5a4b10e95909b6fcb7e4cf187e189fd425e283c9a36a9e6",
-    "title_fingerprint": "088eaf812cb6086ed5a22e4958dbb937e8d270e9e419e879ddac5730339d791b",
-    "source": "mostaql",
-    "url": "https://mostaql.com/project/1268181-%D9%85%D8%B5%D9%85%D9%85-%D8%AC%D8%B1%D8%A7%D9%81%D9%8A%D9%83-%D9%85%D8%AD%D8%AA%D8%B1%D9%81-%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0-%D9%87%D9%88%D9%8A%D8%A9-%D8%A8%D8%B5%D8%B1%D9%8A%D8%A9-%D9%85%D8%AA%D9%83%D8%A7%D9%85%D9%84%D8%A9-%D9%84%D8%B5%D9%81%D8%AD%D8%A9-linkedin-b2b",
-    "title": "مصمم جرافيك محترف لتنفيذ هوية بصرية متكاملة لصفحة LinkedIn (B2B)",
-    "normalized_title": "مصمم جرافيك محترف لتنفيذ هويه بصريه متكامله لصفحه linkedin b2b",
-    "normalized_description": "تنفيذ التصاميم وفق هذه المواصفات ، وليس اعاده بناء الهويه او اعداد استراتيجيه جديده اولا تصميم الصفحه تصميم غلاف banner احترافي متوافق مع linkedin desktop mobile تطوير نسخه horizontal lockup للشعار الشعار مع اسم الشركه بتنسيق افقي تطوير نسخه single tone احاديه اللون من الشعار تطوير نسخه micro mark favicon مناسبه للاحجام الصغيره تصميم قسم featured في صفحه linkedin، بما يشمل تصميم البطاقات المرئيه واعداد ملف portfolio",
-    "normalized_text": "مصمم جرافيك محترف لتنفيذ هويه بصريه متكامله لصفحه linkedin b2b تنفيذ التصاميم وفق هذه المواصفات ، وليس اعاده بناء الهويه او اعداد استراتيجيه جديده اولا تصميم الصفحه تصميم غلاف banner احترافي متوافق مع linkedin desktop mobile تطوير نسخه horizontal lockup للشعار الشعار مع اسم الشركه بتنسيق افقي تطوير نسخه single tone احاديه اللون من الشعار تطوير نسخه micro mark favicon مناسبه للاحجام الصغيره تصميم قسم featured في صفحه linkedin، بما يشمل تصميم البطاقات المرئيه واعداد ملف portfolio",
-    "title_tokens": [
-      "مصمم",
-      "جرافيك",
-      "محترف",
-      "لتنفيذ",
-      "هويه",
-      "بصريه",
-      "متكامله",
-      "لصفحه",
-      "linkedin",
-      "b2b"
-    ],
-    "first_seen": "2026-08-13T13:25:35.256289+00:00",
-    "last_seen": "2026-08-13T13:25:35.256292+00:00"
-  },
-  "8fe9736eb79af556861ba6784d8a4240af00c4df837006b7669c0cf306bab9c3": {
-    "fingerprint": "8fe9736eb79af556861ba6784d8a4240af00c4df837006b7669c0cf306bab9c3",
-    "title_fingerprint": "5870fd6a43611af32a87035ad8ce0474fdbfe5772ae63f3640eb14ed774bb1e2",
-    "source": "mostaql",
-    "url": "https://mostaql.com/project/1268159-qa-tester-%D9%84%D8%A7%D8%AE%D8%AA%D8%A8%D8%A7%D8%B1-%D9%85%D9%86%D8%B5%D8%A9-web-%D9%84%D9%85%D8%AF%D8%A9-%D8%A3%D8%B3%D8%A8%D9%88%D8%B9",
-    "title": "QA Tester لاختبار منصة Web لمدة أسبوع",
-    "normalized_title": "qa tester لاختبار منصه web لمده اسبوع",
-    "normalized_description": "نبحث عن qa tester software tester لديه خبره جيده في manual testing وfunctional testing وexploratory testing لاختبار منصه web متخصصه في مجال software quality assurance مده المشروع 7 ايام الميزانيه 100250 دولار للمشروع كاملا نوع الاختبار manual functional exploratory testing عن المشروع المطلوب اختبار منصه saas متخصصه في اداره وتنفيذ عمليات software quality assurance نبحث عن شخص لديه عقليه qa قويه ويستطيع استخدام النظام كمستخدم حقيقي، وتجربه",
-    "normalized_text": "qa tester لاختبار منصه web لمده اسبوع نبحث عن qa tester software tester لديه خبره جيده في manual testing وfunctional testing وexploratory testing لاختبار منصه web متخصصه في مجال software quality assurance مده المشروع 7 ايام الميزانيه 100250 دولار للمشروع كاملا نوع الاختبار manual functional exploratory testing عن المشروع المطلوب اختبار منصه saas متخصصه في اداره وتنفيذ عمليات software quality assurance نبحث عن شخص لديه عقليه qa قويه ويستطيع استخدام النظام كمستخدم حقيقي، وتجربه",
-    "title_tokens": [
-      "qa",
-      "tester",
-      "لاختبار",
-      "منصه",
-      "web",
-      "لمده",
-      "اسبوع"
-    ],
-    "first_seen": "2026-08-13T13:25:35.256799+00:00",
-    "last_seen": "2026-08-13T13:25:35.256802+00:00"
-  },
-  "9c7ae375e64285d21a0c9e92c81d35ee084764033b284c5ed71602e632ea14b3": {
-    "fingerprint": "9c7ae375e64285d21a0c9e92c81d35ee084764033b284c5ed71602e632ea14b3",
-    "title_fingerprint": "3f948a6c9a324bba659a672bdfc3556404bc8f25272bdd3547c1cfbc7d339736",
-    "source": "mostaql",
-    "url": "https://mostaql.com/project/1268158-%D8%AE%D8%A8%D9%8A%D8%B1-6ammart-%D9%886amtech-%D9%84%D8%AA%D8%AC%D9%87%D9%8A%D8%B2-%D9%88%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D9%85%D9%86%D8%B5%D8%A9-%D8%AA%D9%88%D8%B5%D9%8A%D9%84-%D9%85%D8%AA%D9%83%D8%A7%D9%85%D9%84%D8%A9",
-    "title": "خبير 6amMart و6amTech لتجهيز وإطلاق منصة توصيل متكاملة",
-    "normalized_title": "خبير 6ammart و6amtech لتجهيز واطلاق منصه توصيل متكامله",
-    "normalized_description": "نبحث عن مختص لديه خبره فعليه وسابقه في تركيب وتجهيز انظمه شركه 6amtech، ويفضل من سبق له العمل علي 6ammart او stackfood، لتنفيذ المشروع كاملا وتجهيزه للتشغيل والنشر المؤهلات الفنيه المطلوبه خبره ممتازه في laravel لاعداد الباك اند ولوحه الاداره خبره ممتازه في flutter لتجهيز تطبيقات العميل والمطعم والمندوب خبره في react لتجهيز موقع الويب خبره في اداره السيرفرات وقواعد البيانات وربط الخدمات الخارجيه نطاق العمل اولا اعداد السيرفر وبيئه التشغيل",
-    "normalized_text": "خبير 6ammart و6amtech لتجهيز واطلاق منصه توصيل متكامله نبحث عن مختص لديه خبره فعليه وسابقه في تركيب وتجهيز انظمه شركه 6amtech، ويفضل من سبق له العمل علي 6ammart او stackfood، لتنفيذ المشروع كاملا وتجهيزه للتشغيل والنشر المؤهلات الفنيه المطلوبه خبره ممتازه في laravel لاعداد الباك اند ولوحه الاداره خبره ممتازه في flutter لتجهيز تطبيقات العميل والمطعم والمندوب خبره في react لتجهيز موقع الويب خبره في اداره السيرفرات وقواعد البيانات وربط الخدمات الخارجيه نطاق العمل اولا اعداد السيرفر وبيئه التشغيل",
-    "title_tokens": [
-      "خبير",
-      "6ammart",
-      "و6amtech",
-      "لتجهيز",
-      "واطلاق",
-      "منصه",
-      "توصيل",
-      "متكامله"
-    ],
-    "first_seen": "2026-08-13T13:25:35.257381+00:00",
-    "last_seen": "2026-08-13T13:25:35.257385+00:00"
-  },
-  "aedb2f700a97bd324663607a413ddc8602db5c7d26acfeb3486529394662115e": {
-    "fingerprint": "aedb2f700a97bd324663607a413ddc8602db5c7d26acfeb3486529394662115e",
-    "title_fingerprint": "b42d0cfede09c72bb39dddf89d362b9dd85bee7a5f09fd3a6f484f5dbb5c7099",
-    "source": "mostaql",
-    "url": "https://mostaql.com/project/1267980-%D9%85%D9%88%D9%86%D8%AA%D8%A7%D8%AC-%D9%85%D9%82%D8%A7%D8%B7%D8%B9-%D8%B1%D9%8A%D9%84%D8%B2-%D8%A3%D9%88-%D8%B4%D9%88%D8%B1%D8%AA%D8%B3",
-    "title": "مونتاج مقاطع ريلز أو شورتس",
-    "normalized_title": "مونتاج مقاطع ريلز او شورتس",
-    "normalized_description": "السلام عليكم ورحمه الله وبركاته عندي 63 مقطع فيديو ديني مختلف المواضيع يتراوح مدتها من 30 ثانيه الي دقيقه ونصف المطلوب مونتاجها فيديو وبدقه عاليه ومميزه ولا باس بكتابه بعض الكلام كالايات القرانيه ونحو ذلك لا يستخدم معها اصوات خلفيه كالاهات ولا باس باستخدام اصوت القراء المشهورين ومن اتعامل معه واجد منه التميز في عمله سيكون هو المتعاون معه دائما يفضل اضافه نماذج سابقه من العمل",
-    "normalized_text": "مونتاج مقاطع ريلز او شورتس السلام عليكم ورحمه الله وبركاته عندي 63 مقطع فيديو ديني مختلف المواضيع يتراوح مدتها من 30 ثانيه الي دقيقه ونصف المطلوب مونتاجها فيديو وبدقه عاليه ومميزه ولا باس بكتابه بعض الكلام كالايات القرانيه ونحو ذلك لا يستخدم معها اصوات خلفيه كالاهات ولا باس باستخدام اصوت القراء المشهورين ومن اتعامل معه واجد منه التميز في عمله سيكون هو المتعاون معه دائما يفضل اضافه نماذج سابقه من العمل",
-    "title_tokens": [
-      "مونتاج",
-      "مقاطع",
-      "ريلز",
-      "او",
-      "شورتس"
-    ],
-    "first_seen": "2026-08-13T13:25:35.257832+00:00",
-    "last_seen": "2026-08-13T13:25:35.257834+00:00"
-  },
-  "3925311bbe5b907c6f967bf7870e5b50d1eb48ece94ead4ac3d96f6034ca5f8d": {
-    "fingerprint": "3925311bbe5b907c6f967bf7870e5b50d1eb48ece94ead4ac3d96f6034ca5f8d",
-    "title_fingerprint": "bcf977fa82753b21c7e0d1f0e876ab271d171917baf9b2d07646eb14b71f8156",
-    "source": "mostaql",
-    "url": "https://mostaql.com/project/1268156-%D8%A8%D9%86%D8%A7%D8%A1-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-flutterflow-%D9%88-firebase",
-    "title": "بناء تطبيق باستخدام FlutterFlow و Firebase",
-    "normalized_title": "بناء تطبيق باستخدام flutterflow و firebase",
-    "normalized_description": "السلام عليكم، ارغب في بناء تطبيق خدمي وعقاري متكامل ومحترف مخصص للسوق السوري يعمل علي نظامي اندرويد و ios التطبيق مصمم ليكون منصه شامله لكل ما يخص العقارات والخدمات المنزليه واللوجستيه المرافقه لها، وسيتم التنفيذ باستخدام منصه flutterflow وربطه بقاعده بيانات google firebase الميزات والاقسام المطلوبه في التطبيق اولا قسم العقارات بيع شراء ايجار 1 واجهه خريطه تفاعليه لعرض العقارات بحسب المحافظه والمنطقه يفضل استخدام openstreetmap او ma",
-    "normalized_text": "بناء تطبيق باستخدام flutterflow و firebase السلام عليكم، ارغب في بناء تطبيق خدمي وعقاري متكامل ومحترف مخصص للسوق السوري يعمل علي نظامي اندرويد و ios التطبيق مصمم ليكون منصه شامله لكل ما يخص العقارات والخدمات المنزليه واللوجستيه المرافقه لها، وسيتم التنفيذ باستخدام منصه flutterflow وربطه بقاعده بيانات google firebase الميزات والاقسام المطلوبه في التطبيق اولا قسم العقارات بيع شراء ايجار 1 واجهه خريطه تفاعليه لعرض العقارات بحسب المحافظه والمنطقه يفضل استخدام openstreetmap او ma",
-    "title_tokens": [
-      "بناء",
-      "تطبيق",
-      "باستخدام",
-      "flutterflow",
-      "firebase"
-    ],
-    "first_seen": "2026-08-13T13:25:35.258368+00:00",
-    "last_seen": "2026-08-13T13:25:35.258371+00:00"
   },
   "2e68e79bb2190179aa9e9a2ae2f97e8aff36bf3b232b5eb5294ca6d398400fe7": {
     "fingerprint": "2e68e79bb2190179aa9e9a2ae2f97e8aff36bf3b232b5eb5294ca6d398400fe7",
@@ -15115,7 +14914,7 @@
       "saas"
     ],
     "first_seen": "2026-08-20T13:00:17.494753+00:00",
-    "last_seen": "2026-08-20T13:00:17.494757+00:00"
+    "last_seen": "2026-08-20T13:55:58.935792+00:00"
   },
   "afa8efc40b0ff83b9173a92efd5953902f01d8caf31842afe6484e25644c76da": {
     "fingerprint": "afa8efc40b0ff83b9173a92efd5953902f01d8caf31842afe6484e25644c76da",
@@ -15138,7 +14937,7 @@
       "الكميات"
     ],
     "first_seen": "2026-08-20T13:00:17.495009+00:00",
-    "last_seen": "2026-08-20T13:00:17.495011+00:00"
+    "last_seen": "2026-08-20T13:55:58.936028+00:00"
   },
   "e8d92f68b86548d3c8a42f648c3742020901102709856d89ce78e1687d3bd975": {
     "fingerprint": "e8d92f68b86548d3c8a42f648c3742020901102709856d89ce78e1687d3bd975",
@@ -15160,7 +14959,7 @@
       "الطبي"
     ],
     "first_seen": "2026-08-20T13:00:17.495590+00:00",
-    "last_seen": "2026-08-20T13:00:17.495594+00:00"
+    "last_seen": "2026-08-20T13:55:58.936544+00:00"
   },
   "924aa1309874fa578c713945c97ac5242a59009e3f550e8f708b9d308be074ae": {
     "fingerprint": "924aa1309874fa578c713945c97ac5242a59009e3f550e8f708b9d308be074ae",
@@ -15191,7 +14990,7 @@
       "shape"
     ],
     "first_seen": "2026-08-20T13:00:17.496172+00:00",
-    "last_seen": "2026-08-20T13:00:17.496174+00:00"
+    "last_seen": "2026-08-20T13:55:58.937133+00:00"
   },
   "e995de389a02a37b59e3580659c3dc653583145e91ff5c9bc6eea2c385829f56": {
     "fingerprint": "e995de389a02a37b59e3580659c3dc653583145e91ff5c9bc6eea2c385829f56",
@@ -15219,7 +15018,7 @@
       "ثانيه"
     ],
     "first_seen": "2026-08-20T13:00:17.496759+00:00",
-    "last_seen": "2026-08-20T13:00:17.496763+00:00"
+    "last_seen": "2026-08-20T13:55:58.937730+00:00"
   },
   "676f27aa20696f9c2131724e674cffde2ada35461e577f88cb3d34049c506c96": {
     "fingerprint": "676f27aa20696f9c2131724e674cffde2ada35461e577f88cb3d34049c506c96",
@@ -15237,7 +15036,7 @@
       "توك"
     ],
     "first_seen": "2026-08-20T13:00:17.497252+00:00",
-    "last_seen": "2026-08-20T13:00:17.497254+00:00"
+    "last_seen": "2026-08-20T13:55:58.938223+00:00"
   },
   "150bb348f5754d0fb84f9ac7bcb79eac11d6c52ad831c3b3b3233839b9400f30": {
     "fingerprint": "150bb348f5754d0fb84f9ac7bcb79eac11d6c52ad831c3b3b3233839b9400f30",
@@ -15309,5 +15108,77 @@
     ],
     "first_seen": "2026-08-20T13:00:17.499235+00:00",
     "last_seen": "2026-08-20T13:00:17.499237+00:00"
+  },
+  "d57a6674afb1e43544eb04b6af8f0b23871397b7806c0f4948204d2b6fca9bd0": {
+    "fingerprint": "d57a6674afb1e43544eb04b6af8f0b23871397b7806c0f4948204d2b6fca9bd0",
+    "title_fingerprint": "bd8a4167ad3bb05b5d3784d0b11aa8a0f140aeb630ae050611d0e8a59baf893a",
+    "source": "mostaql",
+    "url": "https://mostaql.com/project/1270256-%D8%A5%D8%B6%D8%A7%D9%81%D9%87-%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA-%D9%84%D9%85%D8%AA%D8%AC%D8%B1-%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A",
+    "title": "إضافه منتجات لمتجر إلكتروني",
+    "normalized_title": "اضافه منتجات لمتجر الكتروني",
+    "normalized_description": "السلام عليكم، لدي متجر الكتروني جديد علي منصه شبيهه جدا بمنصه سله ، واملك حاليا حوالي 300 منتج ،مع الصور والاسعار والمعلومات الخاصه بالمنتجات احتاج شخص لديه خبره فعليه في اداره المتاجر الالكترونيه لتنفيذ العمل كمشروع لمره واحده، وليس كوظيفه مستمره",
+    "normalized_text": "اضافه منتجات لمتجر الكتروني السلام عليكم، لدي متجر الكتروني جديد علي منصه شبيهه جدا بمنصه سله ، واملك حاليا حوالي 300 منتج ،مع الصور والاسعار والمعلومات الخاصه بالمنتجات احتاج شخص لديه خبره فعليه في اداره المتاجر الالكترونيه لتنفيذ العمل كمشروع لمره واحده، وليس كوظيفه مستمره",
+    "title_tokens": [
+      "اضافه",
+      "منتجات",
+      "لمتجر",
+      "الكتروني"
+    ],
+    "first_seen": "2026-08-20T13:55:58.934203+00:00",
+    "last_seen": "2026-08-20T13:55:58.934206+00:00"
+  },
+  "5b924675a9759d6777f1330d2779177fb776a87234dbb4cc7852844b9d887627": {
+    "fingerprint": "5b924675a9759d6777f1330d2779177fb776a87234dbb4cc7852844b9d887627",
+    "title_fingerprint": "ea2c9ae30ecaa00e8fa8f4fbd5e79b1c76322b800a268fd2fe28e246c2302baa",
+    "source": "mostaql",
+    "url": "https://mostaql.com/project/1270251-%D8%A5%D9%86%D8%B4%D8%A7%D8%A1-%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA-linkdin-%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%AA",
+    "title": "إنشاء حسابات Linkdin لشركات",
+    "normalized_title": "انشاء حسابات linkdin لشركات",
+    "normalized_description": "مطلوب شخص لديه الخبره بانشاء حسابات linkdin لشركات او بناء الروابط",
+    "normalized_text": "انشاء حسابات linkdin لشركات مطلوب شخص لديه الخبره بانشاء حسابات linkdin لشركات او بناء الروابط",
+    "title_tokens": [
+      "انشاء",
+      "حسابات",
+      "linkdin",
+      "لشركات"
+    ],
+    "first_seen": "2026-08-20T13:55:58.934376+00:00",
+    "last_seen": "2026-08-20T13:55:58.934380+00:00"
+  },
+  "523fcc5a9c531f190b6df3d16d6ef203c64e949cc2bf4656b07ef960fff8dbf9": {
+    "fingerprint": "523fcc5a9c531f190b6df3d16d6ef203c64e949cc2bf4656b07ef960fff8dbf9",
+    "title_fingerprint": "08a8241291a84897b84b8e8333a2deb0bc7e2f11c32e70fd8901aeb0f30629e8",
+    "source": "mostaql",
+    "url": "https://mostaql.com/project/1270250-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%B4%D8%B1%D9%83%D8%A9-%D9%85%D9%83%D8%A7%D9%81%D8%AD%D8%A9-%D8%AD%D8%B4%D8%B1%D8%A7%D8%AA",
+    "title": "برنامج لإدارة شركة مكافحة حشرات",
+    "normalized_title": "برنامج لاداره شركه مكافحه حشرات",
+    "normalized_description": "السلام عليكم ورحمه الله وبركاته نحن مؤسسه مكافحه حشرات بالسعوديه نحتاج برنامج لاداره مؤسسه مكافحه حشرات بالكامل من بدايه اوامر العمل وعروض الاسعار وعقود العمل ويكون موجود الجزء المالي والحسابات من تقارير وشجره حسابات وقيود يوميه ويكون معتمد زكاه ودخل سعوديه مرحله ثانيه ولو في موديول للموارد البشريه لو تنفيذ عن طريق اودو عادي ولو موجود برنامج جاهز عادي",
+    "normalized_text": "برنامج لاداره شركه مكافحه حشرات السلام عليكم ورحمه الله وبركاته نحن مؤسسه مكافحه حشرات بالسعوديه نحتاج برنامج لاداره مؤسسه مكافحه حشرات بالكامل من بدايه اوامر العمل وعروض الاسعار وعقود العمل ويكون موجود الجزء المالي والحسابات من تقارير وشجره حسابات وقيود يوميه ويكون معتمد زكاه ودخل سعوديه مرحله ثانيه ولو في موديول للموارد البشريه لو تنفيذ عن طريق اودو عادي ولو موجود برنامج جاهز عادي",
+    "title_tokens": [
+      "برنامج",
+      "لاداره",
+      "شركه",
+      "مكافحه",
+      "حشرات"
+    ],
+    "first_seen": "2026-08-20T13:55:58.934841+00:00",
+    "last_seen": "2026-08-20T13:55:58.934844+00:00"
+  },
+  "e76bdfde3105a34ee7e439e0468eebce351a40c650293b69e1adc8c7340b2bcc": {
+    "fingerprint": "e76bdfde3105a34ee7e439e0468eebce351a40c650293b69e1adc8c7340b2bcc",
+    "title_fingerprint": "2292957e161a9956b4650907b9203e9e5fb2ea80ef6d21db995a0f5246cff816",
+    "source": "mostaql",
+    "url": "https://mostaql.com/project/1270245-%D9%85%D8%B5%D9%85%D9%85-%D9%84%D9%88%D8%AD%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D9%8A%D8%A7%D9%86%D8%A7%D8%AA",
+    "title": "مصمم لوحات البيانات",
+    "normalized_title": "مصمم لوحات البيانات",
+    "normalized_description": "we are a legal firm with two main practices law and technology we are looking to develop a centralized dashboard that serves as a reference point for our clients allowing them to easily access and track all information related to their files the dashboard should organize each clients files and provide clear details for each matter including contracts contract reviews documents updates and other relevant work completed by our team the go",
+    "normalized_text": "مصمم لوحات البيانات we are a legal firm with two main practices law and technology we are looking to develop a centralized dashboard that serves as a reference point for our clients allowing them to easily access and track all information related to their files the dashboard should organize each clients files and provide clear details for each matter including contracts contract reviews documents updates and other relevant work completed by our team the go",
+    "title_tokens": [
+      "مصمم",
+      "لوحات",
+      "البيانات"
+    ],
+    "first_seen": "2026-08-20T13:55:58.935331+00:00",
+    "last_seen": "2026-08-20T13:55:58.935335+00:00"
   }
 }
