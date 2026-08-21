@@ -13,7 +13,7 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-08-21T06:56:38.679523+00:00"
+    "last_seen": "2026-08-21T07:50:12.221127+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
@@ -29,7 +29,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-08-21T06:56:38.679462+00:00"
+    "last_seen": "2026-08-21T07:50:12.221066+00:00"
   },
   "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781": {
     "fingerprint": "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781",
@@ -15294,7 +15294,7 @@
       "للفيلا"
     ],
     "first_seen": "2026-08-21T06:56:38.679635+00:00",
-    "last_seen": "2026-08-21T06:56:38.679637+00:00"
+    "last_seen": "2026-08-21T07:50:12.222534+00:00"
   },
   "d4107191b20f591622ed0b6245a81906f37f72f734fd39e168a3fd5178de80bc": {
     "fingerprint": "d4107191b20f591622ed0b6245a81906f37f72f734fd39e168a3fd5178de80bc",
@@ -15314,7 +15314,7 @@
       "للانستجرام"
     ],
     "first_seen": "2026-08-21T06:56:38.680200+00:00",
-    "last_seen": "2026-08-21T06:56:38.680204+00:00"
+    "last_seen": "2026-08-21T07:50:12.223070+00:00"
   },
   "f35b952470adfaa95825ed3553cffc2088d811a82895a68c9e31a4e986d5ab19": {
     "fingerprint": "f35b952470adfaa95825ed3553cffc2088d811a82895a68c9e31a4e986d5ab19",
@@ -15334,7 +15334,7 @@
       "العملاء"
     ],
     "first_seen": "2026-08-21T06:56:38.680764+00:00",
-    "last_seen": "2026-08-21T06:56:38.680769+00:00"
+    "last_seen": "2026-08-21T07:50:12.223613+00:00"
   },
   "9c975b1a3c4a722b3c200b1f005a568502c8d6f1c86fb4536610cfac29574798": {
     "fingerprint": "9c975b1a3c4a722b3c200b1f005a568502c8d6f1c86fb4536610cfac29574798",
@@ -15353,7 +15353,7 @@
       "دقائق"
     ],
     "first_seen": "2026-08-21T06:56:38.680908+00:00",
-    "last_seen": "2026-08-21T06:56:38.680910+00:00"
+    "last_seen": "2026-08-21T07:50:12.223763+00:00"
   },
   "78c03b7c7809b149945c2be909238508ec46c81f3718b7dc3a8596f0fad1670e": {
     "fingerprint": "78c03b7c7809b149945c2be909238508ec46c81f3718b7dc3a8596f0fad1670e",
@@ -15381,7 +15381,7 @@
       "وادبي"
     ],
     "first_seen": "2026-08-21T06:56:38.681336+00:00",
-    "last_seen": "2026-08-21T06:56:38.681339+00:00"
+    "last_seen": "2026-08-21T07:50:12.224217+00:00"
   },
   "129ad258c856cf384ab2b601cca97c624aa2b3510f836224dc59bb05defd69a6": {
     "fingerprint": "129ad258c856cf384ab2b601cca97c624aa2b3510f836224dc59bb05defd69a6",
@@ -15398,7 +15398,7 @@
       "وبنر"
     ],
     "first_seen": "2026-08-21T06:56:38.681412+00:00",
-    "last_seen": "2026-08-21T06:56:38.681414+00:00"
+    "last_seen": "2026-08-21T07:50:12.224297+00:00"
   },
   "1255f52322a961e79c9cb03f823e5c8cc58ac37809cc8734625eb8debd33110d": {
     "fingerprint": "1255f52322a961e79c9cb03f823e5c8cc58ac37809cc8734625eb8debd33110d",
@@ -15421,7 +15421,7 @@
       "الجماعيه"
     ],
     "first_seen": "2026-08-21T06:56:38.681978+00:00",
-    "last_seen": "2026-08-21T06:56:38.681981+00:00"
+    "last_seen": "2026-08-21T07:50:12.224839+00:00"
   },
   "3a54115f0cb3bf58b1822897bfb7de0d965b59491db9d946c700d18771e9aa7c": {
     "fingerprint": "3a54115f0cb3bf58b1822897bfb7de0d965b59491db9d946c700d18771e9aa7c",
@@ -15480,5 +15480,62 @@
     ],
     "first_seen": "2026-08-21T06:56:38.683037+00:00",
     "last_seen": "2026-08-21T06:56:38.683039+00:00"
+  },
+  "de0c97b29cbc3bd519f18d55cde279e2a8603f8f7d7e16e2e17a71b5f3222537": {
+    "fingerprint": "de0c97b29cbc3bd519f18d55cde279e2a8603f8f7d7e16e2e17a71b5f3222537",
+    "title_fingerprint": "b3b84f14b301e6bd638fbbcf835ed8a90085e431d07e755070863629a17600c9",
+    "source": "mostaql",
+    "url": "https://mostaql.com/project/1270418-%D8%A5%D9%86%D8%B4%D8%A7%D8%A1-%D9%88%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9",
+    "title": "إنشاء وإدارة مشروع تجارة إلكترونية",
+    "normalized_title": "انشاء واداره مشروع تجاره الكترونيه",
+    "normalized_description": "ابحث عن شخص لديه خبره في مجال ال drop shipping لانشاء واداره مشروع تجاره الكترونيه خاص بي من البدايه في المرحله الاولي، ارغب في ان يكون البيع عن طريق منتجات موجوده علي amazon و aliexpress، مع انشاء صفحه متجر الكتروني خاص بي لعرض المنتجات واستقبال الطلبات المطلوب ان يكون الشخص قادرا علي انشاء المتجر والصفحه بشكل احترافي ربط المتجر بمنصات amazon وaliexpress ترتيب واضافه المنتجات والاسعار والصور والوصف تجهيز نظام الطلبات والدفع والشحن شرح طر",
+    "normalized_text": "انشاء واداره مشروع تجاره الكترونيه ابحث عن شخص لديه خبره في مجال ال drop shipping لانشاء واداره مشروع تجاره الكترونيه خاص بي من البدايه في المرحله الاولي، ارغب في ان يكون البيع عن طريق منتجات موجوده علي amazon و aliexpress، مع انشاء صفحه متجر الكتروني خاص بي لعرض المنتجات واستقبال الطلبات المطلوب ان يكون الشخص قادرا علي انشاء المتجر والصفحه بشكل احترافي ربط المتجر بمنصات amazon وaliexpress ترتيب واضافه المنتجات والاسعار والصور والوصف تجهيز نظام الطلبات والدفع والشحن شرح طر",
+    "title_tokens": [
+      "انشاء",
+      "واداره",
+      "مشروع",
+      "تجاره",
+      "الكترونيه"
+    ],
+    "first_seen": "2026-08-21T07:50:12.221720+00:00",
+    "last_seen": "2026-08-21T07:50:12.221725+00:00"
+  },
+  "d2f2ec9b18bde8a227763468fdea8c1bb343dfa89e8dc90d118aa0e1fdb9fd6a": {
+    "fingerprint": "d2f2ec9b18bde8a227763468fdea8c1bb343dfa89e8dc90d118aa0e1fdb9fd6a",
+    "title_fingerprint": "cd0910f12c214f046dac5580d8705da7ce545acd61f6c9f498478dded19f7b47",
+    "source": "mostaql",
+    "url": "https://mostaql.com/project/1269919-%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D9%81%D9%88%D8%A7%D8%AA%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%8A%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-%D9%88%D9%85%D8%B7%D8%A7%D8%A8%D9%82%D8%A9-%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D9%86%D9%83",
+    "title": "تسجيل فواتير المشتريات والمبيعات ومطابقة حسابات البنك",
+    "normalized_title": "تسجيل فواتير المشتريات والمبيعات ومطابقه حسابات البنك",
+    "normalized_description": "محاسب مالي لتسجيل فواتير المشتريات والمبيعات ومطابقه حسابات البنك والقدره علي استخدام برنامج دفتره",
+    "normalized_text": "تسجيل فواتير المشتريات والمبيعات ومطابقه حسابات البنك محاسب مالي لتسجيل فواتير المشتريات والمبيعات ومطابقه حسابات البنك والقدره علي استخدام برنامج دفتره",
+    "title_tokens": [
+      "تسجيل",
+      "فواتير",
+      "المشتريات",
+      "والمبيعات",
+      "ومطابقه",
+      "حسابات",
+      "البنك"
+    ],
+    "first_seen": "2026-08-21T07:50:12.221911+00:00",
+    "last_seen": "2026-08-21T07:50:12.221913+00:00"
+  },
+  "64e23704c4572df8cde7431c8a2ccefe34fe80d1ff34be3d873c8576b97e1bce": {
+    "fingerprint": "64e23704c4572df8cde7431c8a2ccefe34fe80d1ff34be3d873c8576b97e1bce",
+    "title_fingerprint": "b6e95d284f837e033da077afd2a71bc990ed25f33fb45c494c93ed9a1e66cea9",
+    "source": "mostaql",
+    "url": "https://mostaql.com/project/1270415-%D9%85%D8%A8%D8%B1%D9%85%D8%AC-senior-laravel",
+    "title": "مبرمج Senior Laravel",
+    "normalized_title": "مبرمج senior laravel",
+    "normalized_description": "نبحث عن senior laravel developer للعمل علي منصه تجاره الكترونيه، بهدف اصلاح الكود وتطوير ال architecture وتجهيز المشروع للتوسع التقنيات المطلوبه laravel php mysql و postgresql rest apis blade bootstrap javascript jquery git github المهام ترقيه laravel من 10 الي 13 بشكل امن تحديث php وcomposer وال packages تحسين architecture وrefactoring لل controllers وbusiness logic تحسين apis وdatabase وperformance معالجه مشاكل security وauthori",
+    "normalized_text": "مبرمج senior laravel نبحث عن senior laravel developer للعمل علي منصه تجاره الكترونيه، بهدف اصلاح الكود وتطوير ال architecture وتجهيز المشروع للتوسع التقنيات المطلوبه laravel php mysql و postgresql rest apis blade bootstrap javascript jquery git github المهام ترقيه laravel من 10 الي 13 بشكل امن تحديث php وcomposer وال packages تحسين architecture وrefactoring لل controllers وbusiness logic تحسين apis وdatabase وperformance معالجه مشاكل security وauthori",
+    "title_tokens": [
+      "مبرمج",
+      "senior",
+      "laravel"
+    ],
+    "first_seen": "2026-08-21T07:50:12.222418+00:00",
+    "last_seen": "2026-08-21T07:50:12.222421+00:00"
   }
 }
