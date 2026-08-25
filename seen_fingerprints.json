@@ -13,7 +13,7 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-08-25T07:53:19.286246+00:00"
+    "last_seen": "2026-08-25T08:52:00.929001+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
@@ -29,7 +29,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-08-25T07:53:19.286056+00:00"
+    "last_seen": "2026-08-25T08:52:00.928814+00:00"
   },
   "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781": {
     "fingerprint": "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781",
@@ -276,26 +276,6 @@
     "first_seen": "2026-08-18T07:46:52.376735+00:00",
     "last_seen": "2026-08-18T09:39:41.202043+00:00"
   },
-  "4dc41ef66f660f1046e4b291e5e0942e2fc8467b009c9ced7daa032ae16915e6": {
-    "fingerprint": "4dc41ef66f660f1046e4b291e5e0942e2fc8467b009c9ced7daa032ae16915e6",
-    "title_fingerprint": "5b76bdf01f8e3cfb0883296b0809224e5b44daea34e1a10559b31f7607ea184b",
-    "source": "mostaql",
-    "url": "https://mostaql.com/project/1269539-%D9%85%D8%B7%D9%84%D9%88%D8%A8-cybersecurity-specialist-hostinger-wordpress-security",
-    "title": "مطلوب Cybersecurity Specialist – Hostinger / WordPress Security",
-    "normalized_title": "مطلوب cybersecurity specialist hostinger wordpress security",
-    "normalized_description": "مطلوب cybersecurity specialist hostinger wordpress security محتاج شخص متخصص في cybersecurity وتامين السيرفرات والاستضافات لحل مجموعه من المشاكل الموجوده علي استضافه hostinger المشاكل الحاليه وجود اشتباه في malware viruses malicious files علي بعض المواقع وجود تغييرات غير مصرح بها في بعض مواقع wordpress مشاكل متكرره في حسابات ال wordpress admin وكلمات المرور بعض ال plugins، خصوصا elementor pro، بتتعطل او يتم عمل deactivate بدون",
-    "normalized_text": "مطلوب cybersecurity specialist hostinger wordpress security مطلوب cybersecurity specialist hostinger wordpress security محتاج شخص متخصص في cybersecurity وتامين السيرفرات والاستضافات لحل مجموعه من المشاكل الموجوده علي استضافه hostinger المشاكل الحاليه وجود اشتباه في malware viruses malicious files علي بعض المواقع وجود تغييرات غير مصرح بها في بعض مواقع wordpress مشاكل متكرره في حسابات ال wordpress admin وكلمات المرور بعض ال plugins، خصوصا elementor pro، بتتعطل او يتم عمل deactivate بدون",
-    "title_tokens": [
-      "مطلوب",
-      "cybersecurity",
-      "specialist",
-      "hostinger",
-      "wordpress",
-      "security"
-    ],
-    "first_seen": "2026-08-18T07:46:52.377267+00:00",
-    "last_seen": "2026-08-18T08:44:17.393689+00:00"
-  },
   "b223fc270fc18b27efc79f4a4ef42f3c5d1d1d82a6bdd75ff8a51b71aa7a4ca4": {
     "fingerprint": "b223fc270fc18b27efc79f4a4ef42f3c5d1d1d82a6bdd75ff8a51b71aa7a4ca4",
     "title_fingerprint": "281cb1bf0dbf8a777d7ae09024a66c093674d7a8d0d9f711b2baadc34bdfb447",
@@ -374,26 +354,6 @@
     ],
     "first_seen": "2026-08-18T08:44:17.391251+00:00",
     "last_seen": "2026-08-18T09:39:41.200208+00:00"
-  },
-  "ca9d3e44e162939e77a6e0f7b38891637bcc82861423c43a674b4617eadec995": {
-    "fingerprint": "ca9d3e44e162939e77a6e0f7b38891637bcc82861423c43a674b4617eadec995",
-    "title_fingerprint": "fbe927ea113b25f2ced9f58c5bf85e92fc9f8f49f7b567a9db040a17998cd67d",
-    "source": "mostaql",
-    "url": "https://mostaql.com/project/1269546-%D8%AA%D8%AD%D8%B3%D9%8A%D9%86%D8%A7%D8%AA-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%82-%D8%A7%D9%84%D8%B5%D9%88%D8%AA%D9%8A-%D8%A8%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%8A%D8%A9",
-    "title": "تحسينات على التعليق الصوتي بالسعودية العامية",
-    "normalized_title": "تحسينات علي التعليق الصوتي بالسعوديه العاميه",
-    "normalized_description": "تحسينات علي التعليق الصوتي",
-    "normalized_text": "تحسينات علي التعليق الصوتي بالسعوديه العاميه تحسينات علي التعليق الصوتي",
-    "title_tokens": [
-      "تحسينات",
-      "علي",
-      "التعليق",
-      "الصوتي",
-      "بالسعوديه",
-      "العاميه"
-    ],
-    "first_seen": "2026-08-18T08:44:17.391349+00:00",
-    "last_seen": "2026-08-18T08:44:17.391351+00:00"
   },
   "ce1834213280ceffbe183406c8ed1e44ad6e5307ee2afabe151e7c15a9643a7c": {
     "fingerprint": "ce1834213280ceffbe183406c8ed1e44ad6e5307ee2afabe151e7c15a9643a7c",
