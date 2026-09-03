@@ -13,13 +13,13 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-09-03T17:45:54.347907+00:00"
+    "last_seen": "2026-09-03T20:51:48.038453+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
     "title_fingerprint": "5a0374f3ff5a274db44e0e4bde0a861837b65db5e3630d97a96ec7b12cbfd513",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/01a06614-4206-7601-98b0-31fd5808eb20",
+    "url": "https://bahr.sa/projects/recruitments/01a06248-7971-7c43-a444-ab3dc88b23d8",
     "title": "غير محدد",
     "normalized_title": "غير محدد",
     "normalized_description": "الميزانيه",
@@ -29,7 +29,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-09-03T17:45:54.347730+00:00"
+    "last_seen": "2026-09-03T20:51:48.038564+00:00"
   },
   "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781": {
     "fingerprint": "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781",
@@ -59,7 +59,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-08-19T09:40:03.653115+00:00",
-    "last_seen": "2026-09-03T17:45:54.347962+00:00"
+    "last_seen": "2026-09-03T20:51:48.038516+00:00"
   },
   "008d703071bdaa7ebdb743a752e24e0b570708c6f796854256a7b57eaa7e4f63": {
     "fingerprint": "008d703071bdaa7ebdb743a752e24e0b570708c6f796854256a7b57eaa7e4f63",
@@ -149,7 +149,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-09-01T17:47:00.605955+00:00",
-    "last_seen": "2026-09-03T17:45:54.347840+00:00"
+    "last_seen": "2026-09-03T20:51:48.038333+00:00"
   },
   "afb65943a771e22c4ab623169814a2eb268c73d0a3cc91a97f1222a34c5c4694": {
     "fingerprint": "afb65943a771e22c4ab623169814a2eb268c73d0a3cc91a97f1222a34c5c4694",
@@ -164,6 +164,6 @@
       "الميزانيه"
     ],
     "first_seen": "2026-09-03T08:53:30.846576+00:00",
-    "last_seen": "2026-09-03T17:45:54.347521+00:00"
+    "last_seen": "2026-09-03T20:51:48.038059+00:00"
   }
 }
