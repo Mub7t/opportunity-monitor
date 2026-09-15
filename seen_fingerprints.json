@@ -3,7 +3,7 @@
     "fingerprint": "5dcfa1343aaaaeb4d486eaa4d08935b6154abc3ccb3cc3f2f3442e2066111b97",
     "title_fingerprint": "bddb5c40d46221d3f4292f63ce1784a81a8724acf7de200b1eeed8591f7f3be0",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/01a0a0b7-6048-73de-b543-459df4cbe93b",
+    "url": "https://bahr.sa/projects/recruitments/01a0a1d4-3213-7e0c-bfbb-124ae0feafdd",
     "title": "(بدون عنوان)",
     "normalized_title": "بدون عنوان",
     "normalized_description": "مبلغ شهري شهر",
@@ -13,13 +13,13 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-09-15T09:56:16.434122+00:00"
+    "last_seen": "2026-09-15T14:49:28.465079+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
     "title_fingerprint": "5a0374f3ff5a274db44e0e4bde0a861837b65db5e3630d97a96ec7b12cbfd513",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/01a0a0e4-fe23-7150-9410-c6e4b0593c9f",
+    "url": "https://bahr.sa/projects/recruitments/01a0a21f-bf5c-7e76-9616-3ed5e09b2bad",
     "title": "غير محدد",
     "normalized_title": "غير محدد",
     "normalized_description": "الميزانيه",
@@ -29,7 +29,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-09-15T09:56:16.434064+00:00"
+    "last_seen": "2026-09-15T14:49:28.465149+00:00"
   },
   "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781": {
     "fingerprint": "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781",
@@ -125,7 +125,7 @@
     "fingerprint": "488f5804eeab199874aa23aaef8433d4e0457b9adc3d6e7f1028fd1665968e2d",
     "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/01a092c9-f8a3-7291-8a36-d592bf36cc0d",
+    "url": "https://bahr.sa/projects/recruitments/01a0a4ae-480a-7bc8-8752-b97a4f582cf7",
     "title": "الميزانية",
     "normalized_title": "الميزانيه",
     "normalized_description": "الميزانيه 500",
@@ -134,7 +134,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-09-12T13:58:42.390454+00:00",
-    "last_seen": "2026-09-13T05:53:01.233783+00:00"
+    "last_seen": "2026-09-15T14:49:28.464769+00:00"
   },
   "15de4d06353e985e3c059341aed49a346c67a77263e8b8bf55e6f8f8d514f3b7": {
     "fingerprint": "15de4d06353e985e3c059341aed49a346c67a77263e8b8bf55e6f8f8d514f3b7",
