@@ -13,13 +13,13 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-09-20T00:55:17.569387+00:00"
+    "last_seen": "2026-09-20T05:58:07.904024+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
     "title_fingerprint": "5a0374f3ff5a274db44e0e4bde0a861837b65db5e3630d97a96ec7b12cbfd513",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/01a0b43f-4520-7e2f-8a4d-586e41c18a34",
+    "url": "https://bahr.sa/projects/recruitments/01a0b956-fa73-7313-8ff2-2fc34952896a",
     "title": "غير محدد",
     "normalized_title": "غير محدد",
     "normalized_description": "الميزانيه",
@@ -29,7 +29,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-09-20T00:55:17.569661+00:00"
+    "last_seen": "2026-09-20T05:58:07.904049+00:00"
   },
   "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781": {
     "fingerprint": "755eed7610c83e3ea282914d376aaae8ea0e1b60e495c1dcfac2781db8cc6781",
@@ -59,22 +59,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-08-19T09:40:03.653115+00:00",
-    "last_seen": "2026-09-20T00:55:17.569271+00:00"
-  },
-  "008d703071bdaa7ebdb743a752e24e0b570708c6f796854256a7b57eaa7e4f63": {
-    "fingerprint": "008d703071bdaa7ebdb743a752e24e0b570708c6f796854256a7b57eaa7e4f63",
-    "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
-    "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/01a09282-ba53-78b3-a9c8-f18f5acab50e",
-    "title": "الميزانية",
-    "normalized_title": "الميزانيه",
-    "normalized_description": "الميزانيه 1000",
-    "normalized_text": "الميزانيه الميزانيه 1000",
-    "title_tokens": [
-      "الميزانيه"
-    ],
-    "first_seen": "2026-08-23T23:26:47.438802+00:00",
-    "last_seen": "2026-09-13T05:53:01.233904+00:00"
+    "last_seen": "2026-09-20T05:58:07.903990+00:00"
   },
   "1fd2a5da38387f0e4c69f0e05d4e6e03d380640e59a2b69b8d27330159cf4418": {
     "fingerprint": "1fd2a5da38387f0e4c69f0e05d4e6e03d380640e59a2b69b8d27330159cf4418",
@@ -89,22 +74,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-09-07T10:04:45.308587+00:00",
-    "last_seen": "2026-09-20T00:55:17.569173+00:00"
-  },
-  "cd9eea5c52bebad2099ddd742c71ee8bcd4f2c016707b40229d1ea175047fcd5": {
-    "fingerprint": "cd9eea5c52bebad2099ddd742c71ee8bcd4f2c016707b40229d1ea175047fcd5",
-    "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
-    "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/01a09274-df38-75f0-8797-ee18a7a7627a",
-    "title": "الميزانية",
-    "normalized_title": "الميزانيه",
-    "normalized_description": "الميزانيه 250",
-    "normalized_text": "الميزانيه الميزانيه 250",
-    "title_tokens": [
-      "الميزانيه"
-    ],
-    "first_seen": "2026-09-10T09:31:21.012709+00:00",
-    "last_seen": "2026-09-13T05:53:01.233957+00:00"
+    "last_seen": "2026-09-20T05:58:07.903961+00:00"
   },
   "488f5804eeab199874aa23aaef8433d4e0457b9adc3d6e7f1028fd1665968e2d": {
     "fingerprint": "488f5804eeab199874aa23aaef8433d4e0457b9adc3d6e7f1028fd1665968e2d",
@@ -240,5 +210,20 @@
     ],
     "first_seen": "2026-09-17T20:08:54.000430+00:00",
     "last_seen": "2026-09-19T10:42:33.640273+00:00"
+  },
+  "d14c09983abc1fc683d05ade8f27db148215af3164d5867bac65f0f4b1384d8b": {
+    "fingerprint": "d14c09983abc1fc683d05ade8f27db148215af3164d5867bac65f0f4b1384d8b",
+    "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/01a0bb68-9553-7223-965a-c3495b79d507",
+    "title": "الميزانية",
+    "normalized_title": "الميزانيه",
+    "normalized_description": "الميزانيه 2000",
+    "normalized_text": "الميزانيه الميزانيه 2000",
+    "title_tokens": [
+      "الميزانيه"
+    ],
+    "first_seen": "2026-09-20T05:58:07.903786+00:00",
+    "last_seen": "2026-09-20T05:58:07.903787+00:00"
   }
 }
