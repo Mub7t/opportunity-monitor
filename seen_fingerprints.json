@@ -13,7 +13,7 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-09-24T14:49:58.057642+00:00"
+    "last_seen": "2026-09-24T18:58:32.252316+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
@@ -29,7 +29,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-09-24T14:49:58.057701+00:00"
+    "last_seen": "2026-09-24T18:58:32.252352+00:00"
   },
   "c4a8c394ab42a4d9079aa4721183f8b125340fdb13976a125f06e6ef6128dff9": {
     "fingerprint": "c4a8c394ab42a4d9079aa4721183f8b125340fdb13976a125f06e6ef6128dff9",
@@ -59,7 +59,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-09-07T10:04:45.308587+00:00",
-    "last_seen": "2026-09-24T14:49:58.057772+00:00"
+    "last_seen": "2026-09-24T18:58:32.252392+00:00"
   },
   "488f5804eeab199874aa23aaef8433d4e0457b9adc3d6e7f1028fd1665968e2d": {
     "fingerprint": "488f5804eeab199874aa23aaef8433d4e0457b9adc3d6e7f1028fd1665968e2d",
@@ -91,21 +91,6 @@
     "first_seen": "2026-09-12T16:58:13.204930+00:00",
     "last_seen": "2026-09-23T20:07:21.392238+00:00"
   },
-  "4fdea0d0f3046e37764a627c646edfed14ba621c96043e9195fd26b07c9e25e3": {
-    "fingerprint": "4fdea0d0f3046e37764a627c646edfed14ba621c96043e9195fd26b07c9e25e3",
-    "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
-    "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/01a0a84e-194f-7d5a-ab37-9ce8dbc65d7a",
-    "title": "الميزانية",
-    "normalized_title": "الميزانيه",
-    "normalized_description": "الميزانيه 50",
-    "normalized_text": "الميزانيه الميزانيه 50",
-    "title_tokens": [
-      "الميزانيه"
-    ],
-    "first_seen": "2026-09-16T07:31:46.016576+00:00",
-    "last_seen": "2026-09-17T16:43:05.390637+00:00"
-  },
   "d1f5dcb6a99f66d863af3d9338998eacba78cfe2c1f2fef82dbd832097e9efc3": {
     "fingerprint": "d1f5dcb6a99f66d863af3d9338998eacba78cfe2c1f2fef82dbd832097e9efc3",
     "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
@@ -119,7 +104,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-09-16T13:21:13.142635+00:00",
-    "last_seen": "2026-09-24T14:49:58.057562+00:00"
+    "last_seen": "2026-09-24T18:58:32.252267+00:00"
   },
   "b0421bfadb5eba5c06b7f0fc94df292a53dc885b76cec2554c701a6b33cefe31": {
     "fingerprint": "b0421bfadb5eba5c06b7f0fc94df292a53dc885b76cec2554c701a6b33cefe31",
@@ -164,7 +149,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-09-20T05:58:07.903786+00:00",
-    "last_seen": "2026-09-24T14:49:58.057497+00:00"
+    "last_seen": "2026-09-24T18:58:32.252227+00:00"
   },
   "937bbfa1131baaf9ac3d59825d8ffc0239b67747382013d5533cde2bcfa1fb40": {
     "fingerprint": "937bbfa1131baaf9ac3d59825d8ffc0239b67747382013d5533cde2bcfa1fb40",
@@ -239,6 +224,6 @@
       "الميزانيه"
     ],
     "first_seen": "2026-09-23T23:32:55.287029+00:00",
-    "last_seen": "2026-09-24T14:49:58.057372+00:00"
+    "last_seen": "2026-09-24T18:58:32.252150+00:00"
   }
 }
