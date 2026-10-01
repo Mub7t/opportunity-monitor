@@ -3,7 +3,7 @@
     "fingerprint": "5dcfa1343aaaaeb4d486eaa4d08935b6154abc3ccb3cc3f2f3442e2066111b97",
     "title_fingerprint": "bddb5c40d46221d3f4292f63ce1784a81a8724acf7de200b1eeed8591f7f3be0",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/01a0f0e4-cc8e-7779-ad8f-5b31fb537d85",
+    "url": "https://bahr.sa/projects/recruitments/01a0f592-fbbe-70dc-8323-beb6beb3207f",
     "title": "(بدون عنوان)",
     "normalized_title": "بدون عنوان",
     "normalized_description": "مبلغ شهري شهر",
@@ -13,13 +13,13 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-10-01T05:20:06.924578+00:00"
+    "last_seen": "2026-10-01T12:54:07.818960+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
     "title_fingerprint": "5a0374f3ff5a274db44e0e4bde0a861837b65db5e3630d97a96ec7b12cbfd513",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/01a0f19c-9de9-7e45-ac28-4d0d541a993a",
+    "url": "https://bahr.sa/projects/recruitments/01a0f5a0-0dd2-7561-8982-b57daa33de21",
     "title": "غير محدد",
     "normalized_title": "غير محدد",
     "normalized_description": "الميزانيه",
@@ -29,7 +29,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-10-01T05:20:06.924144+00:00"
+    "last_seen": "2026-10-01T12:54:07.818871+00:00"
   },
   "1fd2a5da38387f0e4c69f0e05d4e6e03d380640e59a2b69b8d27330159cf4418": {
     "fingerprint": "1fd2a5da38387f0e4c69f0e05d4e6e03d380640e59a2b69b8d27330159cf4418",
@@ -80,7 +80,7 @@
     "fingerprint": "9e37f05ef68df8ef0a861f63e0047792f9545d6b326ff31cbf383cd40681e2d0",
     "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/01a0cf3f-cac5-74ac-8109-a10208d54fd7",
+    "url": "https://bahr.sa/projects/recruitments/01a0f70b-4884-7754-98b2-aa3f41adf7a7",
     "title": "الميزانية",
     "normalized_title": "الميزانيه",
     "normalized_description": "الميزانيه 800",
@@ -89,7 +89,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-09-23T23:32:55.287029+00:00",
-    "last_seen": "2026-09-27T07:56:44.135692+00:00"
+    "last_seen": "2026-10-01T12:54:07.818532+00:00"
   },
   "9597a62717fc0d8c173a245b2a0a82e8475d568ce1d3c54d6bfa54c05790ddec": {
     "fingerprint": "9597a62717fc0d8c173a245b2a0a82e8475d568ce1d3c54d6bfa54c05790ddec",
@@ -180,5 +180,20 @@
     ],
     "first_seen": "2026-09-30T13:33:08.765628+00:00",
     "last_seen": "2026-10-01T05:20:06.924243+00:00"
+  },
+  "85dc1f17a3b950e7d5b8841301e1635f2b15d0f49688e7c5ba1650bca04cc79e": {
+    "fingerprint": "85dc1f17a3b950e7d5b8841301e1635f2b15d0f49688e7c5ba1650bca04cc79e",
+    "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/01a0f6e0-4160-77bf-a17c-659fce394dca",
+    "title": "الميزانية",
+    "normalized_title": "الميزانيه",
+    "normalized_description": "الميزانيه 350",
+    "normalized_text": "الميزانيه الميزانيه 350",
+    "title_tokens": [
+      "الميزانيه"
+    ],
+    "first_seen": "2026-10-01T12:54:07.818585+00:00",
+    "last_seen": "2026-10-01T12:54:07.818587+00:00"
   }
 }
