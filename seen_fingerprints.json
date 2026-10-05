@@ -13,13 +13,13 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-10-05T00:39:48.955066+00:00"
+    "last_seen": "2026-10-05T06:51:06.067492+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
     "title_fingerprint": "5a0374f3ff5a274db44e0e4bde0a861837b65db5e3630d97a96ec7b12cbfd513",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/01a0fcb5-2479-7c9b-836d-c49a51763a6c",
+    "url": "https://bahr.sa/projects/recruitments/01a10242-77e8-703c-a85a-f7bc0d2de7fb",
     "title": "غير محدد",
     "normalized_title": "غير محدد",
     "normalized_description": "الميزانيه",
@@ -29,7 +29,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-10-05T00:39:48.955297+00:00"
+    "last_seen": "2026-10-05T06:51:06.067577+00:00"
   },
   "1fd2a5da38387f0e4c69f0e05d4e6e03d380640e59a2b69b8d27330159cf4418": {
     "fingerprint": "1fd2a5da38387f0e4c69f0e05d4e6e03d380640e59a2b69b8d27330159cf4418",
@@ -105,21 +105,6 @@
     ],
     "first_seen": "2026-09-26T19:46:58.419269+00:00",
     "last_seen": "2026-10-02T18:19:43.467171+00:00"
-  },
-  "008d703071bdaa7ebdb743a752e24e0b570708c6f796854256a7b57eaa7e4f63": {
-    "fingerprint": "008d703071bdaa7ebdb743a752e24e0b570708c6f796854256a7b57eaa7e4f63",
-    "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
-    "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/01a0dc82-54e5-7521-96b1-daeceeddf12f",
-    "title": "الميزانية",
-    "normalized_title": "الميزانيه",
-    "normalized_description": "الميزانيه 1000",
-    "normalized_text": "الميزانيه الميزانيه 1000",
-    "title_tokens": [
-      "الميزانيه"
-    ],
-    "first_seen": "2026-09-26T19:46:58.419356+00:00",
-    "last_seen": "2026-09-28T06:35:39.674216+00:00"
   },
   "92b4f514936d387d7a45b58c42f626f93c324e064b4ea223b397c01a10abb871": {
     "fingerprint": "92b4f514936d387d7a45b58c42f626f93c324e064b4ea223b397c01a10abb871",
