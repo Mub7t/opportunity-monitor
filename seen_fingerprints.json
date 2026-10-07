@@ -13,13 +13,13 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-10-07T08:27:55.624174+00:00"
+    "last_seen": "2026-10-07T16:17:29.723755+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
     "title_fingerprint": "5a0374f3ff5a274db44e0e4bde0a861837b65db5e3630d97a96ec7b12cbfd513",
     "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/01a111cd-9515-7f58-a2be-378805f52729",
+    "url": "https://bahr.sa/projects/recruitments/01a11216-9004-70cb-bb48-96b8c9af361f",
     "title": "غير محدد",
     "normalized_title": "غير محدد",
     "normalized_description": "الميزانيه",
@@ -29,7 +29,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-10-07T08:27:55.624491+00:00"
+    "last_seen": "2026-10-07T16:17:29.723902+00:00"
   },
   "1fd2a5da38387f0e4c69f0e05d4e6e03d380640e59a2b69b8d27330159cf4418": {
     "fingerprint": "1fd2a5da38387f0e4c69f0e05d4e6e03d380640e59a2b69b8d27330159cf4418",
@@ -179,6 +179,21 @@
       "الميزانيه"
     ],
     "first_seen": "2026-10-07T08:27:55.624301+00:00",
-    "last_seen": "2026-10-07T08:27:55.624303+00:00"
+    "last_seen": "2026-10-07T16:17:29.723856+00:00"
+  },
+  "7d7f54f4aca6facfd76115f81d4e6a6a933df8a3b0bface51b028476e3d7f2a3": {
+    "fingerprint": "7d7f54f4aca6facfd76115f81d4e6a6a933df8a3b0bface51b028476e3d7f2a3",
+    "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
+    "source": "bahr",
+    "url": "https://bahr.sa/projects/recruitments/01a1153f-ea9e-735a-afa0-3ec0cc510c09",
+    "title": "الميزانية",
+    "normalized_title": "الميزانيه",
+    "normalized_description": "الميزانيه 7500",
+    "normalized_text": "الميزانيه الميزانيه 7500",
+    "title_tokens": [
+      "الميزانيه"
+    ],
+    "first_seen": "2026-10-07T16:17:29.723505+00:00",
+    "last_seen": "2026-10-07T16:17:29.723508+00:00"
   }
 }
