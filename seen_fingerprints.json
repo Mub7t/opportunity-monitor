@@ -13,7 +13,7 @@
       "عنوان"
     ],
     "first_seen": "2026-06-11T10:54:50.332201+00:00",
-    "last_seen": "2026-11-03T23:56:35.460745+00:00"
+    "last_seen": "2026-11-04T05:49:22.715169+00:00"
   },
   "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c": {
     "fingerprint": "1e26c7468e35c0a5faab997c14c569e8a8dfb5854e7736e530f345aa64fc887c",
@@ -29,7 +29,7 @@
       "محدد"
     ],
     "first_seen": "2026-06-11T10:54:50.332620+00:00",
-    "last_seen": "2026-11-03T23:56:35.460699+00:00"
+    "last_seen": "2026-11-04T05:49:22.715105+00:00"
   },
   "1fd2a5da38387f0e4c69f0e05d4e6e03d380640e59a2b69b8d27330159cf4418": {
     "fingerprint": "1fd2a5da38387f0e4c69f0e05d4e6e03d380640e59a2b69b8d27330159cf4418",
@@ -61,21 +61,6 @@
     "first_seen": "2026-10-20T00:13:25.126421+00:00",
     "last_seen": "2026-11-01T05:31:05.066971+00:00"
   },
-  "c4a8c394ab42a4d9079aa4721183f8b125340fdb13976a125f06e6ef6128dff9": {
-    "fingerprint": "c4a8c394ab42a4d9079aa4721183f8b125340fdb13976a125f06e6ef6128dff9",
-    "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
-    "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/01a17cfc-9fb4-7597-8d8b-bb484fa26d18",
-    "title": "الميزانية",
-    "normalized_title": "الميزانيه",
-    "normalized_description": "الميزانيه 300",
-    "normalized_text": "الميزانيه الميزانيه 300",
-    "title_tokens": [
-      "الميزانيه"
-    ],
-    "first_seen": "2026-10-24T01:28:17.194256+00:00",
-    "last_seen": "2026-10-28T05:06:40.409307+00:00"
-  },
   "cd9eea5c52bebad2099ddd742c71ee8bcd4f2c016707b40229d1ea175047fcd5": {
     "fingerprint": "cd9eea5c52bebad2099ddd742c71ee8bcd4f2c016707b40229d1ea175047fcd5",
     "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
@@ -91,21 +76,6 @@
     "first_seen": "2026-10-26T04:37:03.078128+00:00",
     "last_seen": "2026-11-03T18:20:23.556379+00:00"
   },
-  "603a40718ca6db7c5ecd8886a5e0467ed427e16e536023b864f679f2e0a08754": {
-    "fingerprint": "603a40718ca6db7c5ecd8886a5e0467ed427e16e536023b864f679f2e0a08754",
-    "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
-    "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/01a17c7a-5505-70e0-875d-e50fefaf9e1b",
-    "title": "الميزانية",
-    "normalized_title": "الميزانيه",
-    "normalized_description": "الميزانيه 4000",
-    "normalized_text": "الميزانيه الميزانيه 4000",
-    "title_tokens": [
-      "الميزانيه"
-    ],
-    "first_seen": "2026-10-26T17:15:35.536497+00:00",
-    "last_seen": "2026-10-28T05:06:40.409363+00:00"
-  },
   "d14c09983abc1fc683d05ade8f27db148215af3164d5867bac65f0f4b1384d8b": {
     "fingerprint": "d14c09983abc1fc683d05ade8f27db148215af3164d5867bac65f0f4b1384d8b",
     "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
@@ -120,21 +90,6 @@
     ],
     "first_seen": "2026-10-27T07:48:22.949452+00:00",
     "last_seen": "2026-11-03T10:41:51.026854+00:00"
-  },
-  "13386483d3a96a36cc8118e5a06b4a11eeff84f42b2ce828d1f85852666d43dc": {
-    "fingerprint": "13386483d3a96a36cc8118e5a06b4a11eeff84f42b2ce828d1f85852666d43dc",
-    "title_fingerprint": "5e25cec548aefca5b905bc20ea5f12039962c742543101a258b9df5513000381",
-    "source": "bahr",
-    "url": "https://bahr.sa/projects/recruitments/01a17fd1-8fce-745c-aba2-20dac1460a1c",
-    "title": "الميزانية",
-    "normalized_title": "الميزانيه",
-    "normalized_description": "الميزانيه 1700",
-    "normalized_text": "الميزانيه الميزانيه 1700",
-    "title_tokens": [
-      "الميزانيه"
-    ],
-    "first_seen": "2026-10-28T05:06:40.409012+00:00",
-    "last_seen": "2026-10-28T05:06:40.409015+00:00"
   },
   "4f4bd2b879cf1b6e1165cc51c4f2183e47524c317ea79d28261e1a44a811f77e": {
     "fingerprint": "4f4bd2b879cf1b6e1165cc51c4f2183e47524c317ea79d28261e1a44a811f77e",
@@ -2913,7 +2868,7 @@
       "الميزانيه"
     ],
     "first_seen": "2026-11-03T18:20:23.555913+00:00",
-    "last_seen": "2026-11-03T23:56:35.460495+00:00"
+    "last_seen": "2026-11-04T05:49:22.714856+00:00"
   },
   "c5e25278247507a2b8993d009ad5844ee4196ce413924a2374d5ffde6321e4a5": {
     "fingerprint": "c5e25278247507a2b8993d009ad5844ee4196ce413924a2374d5ffde6321e4a5",
@@ -3145,7 +3100,7 @@
       "الاصطناعي"
     ],
     "first_seen": "2026-11-03T23:56:35.460862+00:00",
-    "last_seen": "2026-11-03T23:56:35.460864+00:00"
+    "last_seen": "2026-11-04T05:49:22.715320+00:00"
   },
   "02b80cb85ae56f52af5e085fa9735e492b678c61f12bb75b161ef4cbf8adb2e1": {
     "fingerprint": "02b80cb85ae56f52af5e085fa9735e492b678c61f12bb75b161ef4cbf8adb2e1",
@@ -3162,7 +3117,7 @@
       "تجاريه"
     ],
     "first_seen": "2026-11-03T23:56:35.461353+00:00",
-    "last_seen": "2026-11-03T23:56:35.461357+00:00"
+    "last_seen": "2026-11-04T05:49:22.715886+00:00"
   },
   "0c5e2a402ee04afa30b514345005f9ad13a6167ee20e2699f863623e2fd66e2d": {
     "fingerprint": "0c5e2a402ee04afa30b514345005f9ad13a6167ee20e2699f863623e2fd66e2d",
@@ -3182,7 +3137,7 @@
       "كوتو"
     ],
     "first_seen": "2026-11-03T23:56:35.462015+00:00",
-    "last_seen": "2026-11-03T23:56:35.462018+00:00"
+    "last_seen": "2026-11-04T05:49:22.716439+00:00"
   },
   "cc4f2469e986deb32ecf93ab93ec13e4f3cee452de9dd41021b38b8d5ab95506": {
     "fingerprint": "cc4f2469e986deb32ecf93ab93ec13e4f3cee452de9dd41021b38b8d5ab95506",
@@ -3200,7 +3155,7 @@
       "سله"
     ],
     "first_seen": "2026-11-03T23:56:35.462405+00:00",
-    "last_seen": "2026-11-03T23:56:35.462408+00:00"
+    "last_seen": "2026-11-04T05:49:22.716790+00:00"
   },
   "f4bb60892792004976b7a2143c238181a1932b34c498f40a43370c330d256422": {
     "fingerprint": "f4bb60892792004976b7a2143c238181a1932b34c498f40a43370c330d256422",
@@ -3223,7 +3178,7 @@
       "سبا"
     ],
     "first_seen": "2026-11-03T23:56:35.462931+00:00",
-    "last_seen": "2026-11-03T23:56:35.462933+00:00"
+    "last_seen": "2026-11-04T05:49:22.717344+00:00"
   },
   "c99d89cc25bd1e4b016a040a2dd2f93105e9c3b8a6de6b002434fbb5d3ff65ac": {
     "fingerprint": "c99d89cc25bd1e4b016a040a2dd2f93105e9c3b8a6de6b002434fbb5d3ff65ac",
@@ -3248,7 +3203,7 @@
       "التقنيات"
     ],
     "first_seen": "2026-11-03T23:56:35.463374+00:00",
-    "last_seen": "2026-11-03T23:56:35.463377+00:00"
+    "last_seen": "2026-11-04T05:49:22.717946+00:00"
   },
   "bbb0ac53236ecc5bd515323b72959acd0e43b96c674fcf64863872642f75c4f4": {
     "fingerprint": "bbb0ac53236ecc5bd515323b72959acd0e43b96c674fcf64863872642f75c4f4",
@@ -3269,7 +3224,7 @@
       "تقريبا"
     ],
     "first_seen": "2026-11-03T23:56:35.463495+00:00",
-    "last_seen": "2026-11-03T23:56:35.463496+00:00"
+    "last_seen": "2026-11-04T05:49:22.718109+00:00"
   },
   "0a625a71d7a236062864e3d726bf54e3430eba584a37821da4b3415d2d51dfbf": {
     "fingerprint": "0a625a71d7a236062864e3d726bf54e3430eba584a37821da4b3415d2d51dfbf",
@@ -3292,7 +3247,7 @@
       "flutter"
     ],
     "first_seen": "2026-11-03T23:56:35.463862+00:00",
-    "last_seen": "2026-11-03T23:56:35.463863+00:00"
+    "last_seen": "2026-11-04T05:49:22.718614+00:00"
   },
   "87797cd8690762597a1a54e6f32ee5f34bad068617f3b64ba1ed9d445d9d9f0b": {
     "fingerprint": "87797cd8690762597a1a54e6f32ee5f34bad068617f3b64ba1ed9d445d9d9f0b",
@@ -3311,7 +3266,7 @@
       "للاكسسوارات"
     ],
     "first_seen": "2026-11-03T23:56:35.464013+00:00",
-    "last_seen": "2026-11-03T23:56:35.464015+00:00"
+    "last_seen": "2026-11-04T05:49:22.718816+00:00"
   },
   "f5c2e23dff1961578e0caa3f78835632d0dbb10a0f56aac7e326a3b96e28554e": {
     "fingerprint": "f5c2e23dff1961578e0caa3f78835632d0dbb10a0f56aac7e326a3b96e28554e",
@@ -3333,6 +3288,6 @@
       "لمبني"
     ],
     "first_seen": "2026-11-03T23:56:35.464195+00:00",
-    "last_seen": "2026-11-03T23:56:35.464197+00:00"
+    "last_seen": "2026-11-04T05:49:22.719024+00:00"
   }
 }
